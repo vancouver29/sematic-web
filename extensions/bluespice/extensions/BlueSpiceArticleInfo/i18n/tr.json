@@ -1,0 +1,15 @@
+{
+	"@metadata": {
+		"authors": [
+			"Sayginer",
+			"Rapsar"
+		]
+	},
+	"bs-articleinfo-flyout-title": "Sayfa bilgisi",
+	"bs-articleinfo-nav-link-title": "Sayfa bilgisi",
+	"bs-articleinfo-flyout-categorylinks-title": "Kategoriler",
+	"bs-articleinfo-flyout-lasteditedtime-text": "Son değişiklik",
+	"bs-articleinfo-flyout-lastediteduser-text": "Son düzenleyen",
+	"bs-articleinfo-pagetool-subpages-tooltip": "Alt sayfalar",
+	"bs-articleinfo-dialog-subpages-title": "Alt sayfalar"
+}

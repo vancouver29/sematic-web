@@ -1,0 +1,13 @@
+{
+	"@metadata": {
+		"authors": [
+			"Gomoko",
+			"Wladek92"
+		]
+	},
+	"bluespiceeditnotifyconnector-desc": "Étend EditNotify avec les options utilisateurs",
+	"bluespiceeditnotifyconnector-action-message": "Une notification de création ou de modification pour les espaces de nom sélectionnés sera envoyée.",
+	"prefs-categories": "Notifications sur les événements de catégorie",
+	"prefs-namespace-notifications": "Notifications sur les événements d’espace de nom",
+	"prefs-category-notifications": "Notifications sur les catégories"
+}

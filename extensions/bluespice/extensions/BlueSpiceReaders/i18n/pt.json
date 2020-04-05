@@ -1,0 +1,32 @@
+{
+	"@metadata": {
+		"authors": [
+			"Vitorvicentevalente",
+			"Macofe",
+			"Hamilton Abreu"
+		]
+	},
+	"bs-readers-desc": "Cria uma lista das pessoas que leem uma página",
+	"prefs-readers": "Leitores",
+	"bs-readers-title": "{{PLURAL:$1|{{GENDER:$2|Leitor|Leitora}}|Leitores}}",
+	"readers-user": "Páginas {{GENDER:$1|lidas}} por: $1",
+	"readers": "Leitores de \"$1\"",
+	"bs-readers-contentactions-label": "Mostrar leitores",
+	"bs-readers-pagenotexists": "A página não existe.",
+	"bs-readers-pref-active": "Ativar leitores",
+	"bs-readers-pref-numofreaders": "Número de leitores a mostrar:",
+	"bs-readers-emptyinput": "Não foi fornecida nenhuma página.",
+	"bs-readers-header-username": "Nome de utilizador",
+	"bs-readers-header-readerspath": "Leitor",
+	"bs-readers-header-ts": "Data",
+	"bs-readers-header-page": "Página",
+	"apihelp-bs-readers-data-store-description": "Obter informação de um leitor de uma página específica.",
+	"apihelp-bs-readers-data-store-summary": "Obter informação de um leitor de uma página específica.",
+	"apihelp-bs-readers-users-store-description": "Obter informação de todos os leitores de uma página específica.",
+	"apihelp-bs-readers-users-store-summary": "Obter informação de todos os leitores de uma página específica.",
+	"apihelp-bs-readers-page-readers-store-summary": "Obter todos os leitores de todas as páginas",
+	"action-viewreaders": "ver os leitores de páginas",
+	"bs-readers-flyout-title": "Leitores desta página",
+	"right-viewreaders": "Permite ver os leitores de uma página",
+	"bs-readers-privacy-transparency-working-readers": "BlueSpiceReaders - {{GENDER:$3|Leu}} a página $1 a $2"
+}

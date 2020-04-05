@@ -1,0 +1,35 @@
+@import "../dimensions.less";
+@import "../colors.less";
+@import "../fonts.less";
+
+.dynamic-graphical-list-outer-east {
+	left: 300px;
+	top: @menu-top-height + @banner-top-height;
+	min-width: calc(~"1024px - 350px");
+	width: calc(~"100vw - 300px");
+	height: calc(100vh ~" - " ( @menu-top-height + @banner-top-height ) );
+}
+
+.dynamic-graphical-list-outer-west {
+	right: 300px;
+	top: @menu-top-height + @banner-top-height;
+	min-width: calc(~"1024px - 350px");
+	width: calc(~"100vw - 300px");
+	height: calc(100vh ~" - " ( @menu-top-height + @banner-top-height ) );
+}
+
+.dynamic-graphical-list-outer-south {
+	left: 300px;
+	top: @menu-top-height + @banner-top-height;
+	width: calc(~"100vw - 600px");
+	max-height: calc(100vh ~" - " ( @menu-top-height + @banner-top-height ) );
+	height: auto;
+}
+
+.dynamic-graphical-list-outer-north {
+	left: 300px;
+	bottom: 0px;
+	width: calc(~"100vw - 600px");
+	max-height: calc(100vh ~" - " ( @menu-top-height + @banner-top-height ) );
+	height: auto;
+}

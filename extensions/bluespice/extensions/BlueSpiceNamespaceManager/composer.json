@@ -1,0 +1,30 @@
+{
+	"name": "bluespice/namespacemanager",
+	"type": "mediawiki-extension",
+	"description": "BlueSpiceNamespaceManager Administration interface for adding, editing and deleting namespaces",
+	"license": "GPL-3.0-only",
+	"require": {
+		"composer/installers": "~1.0"
+	},
+	"autoload": {
+		"psr-4": {
+			"BlueSpice\\NamespaceManager\\" : "src",
+			"BlueSpice\\NamespaceManager\\Tests\\": "tests"
+		}
+	},
+	"require-dev": {
+		"jakub-onderka/php-parallel-lint": "1.0.0",
+		"jakub-onderka/php-console-highlighter": "0.3.2",
+		"mediawiki/minus-x": "0.3.1"
+	},
+	"scripts": {
+		"fix": "minus-x fix .",
+		"test": [
+			"parallel-lint . --exclude vendor --exclude node_modules",
+			"minus-x check ."
+		]
+	},
+	"extra": {
+		"installer-name": "BlueSpiceNamespaceManager"
+	}
+}

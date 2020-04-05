@@ -1,0 +1,23 @@
+{
+	"@metadata": {
+		"authors": [
+			"Kingu"
+		]
+	},
+	"bs-smartlist-ve-mode-recentchanges-label": "Nylige endringer",
+	"bs-smartlist-ve-mode-changesofweek-label": "Ukens endringer",
+	"bs-smartlist-ve-smartlistinspector-count": "Antall",
+	"bs-smartlist-ve-smartlistinspector-cat": "Kategori",
+	"bs-smartlist-ve-smartlistinspector-period": "Periode",
+	"bs-smartlist-ve-smartlistinspector-mode": "Modus",
+	"bs-smartlist-ve-smartlistinspector-trim": "Beskjær",
+	"bs-smartlist-ve-smartlistinspector-sort": "Sorter etter",
+	"bs-smartlist-ve-smartlistinspector-showns": "Vis navnerom",
+	"bs-smartlist-ve-smartlistinspector-numwithtext": "Nummer med tekst",
+	"bs-smartlist-ve-period-day-label": "Dag",
+	"bs-smartlist-ve-period-week-label": "Uke",
+	"bs-smartlist-ve-period-month-label": "Måned",
+	"bs-smartlist-ve-sort-title-label": "Tittel",
+	"bs-smartlist-ve-toplistinspector-ns": "Navnerom",
+	"bs-smartlist-ve-toplistinspector-cat": "Kategori"
+}

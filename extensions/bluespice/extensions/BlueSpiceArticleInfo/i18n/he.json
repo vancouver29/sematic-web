@@ -1,0 +1,22 @@
+{
+	"@metadata": {
+		"authors": [
+			"איתן96",
+			"ערן",
+			"LaG roiL",
+			"Guycn2"
+		]
+	},
+	"bs-articleinfo-desc": "אספקת מידע על דף בשורת המצב",
+	"prefs-articleinfo": "מידע על הדף",
+	"bs-articleinfo-flyout-title": "מידע על הדף",
+	"bs-articleinfo-flyout-intro": "סקירה כללית של הפעילויות בדף זה",
+	"bs-articleinfo-nav-link-title": "מידע על הדף",
+	"bs-articleinfo-flyout-categorylinks-title": "קטגוריות",
+	"bs-articleinfo-flyout-templatelinks-title": "תבניות הנמצאות בשימוש בדף",
+	"bs-articleinfo-flyout-categorylinks-emptytext": "אין קטגוריות משויכות",
+	"bs-articleinfo-flyout-templatelinks-emptytext": "אין תבניות בשימוש",
+	"bs-articleinfo-flyout-lasteditedtime-text": "העריכה האחרונה",
+	"bs-articleinfo-flyout-lastediteduser-text": "העורך האחרון",
+	"bs-articleinfo-newrevision-info-text": "קיימת גרסה חדשה של דף זה. יש לטעון את הדף מחדש כדי לצפות בתוכן העדכני."
+}

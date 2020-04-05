@@ -1,0 +1,16 @@
+{
+	"@metadata": {
+		"authors": [
+			"Irus",
+			"Vlad5250"
+		]
+	},
+	"logeventslist-bs-pageassignments-log": "Журнал назначений",
+	"bs-usagetracker-pageassignments": "страницы с заданиями",
+	"bs-pageassignments-nav-link-title-pageassignments": "Назначения для страницы",
+	"bs-pageassignments-flyout-title": "Назначения для страницы",
+	"bs-pageassignments-flyout-intro": "Управление участниками и группами для этой страницы.",
+	"bs-pageassignments-flyout-form-title": "Добавить назначение",
+	"bs-pageassignments-flyout-grid-title": "Участники и группы, назначенные для этой страницы.",
+	"bs-pageassignments-flyout-manager-btn-label": "Менеджер назначения страниц"
+}

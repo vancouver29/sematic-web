@@ -1,0 +1,10 @@
+{
+	"@metadata": {
+		"authors": [
+			"Ykhwong"
+		]
+	},
+	"bs-echoconnector-extension-description": "Echo로 BlueSpice에 연결",
+	"echo-category-title-bs-admin-cat": "관리 작업이 수행되었습니다",
+	"echo-category-title-bs-page-actions-cat": "구독한 문서의 동작"
+}

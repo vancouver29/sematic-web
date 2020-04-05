@@ -1,0 +1,18 @@
+{
+	"@metadata": {
+		"authors": [
+			"Nikosgranturismogt"
+		]
+	},
+	"prefs-saferedit": "Ασφαλέστερη επεξεργασία",
+	"bs-saferedit-restore": "Επαναφορά",
+	"bs-saferedit-safer-edit-topbar": "Ανάκτηση",
+	"bs-saferedit-pref-shownameofeditinguser": "Εμφάνιση του ονόματος του τρέχοντος συντάκτη",
+	"bs-saferedit-pref-warnonleave": "Προειδοποίηση όταν εγκαταλείπω μία σελίδα επεξεργασίας χωρίς να έχω πρώτα αποθηκεύσει τις αλλαγές",
+	"bs-saferedit-pref-usese": "Ενεργοποίηση ασφαλέστερης επεξεργασίας",
+	"bs-saferedit-lastsavedversion": "Τελευταία αποθηκευμένη έκδοση από το $1 - $2.",
+	"bs-saferedit-unsavedchanges": "Υπάρχουν μη αποθηκευμένες αλλαγές.",
+	"bs-saferedit-othersectiontitle": "Τμήμα για ανάκτηση",
+	"bs-saferedit-othersectiontext1": "Υπάρχει ένα αντίγραφο ασφαλείας άλλου τμήματος.",
+	"bs-saferedit-othersectiontext2": "Το αντίγραφο ασφαλείας δημιουργήθηκε στις $1 - $2."
+}

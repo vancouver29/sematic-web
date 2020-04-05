@@ -1,0 +1,11 @@
+{
+	"@metadata": {
+		"authors": [
+			"A Chinese Wikipedian"
+		]
+	},
+	"bs-visualeditorconnector-cancel-edit": "取消编辑",
+	"bs-visualeditor-nsm-label": "可视化编辑器",
+	"bs-visualeditorconnector-inspector-tab-common-name": "普通",
+	"bs-visualeditorconnector-inspector-tab-advanced-name": "高级"
+}

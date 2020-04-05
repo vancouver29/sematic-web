@@ -1,0 +1,18 @@
+{
+	"@metadata": {
+		"authors": [
+			"DCLXVI",
+			"StanProg"
+		]
+	},
+	"bs-ns_main": "(Страници)",
+	"bs-ns_all": "(всички)",
+	"bs-tab_navigation": "Навигация",
+	"bs-userbar_loginswitch_logout": "Излизане",
+	"bs-userbar_loginswitch_login": "Влизане",
+	"bs-extended-search-textfield-defaultvalue": "Търсене...",
+	"bs-userpagesettings-legend": "Потребителски настройки",
+	"bs-imagepage-download-text": "Изтегляне",
+	"bs-ns": "Именно пространство",
+	"bs-graphicallist-action-close": "Затваряне"
+}

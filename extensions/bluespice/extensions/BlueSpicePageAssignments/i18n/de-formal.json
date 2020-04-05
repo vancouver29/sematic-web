@@ -1,0 +1,21 @@
+{
+	"@metadata": {
+		"authors": [
+			"Robert Vogel",
+			"Hwboehm"
+		]
+	},
+	"bs-pageassignments-notification-reason-user": "Sie sind der Seite direkt zugewiesen",
+	"bs-pageassignments-notification-reason-group": "Sie sind Mitglied der {{PLURAL:$1|Gruppe|Gruppen}}: $2",
+	"notification-bs-pageassignments-assignment-change-add-summary": "$1 hat Sie $3 {{GENDER:$2|zugewiesen}}",
+	"notification-bs-pageassignments-assignment-change-add-body": "Sie wurden von $1 der Seite $2 {{GENDER:$2|zugewiesen}}.",
+	"notification-bs-pageassignments-assignment-change-remove-summary": "$1 hat Ihre Zuweisung zu $3 {{GENDER:$2|entfernt}}",
+	"notification-bs-pageassignments-assignment-change-remove-body": "Ihre Zuweisung zur Seite $2 wurde von $1 {{GENDER:$2|entfernt}}.",
+	"notification-bs-pageassignments-user-group-add-summary": "Sie wurden der Gruppe $4 hinzugefügt",
+	"notification-bs-pageassignments-user-group-add-body": "$1 hat Sie der Gruppe $4 {{GENDER:$2|hinzugefügt}}. Bitte überprüfen Sie Ihre Zuweisungen auf $3.",
+	"notification-bs-pageassignments-user-group-remove-summary": "Sie wurden aus {{PLURAL:$5|der Gruppe|den Gruppen}} $4 entfernt",
+	"notification-bs-pageassignments-user-group-remove-body": "$1 hat Sie aus aus {{PLURAL:$5|der Gruppe|den Gruppen}} $4 {{GENDER:$2|entfernt}}. Bitte überprüfen Sie Ihre Zuweisungen auf $3.",
+	"bs-pageassignments-yourassignments": "Ihre Zuweisungen",
+	"bs-pageassignments-yourassignmentsdesc": "Liste der Seiten, denen Sie zugewiesen sind.",
+	"bs-pageassignments-flyout-intro": "Sie können hier Benutzer oder Gruppen dieser Seite zuordnen. Diese werden über Änderungen informiert und können zusätzliche Berechtigungen erhalten. Falls aktiviert, können Sie sie auch darum bitten, zu bestätigen, wenn sie die Seite gelesen haben."
+}

@@ -1,0 +1,21 @@
+.sitetools-main-fixed {
+	/* TODO: Is this still in use? */
+	.sitetools-main {
+		display: inline-flex;
+		position: fixed;
+	}
+}
+
+.sitetools-main{
+	top: @menu-top-mobile-height;
+	width: @sitetools-main-width;
+	display: inline-flex;
+	position: fixed;
+	#bs-toolpanetabs ul.nav-pills a > i::before {
+		font-size: 2em;
+	}
+	.nav.nav-pills,
+	div.tab-content{
+		width: 100%;
+	}
+}

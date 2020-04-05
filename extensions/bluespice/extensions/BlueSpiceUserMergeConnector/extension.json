@@ -1,0 +1,37 @@
+{
+	"name": "BlueSpiceUserMergeConnector",
+	"license-name": "GPL-3.0-only",
+	"version": "3.0.0",
+	"author": [
+		"Patric Wirth"
+	],
+	"url": "https://en.wiki.bluespice.com/wiki/Reference:BlueSpiceUserMergeConnector",
+	"descriptionmsg": "bs-usermergeconnector-extension-description",
+	"type": "bluespice",
+	"callback": "UserMergeConnector::onRegistration",
+	"MessagesDirs": {
+		"BlueSpiceUserMergeConnector": [
+			"i18n"
+		]
+	},
+	"GroupPermissions": {
+		"bureaucrat": {
+			"usermerge": true
+		},
+		"sysop": {
+			"usermerge": true
+		}
+	},
+	"AutoloadClasses": {
+		"UserMergeConnector": "UserMergeConnector.class.php"
+	},
+	"Hooks": {
+		"UserMergeAccountFields": "UserMergeConnector::UserMergeAccountFields",
+		"MergeAccountFromTo": [
+			"UserMergeConnector::onMergeAccountFromToManageReviewTemplates",
+			"UserMergeConnector::onMergeAccountFromToManageBSSocial",
+			"UserMergeConnector::onMergeAccountFromToManagePageAssignments"
+		]
+	},
+	"manifest_version": 1
+}

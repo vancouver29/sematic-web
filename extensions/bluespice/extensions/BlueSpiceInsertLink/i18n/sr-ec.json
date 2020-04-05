@@ -1,0 +1,12 @@
+{
+	"@metadata": {
+		"authors": [
+			"Сербијана",
+			"BadDog"
+		]
+	},
+	"prefs-insertlink": "Уметни везу",
+	"bs-insertlink-pref-enable-java": "Омогући аплет Јаве",
+	"bs-insertlink-label-mail": "Имејл адреса",
+	"bs-insertlink-no-applet": "Не могу да учитам аплет. Проверите своју инсталацију Јаве."
+}

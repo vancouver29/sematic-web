@@ -1,0 +1,51 @@
+/* copy of desktop_md */
+
+body {
+
+	/* aside.navigation-main */
+	&:not( .navigation-main-collapse ) .navigation-main {
+		width: @navigation-main-width;
+		transition: width .3s;
+
+		#bs-sitenavtabs {
+			width: @navigation-main-width;
+			transition: width .3s;
+		}
+	}
+
+	&.navigation-main-collapse .navigation-main.active,
+	&.navigation-main-collapse .navigation-main {
+		width: 0px;
+		transition: width .3s;
+
+		#bs-sitenavtabs {
+			width: 0px;
+			transition: width .3s;
+		}
+	}
+
+
+	/* aside.sitetools-main */
+
+	&:not( .sitetools-main-collapse ) .sitetools-main {
+		width: @sitetools-main-width;
+		transition: width .3s;
+
+		#bs-toolpanetabs{
+			width: @sitetools-main-width;
+			transition: width .3s;
+		}
+	}
+
+	&.sitetools-main-collapse .sitetools-main.active,
+	&.sitetools-main-collapse .sitetools-main {
+		width: 0px;
+		transition: width .3s;
+
+		#bs-toolpanetabs{
+			width: 0px;
+			transition: width .3s;
+		}
+	}
+
+}

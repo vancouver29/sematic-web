@@ -1,0 +1,19 @@
+{
+	"@metadata": {
+		"authors": [
+			"Bjankuloski06"
+		]
+	},
+	"electronPdfService": "ElectronPdfService",
+	"electronPdfService-desc": "Додава прелистувачка поддршка за испис на PDF преку службата Electron PDF",
+	"electronPdfService-special-page-headline": "Преземи како PDF",
+	"electronPdfService-download-label": "Преземи како PDF",
+	"electronPdfService-download-button": "Преземи",
+	"electronPdfService-sidebar-portlet-heading": "Печати/извези",
+	"electronPdfService-sidebar-portlet-print-text": "Преземи како PDF",
+	"electronPdfService-invalid-page-title": "Неважечка страница",
+	"electronPdfService-invalid-page-text": "Укажаната страница е неважечка.",
+	"electronPDFService-warning-message": "Се соочуваме со технички проблеми во функцијата за правење PDF. За жал, ќе треба да ја замениме. Ова ќе се одрази врз стилските одлики на функцијата за книги. Посетете ја  [https://www.mediawiki.org/wiki/Reading/Web/PDF_Functionality проектнната страница] за повеќе информации и прашања.",
+	"electronPDFService-warning-leave-feedback": "Мислења во живо",
+	"electronPDFService-warning-read-more": "Прочитајте повеќе"
+}

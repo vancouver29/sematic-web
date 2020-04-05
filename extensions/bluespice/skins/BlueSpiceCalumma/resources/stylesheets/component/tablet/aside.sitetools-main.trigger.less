@@ -1,0 +1,26 @@
+body .calumma-tablet-visible {
+	.sidebar-toggle[data-toggle~="sitetools-main-collapse"]{
+		position: fixed;
+		padding: 0.3em 1em 0.2em 1em;
+		top: 0;
+		right: 1em;
+		z-index: 12;
+		i.sitetools-main-collapse::before{
+			font-family: 'bs-button';
+			content: "\e901";
+			font-size: 2em;
+			font-style: normal;
+			color: @menu-top-color;
+			float: left;
+		}
+		&:hover{
+			text-decoration: none;
+			i.sitetools-main-collapse::before{
+				color: @menu-top-color-hover;
+			}
+		}
+		&:focus{
+			text-decoration: none;
+		}
+	}
+}

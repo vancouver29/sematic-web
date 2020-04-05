@@ -1,0 +1,13 @@
+{
+	"@metadata": {
+		"authors": [
+			"Eduardo Addad de Oliveira"
+		]
+	},
+	"bs-visualeditorconnector-desc": "Conecta o BlueSpice com o EditorVisual",
+	"bs-visualeditorconnector-enable-visualeditor": "Ativar o EditorVisual para extensões do BlueSpice",
+	"bs-visualeditorconnector-cancel-edit": "Cancelar as edições",
+	"bs-visualeditor-nsm-label": "Editor visual",
+	"bs-visualeditorconnector-inspector-tab-common-name": "Comuns",
+	"bs-visualeditorconnector-inspector-tab-advanced-name": "Avançado"
+}

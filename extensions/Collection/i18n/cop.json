@@ -1,0 +1,18 @@
+{
+	"@metadata": {
+		"authors": [
+			"ⲁϩⲙⲉⲧ",
+			"Bloomaround"
+		]
+	},
+	"coll-remove": "ⲥⲱϩⲓ",
+	"coll-show": "ⲟⲩⲱⲛϩ",
+	"coll-move_up": "ⲕⲓⲙ ⲉϩⲣⲏⲓ",
+	"coll-move_down": "ⲕⲓⲙ ⲉϦⲣⲏⲓ",
+	"coll-print_export": "ⲱϥⲓ/ϥⲓ ⲉⲃⲟⲗ",
+	"coll-create_a_book": "ⲑⲁⲙⲓⲉ ⲟⲩϫⲱⲙ",
+	"coll-download_as": "ⲟⲡⲧⲥ ⲉⲡⲉⲥⲏⲧ ϩⲱⲥ $1",
+	"coll-add_page_tooltip": "ⲧⲟⲩϩⲟ ϯⲥⲉⲗⲓⲥ `ⲛⲃⲓⲕⲓ `ⲙⲡⲁⲓⲥⲟⲡ ⲉⲡⲉⲕϫⲱⲙ",
+	"coll-help": "ⲥⲁϩⲛⲓ",
+	"coll-helppage": "Help:ϫⲱⲙ"
+}

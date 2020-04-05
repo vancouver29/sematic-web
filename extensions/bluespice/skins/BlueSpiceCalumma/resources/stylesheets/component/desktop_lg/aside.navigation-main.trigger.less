@@ -1,0 +1,48 @@
+/* copy of desktop_sm */
+body .navigation-main,
+body .navigation-main.active {
+	.sidebar-toggle[data-toggle~="navigation-main-collapse"]{
+		display: block;
+		position: fixed;
+		width: 48px;
+		padding: 1em;
+		left: 300px;
+		top: @menu-top-height + @banner-top-height;
+		transition: left .3s;
+		z-index: 12;
+		i.navigation-main-collapse::before{
+			font-family: 'bs-button';
+			content: "\e902";
+			font-style: normal;
+			font-size: 21px;
+			line-height: 33.6px;
+			transition: font-size .1s;
+			transition-delay: .3s;
+			color: @navigation-toggle-btn-color;
+			float: left;
+		}
+		&:hover{
+			text-decoration: none;
+			background-color: transparent;
+			i.navigation-main-collapse::before{
+				color: @navigation-toggle-btn-color-hover;
+			}
+		}
+		&:focus{
+			text-decoration: none;
+		}
+	}
+}
+
+body.navigation-main-collapse {
+	.sidebar-toggle[data-toggle~="navigation-main-collapse"]{
+		left: 0;
+		transition: left .3s;
+		i.navigation-main-collapse::before{
+			font-size: 32px;
+			transition: font-size .1s;
+			transition-delay: .3s;
+		}
+	}
+}
+

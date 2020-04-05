@@ -1,0 +1,41 @@
+@import "../../colors.less";
+@import "../../fonts.less";
+
+/*
+TODO:
+- remove "!important" at ".x-form-trigger.x-form-arrow-trigger"
+- remove "!important" at ""
+- remove "!important" at ""
+- remove "!important" at ""
+
+*/
+//.dynamic-graphical-list-outer .bs-flyout-two-columns.x-panel.x-panel-default .x-panel.x-panel-default.panel-center-one
+.dynamic-graphical-list-outer .bs-flyout-two-columns.x-panel.x-panel-default .x-panel.x-panel-default {
+	//x-panel bs-pageassignments-flyout-form x-panel-default
+	.bs-pageassignments-flyout-form {
+		//x-form-item-body x-form-item-body-default x-form-text-field-body x-form-text-field-body-default
+		.x-form-item-body.x-form-item-body-default {
+			.x-form-text-wrap {
+				width: calc(~"100% - 32px") !important;
+			}
+			//x-form-trigger-wrap x-form-trigger-wrap-default
+			.x-form-trigger-wrap {
+				//x-form-trigger x-form-trigger-default x-form-arrow-trigger x-form-arrow-trigger-default
+				.x-form-trigger.x-form-arrow-trigger {
+					width: 32px !important;
+				}
+			}
+		}
+	}
+	.bs-pageassignments-flyout-grid {
+	}
+	.bs-pageassignments-flyout-grid-item-user {
+		.bs-userminiprofile {
+			float: left;
+			margin-right: 10px;
+		}
+		&>span {
+			line-height: 28px;
+		}
+	}
+}

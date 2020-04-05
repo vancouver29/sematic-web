@@ -1,0 +1,10 @@
+{
+	"@metadata": {
+		"authors": [
+			"Red Winged Duck"
+		]
+	},
+	"bs-echoconnector-extension-description": "Злучае BlueSpice з Echo",
+	"echo-category-title-bs-admin-cat": "Выкананая адміністрацыйная задача",
+	"echo-category-title-bs-page-actions-cat": "Дзеяньне на старонцы, на якую вы падпісаныя"
+}

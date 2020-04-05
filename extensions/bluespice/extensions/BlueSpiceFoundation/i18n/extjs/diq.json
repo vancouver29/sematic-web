@@ -1,0 +1,34 @@
+{
+	"@metadata": {
+		"authors": [
+			"Marmase",
+			"Mirzali",
+			"Kumkumuk"
+		]
+	},
+	"bs-extjs-ok": "Temam",
+	"bs-extjs-cancel": "Bıtexelne",
+	"bs-extjs-yes": "Eya",
+	"bs-extjs-no": "Nê",
+	"bs-extjs-save": "Qeyd ke",
+	"bs-extjs-delete": "Bestere",
+	"bs-extjs-add": "Cı ke",
+	"bs-extjs-remove": "Raqılayne",
+	"bs-extjs-edit": "Bıvurne",
+	"bs-extjs-error": "Xeta",
+	"bs-extjs-confirm": "Tesdiq ke",
+	"bs-extjs-loading": "Bar beno...",
+	"bs-extjs-pageSize": "Ebadê pele",
+	"bs-extjs-actions-column-header": "Kerdışi",
+	"bs-extjs-warning": "Tembe kem",
+	"bs-extjs-saving": "qeyd beno...",
+	"bs-extjs-reset": "Raçarne",
+	"bs-extjs-close": "Bıracene",
+	"bs-extjs-label-user": "Karber",
+	"bs-extjs-upload": "Bar ke",
+	"bs-extjs-browse": "Cıgeyrayış",
+	"bs-extjs-uploading": "Bar beno...",
+	"bs-extjs-allns": "(pêro)",
+	"bs-extjs-title-warning": "Tembe kem",
+	"bs-extjs-categorytree-title": "Kategoriyi"
+}

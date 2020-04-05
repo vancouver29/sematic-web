@@ -1,0 +1,12 @@
+{
+	"@metadata": {
+		"authors": [
+			"Guycn2"
+		]
+	},
+	"bluespiceeditnotifyconnector-desc": "הרחבת התכונה EditNotify עם אפשרויות למשתמש",
+	"bluespiceeditnotifyconnector-action-message": "יישלחו התראות על יצירות ועל עריכות של דפים במרחבי השם שנבחרו.",
+	"prefs-categories": "התראות על פעולות בקטגוריות",
+	"prefs-namespace-notifications": "התראות על פעולות במרחב שם",
+	"prefs-category-notifications": "הודעות על קטגוריות"
+}

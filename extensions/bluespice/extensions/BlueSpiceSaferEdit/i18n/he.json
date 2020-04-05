@@ -1,0 +1,24 @@
+{
+	"@metadata": {
+		"authors": [
+			"Guycn2"
+		]
+	},
+	"bs-saferedit-desc": "שמירת ביניים של עריכות ויקי",
+	"prefs-saferedit": "עריכה בטוחה",
+	"bs-saferedit-restore": "שחזור",
+	"bs-saferedit-safer-edit-tooltip": "קיימת גרסת גיבוי.",
+	"bs-saferedit-safer-edit-topbar": "גיבוי",
+	"bs-saferedit-user-editing": "$1 {{GENDER:$1|עורך|עורכת}} את הדף",
+	"bs-saferedit-someone-editing": "הדף נערך כרגע",
+	"bs-saferedit-pref-interval": "לאחר כמה זמן לשמור גרסת גיבוי:",
+	"bs-saferedit-pref-shownameofeditinguser": "הצגת שם העורך הנוכחי",
+	"bs-saferedit-pref-warnonleave": "הצגת אזהרה בעת עזיבת דף עריכה עם שינויים שטרם נשמרו",
+	"bs-saferedit-pref-usese": "הפעלת עריכה בטוחה",
+	"bs-saferedit-lastsavedversion": "גרסה שמונה אחרונה מ־$2, $1.",
+	"bs-saferedit-unsavedchanges": "ישנם שינויים שלא נשמרו.",
+	"bs-saferedit-othersectiontitle": "פסקה לשחזור",
+	"bs-saferedit-othersectiontext1": "קיים גיבוי לפסקה נוספת.",
+	"bs-saferedit-othersectiontext2": "הגיבוי נוצר ב־$2, $1.",
+	"bs-saferedit-othersectiontext3": "האם ברצונך לעבור לפסקה זו?"
+}

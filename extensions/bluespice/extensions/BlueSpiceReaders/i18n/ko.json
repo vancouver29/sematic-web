@@ -1,0 +1,13 @@
+{
+	"@metadata": {
+		"authors": [
+			"Ykhwong"
+		]
+	},
+	"apihelp-bs-readers-data-store-description": "특정 페이지의 독자 정보를 가져옵니다.",
+	"apihelp-bs-readers-data-store-summary": "특정 페이지의 독자 정보를 가져옵니다.",
+	"apihelp-bs-readers-users-store-description": "특정 페이지의 모든 독자 정보를 가져옵니다.",
+	"apihelp-bs-readers-users-store-summary": "특정 페이지의 모든 독자 정보를 가져옵니다.",
+	"apihelp-bs-readers-page-readers-store-summary": "모든 문서의 모든 독자를 가져옵니다",
+	"bs-readers-flyout-title": "이 문서의 독자"
+}

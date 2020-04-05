@@ -1,0 +1,98 @@
+{
+	"name": "BlueSpiceAuthors",
+	"license-name": "GPL-3.0-only",
+	"version": "3.0.1",
+	"url": "https://en.wiki.bluespice.com/wiki/Reference:Authors",
+	"author": [
+		"Markus Glaser",
+		"Robert Vogel"
+	],
+	"descriptionmsg": "bs-authors-desc",
+	"type": "bluespice",
+	"requires": {
+		"MediaWiki": ">= 1.29.0"
+	},
+	"attributes": {
+		"BlueSpiceFoundation": {
+			"Extensions": {
+				"BlueSpiceAuthors": {
+					"className": "\\BlueSpice\\Authors\\Extension",
+					"extPath": "/BlueSpiceAuthors",
+					"configDefinitions": {
+						"AuthorsShow": "\\BlueSpice\\Authors\\ConfigDefinition\\AuthorsShow::getInstance"
+					}
+				}
+			}
+		},
+		"BlueSpiceArticleInfo": {
+			"FlyoutModules": {
+				"authors": {
+					"module": "ext.bluespice.authors.flyout",
+					"make-items-callback": "bs.authors.flyout.makeItems"
+				}
+			}
+		}
+	},
+	"MessagesDirs": {
+		"Authors": [
+			"i18n"
+		]
+	},
+	"ExtensionMessagesFiles": {
+		"AuthorsMagic": "languages/Authors.i18n.magic.php"
+	},
+	"config_prefix": "bsg",
+	"config": {
+		"AuthorsBlacklist": {
+			"value": [
+				"MediaWiki default"
+			]
+		},
+		"AuthorsMoreImage": {
+			"value": "more-users_v2.png"
+		},
+		"AuthorsShow": {
+			"value": true,
+			"descriptionmsg": "bs-authors-pref-show",
+			"public": true
+		}
+	},
+	"Hooks": {
+		"BSInsertMagicAjaxGetData": [
+			"\\BlueSpice\\Authors\\Hook\\BSInsertMagicAjaxGetData\\Authors::callback"
+		],
+		"BeforePageDisplay": [
+			"\\BlueSpice\\Authors\\Hook\\BeforePageDisplay\\FetchAuthors::callback",
+			"\\BlueSpice\\Authors\\Hook\\BeforePageDisplay\\AddModules::callback"
+		],
+		"GetDoubleUnderscoreIDs": "\\BlueSpice\\Authors\\Hook\\GetDoubleUnderscoreIDs\\AddNoAuthors::callback"
+	},
+	"ResourceModules": {
+		"ext.bluespice.authors.flyout": {
+			"scripts": [
+				"bluespice.authors.flyout.js"
+			],
+			"messages": [
+				"bs-authors-flyout-title",
+				"bs-authors-author-type-originator",
+				"bs-authors-author-type-editor"
+			],
+			"dependencies": [
+				"ext.bluespice",
+				"ext.bluespice.extjs"
+			]
+		},
+		"ext.bluespice.authors.flyout.styles": {
+			"styles": [
+				"styles/bluespice.authors.less"
+			],
+			"class": "\\BlueSpice\\ResourceModule\\LessVars"
+		}
+	},
+	"ResourceFileModulePaths": {
+		"localBasePath": "resources",
+		"remoteExtPath": "BlueSpiceAuthors/resources"
+	},
+	"load_composer_autoloader" : true,
+	"manifest_version": 2
+}

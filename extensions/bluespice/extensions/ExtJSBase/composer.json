@@ -1,0 +1,42 @@
+{
+	"name": "mediawiki/extjs-base",
+	"description": "Adds the GPL version of Sencha Inc. ExtJS Rich Internet Application Framework",
+	"keywords": [
+		"mediawiki",
+		"wiki",
+		"extjs"
+	],
+	"license": "GPL-3.0-only",
+	"type": "mediawiki-extension",
+	"homepage": "https://www.mediawiki.org/wiki/Extension:ExtJSBase",
+	"authors": [
+		{
+			"name": "Hallo Welt! GmbH",
+			"email": "info@hallowelt.com",
+			"homepage": "http://www.hallowelt.com"
+		}
+	],
+	"extra": {
+		"installer-name": "ExtJSBase"
+	},
+	"require-dev": {
+		"jakub-onderka/php-parallel-lint": "1.0.0",
+		"jakub-onderka/php-console-highlighter": "0.3.2",
+		"mediawiki/minus-x": "0.3.1"
+	},
+	"scripts": {
+		"test": [
+			"parallel-lint . --exclude vendor --exclude node_modules",
+			"minus-x check ."
+		],
+		"fix": [
+			"minus-x fix ."
+		]
+	},
+	"autoload": {
+		"psr-4": {
+			"MediaWiki\\Extension\\ExtJSBase\\Tests\\": "tests/phpunit",
+			"MediaWiki\\Extension\\ExtJSBase\\": "src"
+		}
+	}
+}

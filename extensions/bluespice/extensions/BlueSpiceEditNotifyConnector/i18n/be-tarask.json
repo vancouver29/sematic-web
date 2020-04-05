@@ -1,0 +1,12 @@
+{
+	"@metadata": {
+		"authors": [
+			"Red Winged Duck"
+		]
+	},
+	"bluespiceeditnotifyconnector-desc": "Пашырае EditNotify з дапамогаю опцыяў удзельнікаў.",
+	"bluespiceeditnotifyconnector-action-message": "Для абраных прастораў назваў паведамленьне пра стварэньне ці рэдагаваньне будзе дасланае.",
+	"prefs-categories": "Паведамленьні пра падзеі катэгорыяў",
+	"prefs-namespace-notifications": "Паведамленьні пра падзеі прастораў назваў",
+	"prefs-category-notifications": "Паведамленьні катэгорыяў"
+}

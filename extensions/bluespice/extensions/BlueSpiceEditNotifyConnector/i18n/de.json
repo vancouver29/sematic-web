@@ -1,0 +1,12 @@
+{
+	"@metadata": {
+		"authors": [
+			"Metalhead64"
+		]
+	},
+	"bluespiceeditnotifyconnector-desc": "Erweitert EditNotify um Benutzeroptionen.",
+	"bluespiceeditnotifyconnector-action-message": "Benachrichtigung für ausgewählte Namensräume erstellen oder bearbeiten, die versandt wird.",
+	"prefs-categories": "Benachrichtigungen bei Kategorieereignissen",
+	"prefs-namespace-notifications": "Benachrichtigungen bei Namensraumereignissen",
+	"prefs-category-notifications": "Benachrichtigungen zu Kategorien"
+}

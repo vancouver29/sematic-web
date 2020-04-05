@@ -1,0 +1,9 @@
+{
+	"@metadata": {
+		"authors": [
+			"Stephan Muggli <muggli@hallowelt.biz>",
+			"Hwboehm"
+		]
+	},
+	"bs-pagesvisited-tag-pagesvisited-desc": "Zeigt eine Liste kürzlich besuchter Seiten an. Diese Liste kann durch Parameter beschränkt werden."
+}

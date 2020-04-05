@@ -1,0 +1,10 @@
+{
+	"@metadata": {
+		"authors": [
+			"Eduardo Addad de Oliveira"
+		]
+	},
+	"bs-echoconnector-extension-description": "Conecta o BlueSpice com o Echo",
+	"echo-category-title-bs-admin-cat": "Tarefa de administração executada",
+	"echo-category-title-bs-page-actions-cat": "Ação na página inscrita"
+}

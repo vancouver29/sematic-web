@@ -1,0 +1,48 @@
+header.main-header {
+	background-color: @menu-top-bg-color;
+	position: fixed;
+	width: 100%;
+	z-index: 20;
+	box-shadow: 0 0 3px 3px rgba(0,0,0,0.3);
+}
+
+.loader-indicator.loading {
+	height: 3px;
+	background-color: @load-indicator-color;
+	position: fixed;
+	width: 100%;
+
+	.loader-indicator-inner {
+		background-image: linear-gradient(
+			to right,
+			rgba( 255,255,255,0.0 ) 40%,
+			rgba( 255,255,255,0.9 ) 55%,
+			rgba( 255,255,255,0.9 ) 60%,
+			rgba( 255,255,255,0.0 ) 60% );
+		height: 3px;
+		background-size: 50%;
+		background-position: 100%;
+
+		-webkit-animation: bs-calumma-loader 2s infinite linear;
+		-moz-animation:    bs-calumma-loader 2s infinite linear;
+		-o-animation:      bs-calumma-loader 2s infinite linear;
+		animation:         bs-calumma-loader 2s infinite linear;
+	}
+}
+
+@-webkit-keyframes bs-calumma-loader {
+	0%   { background-position-x: 0; }
+	100% { background-position-x: 200%; }
+}
+@-moz-keyframes bs-calumma-loader {
+	0%   { background-position-x: 0; }
+	100% { background-position-x: 200%; }
+}
+@-o-keyframes bs-calumma-loader {
+	0%   { background-position-x: 0; }
+	100% { background-position-x: 200%; }
+}
+@keyframes bs-calumma-loader {
+	0%   { background-position-x: 0; }
+	100% { background-position-x: 200%; }
+}

@@ -1,0 +1,22 @@
+{
+	"@metadata": {
+		"authors": [
+			"StanProg"
+		]
+	},
+	"bs-visualeditorconnector-desc": "Свързва BlueSpice с VisualEditor",
+	"bs-visualeditorconnector-enable-visualeditor": "Включва VisualEditor за BlueSpace-разширения",
+	"bs-visualeditorconnector-cancel-edit": "Отмяна на редакцията",
+	"bs-visualeditor-nsm-label": "Визуален редактор",
+	"bs-visualeditorconnector-inspector-tab-common-name": "Общи",
+	"bs-visualeditorconnector-inspector-tab-advanced-name": "Разширени",
+	"apihelp-bs-vec-transformtowikitext-description": "Преобразува HTML от VisualEditor към WikiText",
+	"apihelp-bs-vec-transformtowikitext-summary": "Преобразува HTML от VisualEditor към WikiText",
+	"apihelp-bs-vec-transformtohtml-description": "Преобразува WikiText към HTML за VisualEditor",
+	"apihelp-bs-vec-transformtohtml-summary": "Преобразува WikiText към HTML за VisualEditor",
+	"apihelp-bs-vec-transformtowikitext-param-html": "HTML за VisualEditor, който трябва да се преобразува към WikiText",
+	"apihelp-bs-vec-transformtohtml-param-wikitext": "WikiText, който трябва да се преобразува към HTML за VisualEditor",
+	"apihelp-bs-vec-restbase-mock-description": "Осигурява примерни данни за заявки към RESTBase от VisualEditor",
+	"apihelp-bs-vec-restbase-mock-summary": "Осигурява примерни данни за заявки към RESTBase от VisualEditor",
+	"apihelp-bs-vec-restbase-mock-param-path": "Път на RESTBase, за който да се създадат примерни данни"
+}

@@ -1,0 +1,13 @@
+{
+	"@metadata": {
+		"authors": [
+			"Joetaras"
+		]
+	},
+	"bs-visualeditorconnector-desc": "Colleghe BlueSpice cu VisualEditor",
+	"bs-visualeditorconnector-enable-visualeditor": "Abbilite VisualEditor pe l'estenziune BlueSpice",
+	"bs-visualeditorconnector-cancel-edit": "Annulle 'u cangiamende",
+	"bs-visualeditor-nsm-label": "Visual editor",
+	"bs-visualeditorconnector-inspector-tab-common-name": "Comune",
+	"bs-visualeditorconnector-inspector-tab-advanced-name": "Avanzate"
+}

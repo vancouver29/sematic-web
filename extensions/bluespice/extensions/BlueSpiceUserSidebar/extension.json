@@ -1,0 +1,56 @@
+{
+	"name": "BlueSpiceUserSidebar",
+	"version": "3.0.1",
+	"license-name": "GPL-3.0-only",
+	"author": [
+		"Dejan Savuljesku"
+	],
+	"url": "https://en.wiki.bluespice.com/wiki/Reference:UserSidebar",
+	"descriptionmsg": "bs-usersidebar-desc",
+	"type": "bluespice",
+	"attributes": {
+		"BlueSpiceFoundation": {
+			"Extensions": {
+				"BlueSpiceUserSidebar": {
+					"className": "\\BlueSpice\\UserSidebar\\Extension",
+					"extPath": "/BlueSpiceUserSidebar"
+				}
+			}
+		},
+		"BlueSpiceUserSidebar": {
+			"Widgets": {}
+		}
+	},
+	"requires": {
+		"MediaWiki": ">= 1.31.0",
+		"extensions": {
+			"BlueSpiceFoundation": " >= 3.0.0"
+		}
+	},
+	"MessagesDirs": {
+		"BlueSpiceUserSidebar": "i18n"
+	},
+	"AutoloadNamespaces": {
+		"BlueSpice\\UserSidebar\\": "src/",
+		"BlueSpice\\UserSidebar\\Tests\\": "tests/phpunit"
+	},
+	"ResourceModules": {
+		"ext.blueSpiceUserSidebar.styles": {
+			"styles": [
+				"ext.blueSpiceUserSidebar.less"
+			]
+		}
+	},
+	"ResourceFileModulePaths": {
+		"localBasePath": "resources",
+		"remoteExtPath": "BlueSpiceUserSidebar/resources"
+	},
+	"Hooks": {
+		"BeforePageDisplay": "\\BlueSpice\\UserSidebar\\Hook\\BeforePageDisplay\\AddStyles::callback",
+		"SkinTemplateOutputPageBeforeExec": "\\BlueSpice\\UserSidebar\\Hook\\SkinTemplateOutputPageBeforeExec\\AddUserSidebar::callback",
+		"EditFormPreloadText": [
+			"\\BlueSpice\\UserSidebar\\Hook\\EditFormPreloadText\\UserSidebarDefaultText::callback"
+		]
+	},
+	"manifest_version": 2
+}

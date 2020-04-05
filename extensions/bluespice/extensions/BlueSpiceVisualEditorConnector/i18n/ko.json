@@ -1,0 +1,13 @@
+{
+	"@metadata": {
+		"authors": [
+			"Ykhwong"
+		]
+	},
+	"bs-visualeditorconnector-desc": "시각편집기로 블루스파이스에 연결합니다",
+	"bs-visualeditorconnector-enable-visualeditor": "블루스파이스 확장기능을 위해 시각편집기를 활성화합니다",
+	"bs-visualeditorconnector-cancel-edit": "편집 취소",
+	"bs-visualeditor-nsm-label": "시각편집기",
+	"bs-visualeditorconnector-inspector-tab-common-name": "공통",
+	"bs-visualeditorconnector-inspector-tab-advanced-name": "고급"
+}

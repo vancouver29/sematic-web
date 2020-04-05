@@ -1,0 +1,58 @@
+{
+	"name": "BlueSpiceHideTitle",
+	"license-name": "GPL-3.0-only",
+	"version": "3.0.1",
+	"url": "https://en.wiki.bluespice.com/wiki/Reference:HideTitle",
+	"author": [
+		"Markus Glaser",
+		"Peter Boehm"
+	],
+	"descriptionmsg": "bs-hidetitle-desc",
+	"type": "bluespice",
+	"requires": {
+		"MediaWiki": ">= 1.31.0",
+		"extensions": {
+			"BlueSpiceFoundation": ">= 3.0.0"
+		}
+	},
+	"attributes": {
+		"BlueSpiceFoundation": {
+			"Extensions": {
+				"BlueSpiceHideTitle": {
+					"className": "\\BlueSpice\\HideTitle\\Extension",
+					"extPath": "/BlueSpiceHideTitle"
+				}
+			}
+		}
+	},
+	"AutoloadNamespaces": {
+		"BlueSpice\\HideTitle\\": "src/"
+	},
+	"MessagesDirs": {
+		"BlueSpiceHideTitle": [
+			"i18n"
+		]
+	},
+	"ExtensionMessagesFiles": {
+		"HideTitleMagic": "languages/HideTitle.i18n.magic.php"
+	},
+	"ResourceModules": {
+		"ext.bluespice.hidetitle.styles": {
+			"styles": [
+				"bluespice.hideTitle.css"
+			]
+		}
+	},
+	"ResourceFileModulePaths": {
+		"localBasePath": "resources",
+		"remoteExtPath": "BlueSpiceHideTitle/resources"
+	},
+	"Hooks": {
+		"BSInsertMagicAjaxGetData": "\\BlueSpice\\HideTitle\\Hook\\BSInsertMagicAjaxGetData\\CheckHideTitle::callback",
+		"BeforePageDisplay": "\\BlueSpice\\HideTitle\\Hook\\BeforePageDisplay\\AddModules::callback",
+		"GetDoubleUnderscoreIDs": "\\BlueSpice\\HideTitle\\Hook\\GetDoubleUnderscoreIDs\\AddHideTitle::callback",
+		"BSUsageTrackerRegisterCollectors": "\\BlueSpice\\HideTitle\\Extension::onBSUsageTrackerRegisterCollectors"
+	},
+	"load_composer_autoloader": true,
+	"manifest_version": 2
+}

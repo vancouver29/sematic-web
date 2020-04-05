@@ -1,0 +1,9 @@
+.git
+.gitignore
+.envrc
+.eslintrc.json
+npm-debug.log
+
+bin/
+test/
+node_modules/

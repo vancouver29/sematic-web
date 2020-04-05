@@ -1,0 +1,15 @@
+{
+	"@metadata": {
+		"authors": [
+			"Joetaras"
+		]
+	},
+	"bs-insertlink-label-page": "Pàgene",
+	"bs-insertlink-label-link": "Collegamende",
+	"bs-insertlink-label-mail": "Indirizze e-mail",
+	"bs-insertlink-label-description": "Descrizione",
+	"bs-insertlink-label-file": "File",
+	"bs-insertlink-label-searchfile": "Cirche...",
+	"bs-insertlink-select-a-page": "Scacchie 'a destinazione...",
+	"bs-insertlink-select-a-namespace": "(Pàggene)"
+}

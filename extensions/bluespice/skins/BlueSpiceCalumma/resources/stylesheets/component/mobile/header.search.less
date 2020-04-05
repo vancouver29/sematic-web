@@ -1,0 +1,39 @@
+header.main-header .navbar {
+	a.mobile-search-button {
+		position: fixed;
+		top: 0;
+		padding: 0.3em 1em 0.2em 1em;
+		right: 0.5em;
+	}
+
+	a.mobile-search-button::before {
+		font-family: 'entypo';
+		content: "\e9d9";
+		font-style: initial;
+		font-size: 2em;
+		color: @menu-top-color;
+		float: left;
+	}
+
+	a.mobile-search-button:hover::before {
+		color: @menu-top-color-hover;
+	}
+	.navbar-form.navbar-left.dropdown-menu {
+		background-color: @menu-top-bg-color;
+		box-shadow: none;
+		border: none;
+		border-radius: 0;
+		position: fixed;
+		top: 41px;
+		margin-left: 0px;
+		margin-top: 8px;
+		margin-bottom: 8px;
+		width: 100vw;
+
+		input {
+			width: 70vw !important;
+			float: left;
+		}
+	}
+}
+

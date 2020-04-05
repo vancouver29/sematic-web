@@ -1,0 +1,14 @@
+{
+	"@metadata": {
+		"authors": [
+			"Facenapalm",
+			"Happy13241",
+			"Movses"
+		]
+	},
+	"bluespiceeditnotifyconnector-desc": "Расширяет EditNotify пользовательскими настройками",
+	"bluespiceeditnotifyconnector-action-message": "Будут посланы уведомления о создании или редактировании выбранных пространств имён.",
+	"prefs-categories": "Уведомления о событиях с категориями",
+	"prefs-namespace-notifications": "Уведомления о событиях с пространством имён",
+	"prefs-category-notifications": "Уведомления о категориях"
+}

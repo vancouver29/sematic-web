@@ -1,0 +1,10 @@
+{
+	"@metadata": {
+		"authors": [
+			"ديفيد"
+		]
+	},
+	"bs-echoconnector-extension-description": "يربط BlueSpice بإشعار",
+	"echo-category-title-bs-admin-cat": "تنفيذ مهمة الإدارة",
+	"echo-category-title-bs-page-actions-cat": "إجراء على صفحة مشتركة"
+}

@@ -1,0 +1,116 @@
+{
+	"name": "BlueSpicePageAccess",
+	"license-name": "GPL-3.0-only",
+	"version": "3.0.1",
+	"url": "https://en.wiki.bluespice.com/wiki/Reference:PageAccess",
+	"author": "Marc Reymann",
+	"descriptionmsg": "bs-pageaccess-desc",
+	"type": "bluespice",
+	"requires": {
+		"MediaWiki": ">= 1.31.0"
+	},
+	"attributes": {
+		"BlueSpiceFoundation": {
+			"Extensions": {
+				"BlueSpicePageAccess": {
+					"className": "PageAccess",
+					"extPath": "/BlueSpicePageAccess"
+				}
+			},
+			"PermissionRegistry": {
+				"pageaccess-viewspecialpage": {
+					"type": "global",
+					"roles": [
+						"admin",
+						"maintenanceadmin",
+						"structuremanager"
+					]
+				}
+			}
+		},
+		"BlueSpiceVisualEditorConnector": {
+			"TagDefinitions": [
+				"ext.bluespice.pageaccess.visualEditorTagDefinition"
+			]
+		}
+	},
+	"GroupPermissions": {
+		"*": {
+			"pageaccess-viewspecialpage": false
+		},
+		"user": {
+			"pageaccess-viewspecialpage": true
+		},
+		"sysop": {
+			"pageaccess-viewspecialpage": true
+		}
+	},
+	"AvailableRights": [
+		"pageaccess-viewspecialpage"
+	],
+	"SpecialPages": {
+		"PageAccess": "SpecialPageAccess"
+	},
+	"APIModules": {
+		"bs-pageaccess-store": "BSApiPageAccessStore"
+	},
+	"LogTypes": [
+		"bs-pageaccess"
+	],
+	"FilterLogTypes": {
+		"bs-pageaccess": true
+	},
+	"LogActionsHandlers": {
+		"bs-pageaccess/*": "LogFormatter"
+	},
+	"MessagesDirs": {
+		"BlueSpicePageAccess": [
+			"i18n"
+		]
+	},
+	"ExtensionMessagesFiles": {
+		"BlueSpicePageAccessAlias": "includes/specials/SpecialPageAccess.alias.php"
+	},
+	"AutoloadClasses": {
+		"PageAccess": "PageAccess.class.php",
+		"SpecialPageAccess": "includes/specials/SpecialPageAccess.class.php",
+		"BSApiPageAccessStore": "includes/api/BSApiPageAccessStore.php"
+	},
+	"AutoloadNamespaces": {
+		"BlueSpice\\PageAccess\\": "src/"
+	},
+	"Hooks": {
+		"BSInsertMagicAjaxGetData": "\\BlueSpice\\PageAccess\\Hook\\BSInsertMagicAjaxGetData\\AddPageAccessTag::callback"
+	},
+	"ResourceModules": {
+		"ext.PageAccess.manager": {
+			"scripts": [
+				"ext.bluespice.pageaccess.manager.js"
+			],
+			"messages": [
+				"bs-pageaccess-column-title",
+				"bs-pageaccess-column-groups"
+			],
+			"dependencies": [
+				"ext.bluespice.extjs"
+			]
+		},
+		"ext.bluespice.pageaccess.visualEditorTagDefinition": {
+			"scripts": [
+				"bs.pgaccss/util/tag/PageAccessDefinition.js"
+			],
+			"messages": [
+				"bs-pageaccess-tag-pageaccess-desc",
+				"bs-pageaccess-tag-pageaccess-title",
+				"bs-pageaccess-ve-pageaccessinspector-groups",
+				"bs-pageaccess-tag-pageaccess-desc-param-groups"
+			]
+		}
+	},
+	"ResourceFileModulePaths": {
+		"localBasePath": "resources",
+		"remoteExtPath": "BlueSpicePageAccess/resources"
+	},
+	"load_composer_autoloader" : true,
+	"manifest_version": 2
+}

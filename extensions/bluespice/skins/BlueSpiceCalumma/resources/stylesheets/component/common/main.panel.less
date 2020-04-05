@@ -1,0 +1,40 @@
+/* TODO: improve code */
+
+/* panel */
+.panel-default .panel-heading .badge {
+	margin: 0px 5px 0px 5px;
+}
+
+/* bs-panel */
+.bs-panel.panel-default {
+	.panel-heading .bs-panel-title {
+		display: inline-flex;
+		justify-content: space-between;
+		width: 100%;
+
+		a.tool{
+			width: 32px;
+			&:empty {
+				display: none;
+			}
+		}
+		a.tool:empty ~ a.title {
+			width: 100%;
+		}
+		a.title {
+			width: calc( ~"100% - 32px" );
+			float: right;
+			display: inline-block;
+			text-align: left;
+			span.title{
+				background-color: transparent;
+				display: block;
+				height: auto;
+			}
+		}
+		&:hover{
+			background-color: transparent;
+		}
+	}
+}
+

@@ -1,0 +1,19 @@
+{
+	"@metadata": {
+		"authors": [
+			"Metalhead64"
+		]
+	},
+	"electronPdfService": "ElectronPdfService",
+	"electronPdfService-desc": "Ergänzt eine browserbasierte Unterstützung zur Darstellung von PDF-Dateien mithilfe des Electron-PDF-Dienstes",
+	"electronPdfService-special-page-headline": "Als PDF herunterladen",
+	"electronPdfService-download-label": "Als PDF-Datei herunterladen",
+	"electronPdfService-download-button": "Herunterladen",
+	"electronPdfService-sidebar-portlet-heading": "Drucken/Exportieren",
+	"electronPdfService-sidebar-portlet-print-text": "Als PDF herunterladen",
+	"electronPdfService-invalid-page-title": "Ungültige Seite",
+	"electronPdfService-invalid-page-text": "Die angegebene Seite ist nicht gültig.",
+	"electronPDFService-warning-message": "Wir haben technische Probleme mit der Funktion, die wir zur Erstellung von PDF-Dateien verwenden. Wir müssen sie leider ersetzen. Dies wirkt sich auf die Gestaltung und Funktionen der Bücherfunktion aus. Für weitere Informationen und Rückmeldungen besuche bitte die [https://www.mediawiki.org/wiki/Reading/Web/PDF_Functionality Projektseite].",
+	"electronPDFService-warning-leave-feedback": "Eine Rückmeldung hinterlassen",
+	"electronPDFService-warning-read-more": "Mehr erfahren"
+}

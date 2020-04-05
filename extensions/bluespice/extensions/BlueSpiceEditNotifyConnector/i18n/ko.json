@@ -1,0 +1,10 @@
+{
+	"@metadata": {
+		"authors": [
+			"Ykhwong"
+		]
+	},
+	"bluespiceeditnotifyconnector-action-message": "선택된 이름공간의 만들기 또는 편집 알림을 보냅니다.",
+	"prefs-categories": "분류 이벤트의 알림",
+	"prefs-namespace-notifications": "이름공간 이벤트의 알림"
+}

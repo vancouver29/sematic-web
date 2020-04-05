@@ -1,0 +1,162 @@
+{
+	"name": "BlueSpiceReaders",
+	"license-name": "GPL-3.0-only",
+	"version": "3.0.1",
+	"url": "https://en.wiki.bluespice.com/wiki/Reference:Readers",
+	"author": [
+		"Stephan Muggli",
+		"Leonid Verhovskij"
+	],
+	"descriptionmsg": "bs-readers-desc",
+	"type": "bluespice",
+	"requires": {
+		"MediaWiki": ">= 1.29.0"
+	},
+	"attributes": {
+		"BlueSpiceFoundation": {
+			"Extensions": {
+				"BlueSpiceReaders": {
+					"className": "Readers",
+					"extPath": "/BlueSpiceReaders",
+					"configDefinitions": {
+						"ReadersNumOfReaders": "\\BlueSpice\\Readers\\ConfigDefinition\\ReadersNumOfReaders::getInstance"
+					}
+				}
+			},
+			"PermissionRegistry": {
+				"viewreaders": {
+					"type": "global",
+					"roles": [
+						"admin",
+						"maintenanceadmin"
+					]
+				}
+			}
+		},
+		"BlueSpiceArticleInfo": {
+			"FlyoutModules": {
+				"readers": {
+					"module": "ext.bluespice.readers.flyout",
+					"make-items-callback": "bs.readers.flyout.makeItems",
+					"skip-callback": "Readers::flyoutCheckPermissions"
+				}
+			}
+		},
+		"BlueSpicePrivacy": {
+			"Handlers": [
+				"\\BlueSpice\\Readers\\Privacy\\Handler"
+			]
+		}
+	},
+	"GroupPermissions": {
+		"*": {
+			"viewreaders": false
+		},
+		"user": {
+			"viewreaders": false
+		},
+		"sysop": {
+			"viewreaders": true
+		}
+	},
+	"AvailableRights": [
+		"viewreaders"
+	],
+	"SpecialPages": {
+		"Readers": "\\BlueSpice\\Readers\\Special\\Readers"
+	},
+	"APIModules": {
+		"bs-readers-data-store": "BSApiReadersDataStore",
+		"bs-readers-users-store": "BSApiReadersUsersStore",
+		"bs-readers-page-readers-store": "\\BlueSpice\\Readers\\Api\\Store\\PageReaders"
+	},
+	"MessagesDirs": {
+		"Readers": [
+			"i18n"
+		]
+	},
+	"ExtensionMessagesFiles": {
+		"ReadersAlias": "languages/SpecialReaders.alias.php"
+	},
+	"config_prefix": "bsg",
+	"config": {
+		"ReadersNumOfReaders": {
+			"value": 10,
+			"descriptionmsg": "bs-readers-pref-numofreaders",
+			"public": true
+		}
+	},
+	"AutoloadClasses": {
+		"Readers": "Readers.class.php",
+		"BSApiReadersDataStore": "includes/api/BSApiReadersDataStore.php",
+		"BSApiReadersUsersStore": "includes/api/BSApiReadersUsersStore.php",
+		"BSReadersFixtures": "tests/phpunit/BSReadersFixtures.php"
+	},
+	"ResourceModules": {
+		"ext.bluespice.readers.styles": {
+			"styles": [
+				"bluespice.readers.css"
+			],
+			"position": "top"
+		},
+		"ext.bluespice.readers.specialreaders": {
+			"scripts": [
+				"bluespice.readers.js"
+			],
+			"dependencies": [
+				"ext.bluespice.extjs"
+			],
+			"messages": [
+				"bs-readers-header-username",
+				"bs-readers-header-readerspath",
+				"bs-readers-header-ts"
+			]
+		},
+		"ext.bluespice.readers.specialreaderspath": {
+			"scripts": [
+				"bluespice.readerspath.js"
+			],
+			"dependencies": [
+				"ext.bluespice.extjs"
+			],
+			"messages": [
+				"bs-readers-header-readerspath",
+				"bs-readers-header-ts",
+				"bs-readers-header-page"
+			]
+		},
+		"ext.bluespice.readers.flyout": {
+			"scripts": [
+				"bluespice.readers.flyout.js"
+			],
+			"styles": [
+				"bluespice.readers.flyout.less"
+			],
+			"dependencies": [
+				"ext.bluespice.extjs"
+			],
+			"messages": [
+				"bs-readers-flyout-title"
+			]
+		}
+	},
+	"ResourceFileModulePaths": {
+		"localBasePath": "resources",
+		"remoteExtPath": "BlueSpiceReaders/resources"
+	},
+	"Hooks": {
+		"LoadExtensionSchemaUpdates": [
+			"\\BlueSpice\\Readers\\Hook\\LoadExtensionSchemaUpdates\\AddReadersTable::callback"
+		],
+		"SkinTemplateOutputPageBeforeExec": [
+			"\\BlueSpice\\Readers\\Hook\\SkinTemplateOutputPageBeforeExec\\AddContentActionToBlacklist::callback"
+		],
+		"BeforePageDisplay": [
+			"\\BlueSpice\\Readers\\Hook\\BeforePageDisplay\\AddResources::callback",
+			"\\BlueSpice\\Readers\\Hook\\BeforePageDisplay\\InsertTrace::callback"
+		],
+		"SkinTemplateNavigation": "\\BlueSpice\\Readers\\Hook\\SkinTemplateNavigation\\AddReaders::callback"
+	},
+	"load_composer_autoloader": true,
+	"manifest_version": 2
+}

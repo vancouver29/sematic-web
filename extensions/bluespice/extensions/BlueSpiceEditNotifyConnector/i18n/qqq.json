@@ -1,0 +1,13 @@
+{
+	"@metadata": {
+		"authors": [
+			"Ljonka",
+			"Umherirrender"
+		]
+	},
+	"bluespiceeditnotifyconnector-desc": "{{desc|name=BlueSpiceEditNotifyConnector}}",
+	"bluespiceeditnotifyconnector-action-message": "Action message for extension",
+	"prefs-categories": "Label for user preferences section for notification selection matrix of categories",
+	"prefs-namespace-notifications": "Label for user preferences section for notification selection matrix of namespaces",
+	"prefs-category-notifications": "Label for user preferences section \"echo/category-notificationsNotifications\" for notifications subscription on categories"
+}

@@ -1,0 +1,11 @@
+{
+	"@metadata": {
+		"authors": [
+			"Elisardojm"
+		]
+	},
+	"bluespiceeditnotifyconnector-desc": "Estende EditNotify con opcións de usuario.",
+	"bluespiceeditnotifyconnector-action-message": "Unha notificación de creación ou de modificación será enviada ós espazos de nomes seleccionados.",
+	"prefs-categories": "Notificacións dos eventos de categoría",
+	"prefs-namespace-notifications": "Notificacións dos eventos de espazos de nomes"
+}

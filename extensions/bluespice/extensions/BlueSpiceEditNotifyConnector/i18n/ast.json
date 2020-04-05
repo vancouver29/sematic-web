@@ -1,0 +1,12 @@
+{
+	"@metadata": {
+		"authors": [
+			"Xuacu"
+		]
+	},
+	"bluespiceeditnotifyconnector-desc": "Enanta EditNotify con opciones d'usuariu.",
+	"bluespiceeditnotifyconnector-action-message": "Unviaráse un avisu de creación o d'edición pa los espacios de nomes esbillaos.",
+	"prefs-categories": "Avisos d'actividaes na categoría",
+	"prefs-namespace-notifications": "Avisos d'actividaes nel espaciu de nomes",
+	"prefs-category-notifications": "Notificaciones de categoríes"
+}

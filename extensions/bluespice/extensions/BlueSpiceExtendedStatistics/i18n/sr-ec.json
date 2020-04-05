@@ -1,0 +1,13 @@
+{
+	"@metadata": {
+		"authors": [
+			"Milicevic01",
+			"BadDog"
+		]
+	},
+	"bs-statistics-not-allowed": "Немате потребну дозволу.",
+	"bs-statistics-diag-number-of-users": "Број отворених налога",
+	"bs-statistics-diag-number-of-pages": "Број направљених страница",
+	"bs-statistics-portlet-numberofarticles": "Број страница са садржајем",
+	"bs-statistics-portlet-numberofarticlesdesc": "Статистика броја страница са садржајем."
+}

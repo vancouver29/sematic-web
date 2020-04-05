@@ -1,0 +1,35 @@
+{{{headelement}}}
+<div id="mw-mf-viewport">
+	<nav id="mw-mf-page-left" class="navigation-drawer view-border-box">
+		{{{mainmenuhtml}}}
+	</nav>
+	<div id="mw-mf-page-center">
+		<div class="banner-container">
+			{{>banners}}
+		</div>
+		<header class="header-container header-chrome">
+			<form class="header" action="{{wgScript}}" method="get">
+				<div>{{{menuButton}}}</div>
+				<div class="branding-box">
+					<a href="{{mainPageURL}}">
+						<span>{{{headinghtml}}}</span>
+						<sup>&beta;</sup>
+					</a>
+				</div>
+				<div class="search-box">
+					<input class="search skin-minerva-search-trigger" type="search" name="search" id="searchInput"
+					   placeholder="{{placeholder}}"
+					   value="{{search}}">
+				</div>
+				<div>{{{searchButton}}}</div>
+				{{^isAnon}}<div>{{#secondaryButtonData}}{{>secondaryButton}}{{/secondaryButtonData}}</div>{{/isAnon}}
+			</form>
+		</header>
+		<main id="content" class="mw-body">
+			{{{contenthtml}}}
+		</main>
+		{{>footer}}
+	</div>
+</div>
+<div class="mw-notification-area" data-mw="interface"></div>
+<!-- v:8.1.2 -->

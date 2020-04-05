@@ -1,0 +1,113 @@
+@import "../dimensions.less";
+@import "../colors.less";
+@import "../fonts.less";
+
+.dynamic-graphical-list-body .bs-flyout-tabbed-data-view .list {
+	.x-toolbar-docked-top.x-toolbar-default-docked-top{
+		display:block;
+		background-color: transparent;
+		padding: 20px 0px 10px 0px;
+		.x-btn {
+			border-radius: 5px;
+			border: none;
+			background-color: transparent;
+			span{
+				display: none;
+			}
+			&::before {
+				font-size: 32px;
+				content: '\e980';
+				font-family: 'entypo';
+				text-align: left;
+				display: block;
+				color: white;
+			}
+			&:hover::before {
+				color: @bs-color-primary;
+			}
+		}
+		.x-grid-view.x-grid-with-row-lines .x-grid-item-container .x-grid-item{
+			.x-grid-cell-inner{
+				padding: 0px 15px;
+				height: 32px;
+				line-height: 32px;
+				a{
+					display: block;
+					height: 100%;
+					width: 100%;
+					color: white;
+				}
+				a:hover{
+					text-decoration: none;
+				}
+			}
+		}
+		.x-grid-view.x-grid-with-row-lines .x-grid-item-container .x-grid-item{
+			&:nth-of-type(odd){
+				background-color: lighten( @navigation-graphicallist-bg-color, 5% );
+			}
+			&:nth-of-type(even){
+				background-color: darken( @navigation-graphicallist-bg-color, 5% );
+			}
+			&.x-grid-item-over,
+			&.x-grid-item-selected.x-grid-item-over{
+				border: 1px solid @bs-color-primary;
+			}
+			&.x-grid-item-selected{
+				background-color: @bs-color-primary;
+			}
+		}
+	}
+
+	// header
+/* documentation; maybe styled later
+	.x-grid-header-ct-default.x-grid-header-ct.x-docked.x-docked-top.x-grid-header-ct-docked-top.x-grid-header-ct-default-docked-top {
+		background-color: transparent;
+		.x-column-header.x-column-header-default {
+			background-color: transparent;
+			.x-column-header-inner.x-leaf-column-header {
+				&.x-column-header-over {
+					background-color: transparent;
+				}
+			}
+			.x-column-header-inner.x-leaf-column-header.x-column-header-over .x-column-header-trigger {
+				background: none;
+				&::before {
+					content: '+';
+				}
+			}
+		}
+
+	}
+*/
+	// items
+	.x-grid-item-container .x-grid-item .x-grid-cell {
+		.title {
+			float: left;
+		}
+		.actions {
+			float: right;
+		}
+	}
+}
+
+
+.dynamic-graphical-list-outer-west .dynamic-graphical-list-body {
+	.bs-flyout-tabbed-data-view .list {
+		.thumbnail{
+			background-color: darken( @sitetools-graphicallist-bg-color, 5% );
+			div.caption {
+				background-color: lighten( @sitetools-graphicallist-bg-color, 5% );
+				.title {
+				color: @sitetools-graphicallist-color;
+				}
+				.meta {
+					color: @sitetools-graphicallist-color;
+				}
+			}
+			div.actions {
+				background-color: lighten( @sitetools-graphicallist-bg-color, 5% );
+			}
+		}
+	}
+}

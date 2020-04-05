@@ -1,0 +1,11 @@
+{
+	"@metadata": {
+		"authors": [
+			"Rachmat.Wahidi",
+			"Presidenvolksraad",
+			"Rachmat04"
+		]
+	},
+	"kartographer-error-json": "Tidak dapat memilah JSON: $1",
+	"kartographer-tracking-category": "Halaman dengan peta"
+}

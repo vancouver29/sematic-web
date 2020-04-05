@@ -1,0 +1,12 @@
+{
+	"@metadata": {
+		"authors": [
+			"Beta16"
+		]
+	},
+	"bs-visualeditorconnector-enable-visualeditor": "Attiva VisualEditor per estensioni BlueSpice",
+	"bs-visualeditorconnector-cancel-edit": "Annulla modifica",
+	"bs-visualeditor-nsm-label": "Visual editor",
+	"bs-visualeditorconnector-inspector-tab-common-name": "Comuni",
+	"bs-visualeditorconnector-inspector-tab-advanced-name": "Avanzate"
+}

@@ -1,0 +1,59 @@
+{
+	"name": "BlueSpiceWatchList",
+	"version": "3.0.1",
+	"url": "https://help.bluespice.com/index.php/WatchList",
+	"author": "Robert Vogel",
+	"descriptionmsg": "bs-watchlist-desc",
+	"type": "bluespice",
+	"license-name": "GPL-3.0-only",
+	"requires": {
+		"MediaWiki": ">= 1.29.0"
+	},
+	"attributes": {
+		"BlueSpiceFoundation": {
+			"Extensions": {
+				"BlueSpiceWatchList": {
+					"className": "WatchList",
+					"extPath": "/BlueSpiceWatchList"
+				}
+			}
+		},
+		"BlueSpiceUserSidebar": {
+			"Widgets": {
+				"WATCHLIST": {
+					"callback": "\\BlueSpice\\WatchList\\Panel\\WatchList::factory",
+					"default": true
+				}
+			}
+		}
+	},
+	"ResourceModules": {
+		"ext.bluespice.watchlist.styles": {
+			"styles": "bluespice.watchlist.css"
+		}
+	},
+	"ResourceFileModulePaths": {
+		"localBasePath": "resources",
+		"remoteExtPath": "BlueSpiceWatchList/resources"
+	},
+	"MessagesDirs": {
+		"BSWatchList": [
+			"i18n"
+		]
+	},
+	"AutoloadClasses": {
+		"WatchList": "WatchList.class.php"
+	},
+	"DefaultUserOptions": {
+		"bs-watchlist-pref-widgetlimit": 10,
+		"bs-watchlist-pref-widgetsortodr": "time"
+	},
+	"Hooks": {
+		"GetPreferences": [
+			"\\BlueSpice\\WatchList\\Hook\\GetPreferences\\WidgetLimit::callback",
+			"\\BlueSpice\\WatchList\\Hook\\GetPreferences\\WidgetSortOdr::callback"
+		]
+	},
+	"load_composer_autoloader" : true,
+	"manifest_version": 2
+}

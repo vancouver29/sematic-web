@@ -1,0 +1,16 @@
+{
+	"@metadata": {
+		"authors": [
+			"Chrumps",
+			"Railfail536"
+		]
+	},
+	"bs-insertcategory-insertcat": "Wstaw kategorię",
+	"prefs-insertcategory": "Wstaw kategorię",
+	"bs-insertcategory-title": "Wstawianie kategorii",
+	"bs-insertcategory-success": "Dodano kategorię",
+	"bs-insertcategory-failure": "Błąd",
+	"bs-insertcategory-panel-title": "Kategorie",
+	"bs-insertcategory-category-editor-title": "Kategorie",
+	"bs-insertcategory-category-editor-button-label-clear-all": "Usuń wszystkie"
+}

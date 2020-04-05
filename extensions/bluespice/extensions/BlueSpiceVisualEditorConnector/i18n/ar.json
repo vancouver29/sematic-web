@@ -1,0 +1,14 @@
+{
+	"@metadata": {
+		"authors": [
+			"Meno25",
+			"ديفيد"
+		]
+	},
+	"bs-visualeditorconnector-desc": "يربط BlueSpice بالمحرر المرئي",
+	"bs-visualeditorconnector-enable-visualeditor": "تمكين المحرر المرئي لملحقات BlueSpice",
+	"bs-visualeditorconnector-cancel-edit": "إلغاء التعديل",
+	"bs-visualeditor-nsm-label": "محرر مرئي",
+	"bs-visualeditorconnector-inspector-tab-common-name": "شائع",
+	"bs-visualeditorconnector-inspector-tab-advanced-name": "متقدم"
+}

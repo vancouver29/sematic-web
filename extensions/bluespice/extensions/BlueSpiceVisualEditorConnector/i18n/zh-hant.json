@@ -1,0 +1,13 @@
+{
+	"@metadata": {
+		"authors": [
+			"Kly"
+		]
+	},
+	"bs-visualeditorconnector-desc": "以視覺化編輯器連接 BlueSpice",
+	"bs-visualeditorconnector-enable-visualeditor": "啟用用於 BlueSpice 擴充的視覺化編輯器",
+	"bs-visualeditorconnector-cancel-edit": "取消編輯",
+	"bs-visualeditor-nsm-label": "視覺化編輯器",
+	"bs-visualeditorconnector-inspector-tab-common-name": "一般",
+	"bs-visualeditorconnector-inspector-tab-advanced-name": "進階"
+}

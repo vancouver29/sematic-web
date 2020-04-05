@@ -1,0 +1,10 @@
+{
+	"@metadata": {
+		"authors": [
+			"BadDog"
+		]
+	},
+	"bs-insertcategory-category-editor-button-label-clear-all": "Уклони све",
+	"bs-insertcategory-category-editor-explicit-categories-edit-label": "уреди",
+	"bs-insertcategory-category-editor-explicit-categories-edit-tooltip": "Уредите категорије ове странице"
+}

@@ -1,0 +1,10 @@
+{
+	"@metadata": {
+		"authors": [
+			"Jon Harald Søby"
+		]
+	},
+	"bs-echoconnector-extension-description": "Kobler BlueSpice med Echo",
+	"echo-category-title-bs-admin-cat": "Administratorhandling utført",
+	"echo-category-title-bs-page-actions-cat": "Handling på overvåket side"
+}

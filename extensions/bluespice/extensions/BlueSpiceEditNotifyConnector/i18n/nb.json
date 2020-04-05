@@ -1,0 +1,12 @@
+{
+	"@metadata": {
+		"authors": [
+			"Jon Harald Søby"
+		]
+	},
+	"bluespiceeditnotifyconnector-desc": "Utvider EditNotify med brukervalg.",
+	"bluespiceeditnotifyconnector-action-message": "Varsel for oppretting eller redigering i vagte navnerom vil bli sendt.",
+	"prefs-categories": "Varsel ved kategorihendelser",
+	"prefs-namespace-notifications": "Varsel ved navneromshendelser",
+	"prefs-category-notifications": "Varsler for kategorier"
+}

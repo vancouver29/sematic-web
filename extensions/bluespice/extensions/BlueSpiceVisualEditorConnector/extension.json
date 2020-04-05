@@ -1,0 +1,178 @@
+{
+	"name": "BlueSpiceVisualEditorConnector",
+	"license-name": "GPL-3.0-only",
+	"version": "3.0.1",
+	"url": "https://en.wiki.bluespice.com/wiki/Reference:BlueSpiceVisualEditorConnector",
+	"author": [
+		"Markus Glaser"
+	],
+	"descriptionmsg": "bs-visualeditorconnector-desc",
+	"type": "bluespice",
+	"requires": {
+		"MediaWiki": ">= 1.31.0"
+	},
+	"attributes": {
+		"BlueSpiceFoundation": {
+			"Extensions": {
+				"BlueSpiceVisualEditorConnector": {
+					"className": "\\BlueSpice\\VisualEditorConnector\\Extension",
+					"extPath": "/BlueSpiceVisualEditorConnector",
+					"status": "beta",
+					"package": "BlueSpice Pro",
+					"configDefinitions": {
+						"VisualEditorConnectorEnableVisualEditor": "\\BlueSpice\\VisualEditorConnector\\ConfigDefinition\\EnableVisualEditor::getInstance"
+					}
+				}
+			}
+		},
+		"BlueSpiceVisualEditorConnector": {
+			"PluginModules": [],
+			"TagDefinitions": []
+		},
+		"BlueSpiceSimpleFarmer": {
+			"DynamicConfigurationFactories": {
+				"virtualrestparsoiddomain": "\\BlueSpice\\VisualEditorConnector\\SimpleFarmer\\DynamicConfiguration\\VirtualRestConfig::factory"
+			}
+		},
+		"VisualEditor": {
+			"PluginModules": [
+				"ext.bluespice.visualEditorConnector.plugin"
+			]
+		}
+	},
+	"callback":  "BlueSpice\\VisualEditorConnector\\Extension::onRegistration",
+	"APIModules": {
+		"bs-vec-transformtowikitext": "BlueSpice\\VisualEditorConnector\\Api\\TransformToWikiText",
+		"bs-vec-transformtohtml": "BlueSpice\\VisualEditorConnector\\Api\\TransformToHtml",
+		"bs-vec-restbase-mock": "BlueSpice\\VisualEditorConnector\\Api\\RestbaseMock"
+	},
+	"AutoloadNamespaces": {
+		"BlueSpice\\VisualEditorConnector\\": "src/"
+	},
+	"SpecialPages": {
+		"VisualEditorConnector": "\\BlueSpice\\VisualEditorConnector\\Special\\VisualEditorConnector"
+	},
+	"MessagesDirs": {
+		"VisualEditorConnector": [
+			"i18n"
+		]
+	},
+	"ExtensionMessagesFiles": {
+		"SpecialVisualEditorConnectorAlias": "languages/SpecialVisualEditorConnector.alias.php"
+	},
+	"ResourceModules": {
+		"ext.bluespice.visualEditorConnector": {
+			"scripts": [
+				"ve/init/sa/BlueSpiceTarget.js",
+				"ui/widget/TextInputMWVisualEditor.js",
+				"bluespice.visualEditorConnector.js"
+			],
+			"styles": [
+				"bluespice.visualEditorConnector.css"
+			],
+			"dependencies": [
+				"ext.visualEditor.core",
+				"ext.visualEditor.mediawiki",
+				"ext.visualEditor.standalone",
+				"ext.visualEditor.core.desktop",
+				"ext.visualEditor.mwcore",
+				"ext.visualEditor.mwextensions.desktop",
+				"ext.visualEditor.icons",
+				"ext.bluespice.oojs",
+				"oojs-ui",
+				"mediawiki.api"
+			]
+		},
+		"ext.visualEditor.standalone": {
+			"scripts": [
+				"../../VisualEditor/lib/ve/src/init/sa/ve.init.sa.js",
+				"../../VisualEditor/lib/ve/src/init/sa/ve.init.sa.Platform.js",
+				"../../VisualEditor/lib/ve/src/init/sa/ve.init.sa.Target.js",
+				"../../VisualEditor/lib/ve/src/init/sa/ve.init.sa.DesktopTarget.js"
+			],
+			"styles": [
+				"../../VisualEditor/lib/ve/src/init/sa/styles/ve.init.sa.css"
+			],
+			"dependencies": [
+				"ext.visualEditor.mediawiki"
+			]
+		},
+		"ext.bluespice.visualEditorConnector.plugin": {
+			"scripts": [
+				"ve-visualeditorconnector/ve.init.bs.CancelEditButton.js",
+				"ve-visualeditorconnector/ve.init.bs.HideAfterContent.js"
+			],
+			"dependencies": [
+				"ext.visualEditor.mwcore"
+			],
+			"messages": [
+				"bs-visualeditorconnector-cancel-edit"
+			],
+			"targets": [
+				"desktop",
+				"mobile"
+			]
+		},
+		"ext.bluespice.visualEditorConnector.overrides.classes": {
+			"scripts": [
+				"bs.vec/ui/MWLinkAnnotationInspector.js",
+				"bs.vec/ui/MWMediaDialog.js",
+				"bs.vec/ui/MWSaveDialog.js",
+				"bs.vec/ui/MWTableDialog.js",
+				"bs.vec/ui/plugin/MWSaveDialog.js",
+				"bs.vec/ui/plugin/MWTableDialog.js"
+			]
+		},
+		"ext.bluespice.visualEditorConnector.overrides": {
+			"scripts": [
+				"bluespice.visualEditorConnector.overrides.js"
+			],
+			"dependencies": [
+				"ext.visualEditor.desktopArticleTarget.init"
+			]
+		},
+		"ext.bluespice.visualEditorConnector.tags.classes": {
+			"scripts": [
+				"bs.vec/util/tag/Definition.js",
+				"bs.vec/util/tag/Registry.js",
+				"bs.vec/ui/widget/GroupListInputWidget.js"
+			]
+		},
+		"ext.bluespice.visualEditorConnector.tags": {
+			"scripts": [
+				"bluespice.visualEditorConnector.tags.js"
+			],
+			"dependencies": [
+				"ext.visualEditor.desktopArticleTarget.init"
+			],
+			"messages": [
+				"bs-visualeditorconnector-inspector-tab-common-name",
+				"bs-visualeditorconnector-inspector-tab-advanced-name"
+			]
+		}
+	},
+	"ResourceFileModulePaths": {
+		"localBasePath": "resources",
+		"remoteExtPath": "BlueSpiceVisualEditorConnector/resources"
+	},
+	"config_prefix": "bsg",
+	"config": {
+		"VisualEditorConnectorEnableVisualEditor": {
+			"value": true,
+			"descriptionmsg": "bs-visualeditorconnector-enable-visualeditor",
+			"public": true
+		}
+	},
+	"Hooks": {
+		"BSSocialModuleDepths": "\\BlueSpice\\VisualEditorConnector\\Hook\\BSSocialModuleDepths\\AddVECModules::callback",
+		"BSPageTemplatesModifyTargetUrl": "\\BlueSpice\\VisualEditorConnector\\Hook\\BSPageTemplatesModifyTargetUrl\\UseVisualEditor::callback",
+		"BeforePageDisplay": "\\BlueSpice\\VisualEditorConnector\\Hook\\BeforePageDisplay\\AddModules::callback",
+		"NamespaceManager::getMetaFields": "\\BlueSpice\\VisualEditorConnector\\Hook\\NamespaceManagerGetMetaFields\\RegisterMetaFields::callback",
+		"BSApiNamespaceStoreMakeData": "\\BlueSpice\\VisualEditorConnector\\Hook\\BSApiNamespaceStoreMakeData\\AddData::callback",
+		"NamespaceManager::editNamespace": "\\BlueSpice\\VisualEditorConnector\\Hook\\NamespaceManagerEditNamespace\\SetVisualEditorValues::callback",
+		"NamespaceManager::writeNamespaceConfiguration": [
+			"\\BlueSpice\\VisualEditorConnector\\Hook\\NamespaceManagerWriteNamespaceConfiguration\\WriteToConfiguration::callback"
+		]
+	},
+	"manifest_version": 2
+}

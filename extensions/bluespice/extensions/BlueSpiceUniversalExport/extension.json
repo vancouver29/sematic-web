@@ -1,0 +1,123 @@
+{
+	"name": "BlueSpiceUniversalExport",
+	"license-name": "GPL-3.0-only",
+	"version": "3.0.1",
+	"url": "https://en.wiki.bluespice.com/wiki/Reference:UniversalExport",
+	"author": "Robert Vogel",
+	"descriptionmsg": "bs-universalexport-desc",
+	"type": "bluespice",
+	"requires": {
+		"MediaWiki": ">= 1.31.0",
+		"extensions": {
+			"BlueSpiceFoundation": "*"
+		}
+	},
+	"attributes": {
+		"BlueSpiceFoundation": {
+			"Extensions": {
+				"BlueSpiceUniversalExport": {
+					"className": "UniversalExport",
+					"extPath": "/BlueSpiceUniversalExport",
+					"configDefinitions": {
+						"UniversalExportMetadataDefaults": "\\BlueSpice\\UniversalExport\\ConfigDefinition\\MetadataDefaults::getInstance",
+						"UniversalExportMetadataOverrides": "\\BlueSpice\\UniversalExport\\ConfigDefinition\\MetadataOverrides::getInstance"
+					}
+				}
+			}
+		},
+		"BlueSpiceUniversalExport": {
+			"ExportTargetRegistry": {
+				"download": "BlueSpice\\UniversalExport\\ExportTarget\\Download::factory",
+				"localfilerepo": "BlueSpice\\UniversalExport\\ExportTarget\\LocalFileRepo::factory"
+			}
+		}
+	},
+	"SpecialPages": {
+		"UniversalExport": "SpecialUniversalExport"
+	},
+	"MessagesDirs": {
+		"UniversalExport": [
+			"i18n"
+		]
+	},
+	"ExtensionMessagesFiles": {
+		"UniversalExportAlias": "languages/SpecialUniversalExport.alias.php"
+	},
+	"AutoloadNamespaces": {
+		"BlueSpice\\UniversalExport\\" : "src/"
+	},
+	"AutoloadClasses": {
+		"UniversalExport": "UniversalExport.class.php",
+		"SpecialUniversalExport": "includes/specials/SpecialUniversalExport.class.php",
+		"ViewExportModuleOverview": "includes/views/ViewExportModuleOverview.php",
+		"BsUniversalExportModule": "includes/UniversalExportModule.interface.php",
+		"BsUniversalExportHelper": "includes/UniversalExportHelper.class.php",
+		"BsUniversalExportTagLibrary": "includes/UniversalExportTagLibrary.class.php"
+	},
+	"ResourceModules": {
+		"ext.bluespice.universalExport.css": {
+			"styles": "bluespice.universalExport.css"
+		}
+	},
+	"ResourceFileModulePaths": {
+		"localBasePath": "resources",
+		"remoteExtPath": "BlueSpiceUniversalExport/resources"
+	},
+	"config_prefix": "bsg",
+	"config": {
+		"UniversalExportCategoryWhitelist": {
+			"value": [
+				"Exportable",
+				"Public"
+			]
+		},
+		"UniversalExportCategoryBlacklist": {
+			"value": [
+				"Confidential",
+				"Internal"
+			]
+		},
+		"UniversalExportMetadataDefaults": {
+			"value": "{\"creator\":\"Hallo Welt! GmbH\"}",
+			"descriptionmsg": "bs-universalexport-pref-metadatadefaults",
+			"public": true
+		},
+		"UniversalExportMetadataOverrides": {
+			"value": "{\"producer\":\"UniversalExport 3.0.0 (BlueSpice MediaWiki)\"}",
+			"descriptionmsg": "bs-universalexport-pref-metadataoverrides",
+			"public": true
+		},
+		"UniversalExportParamsDefaults": {
+			"value": {
+				"format": "pdf",
+				"pdf-merging": "0",
+				"attachments": "0",
+				"recursive": false,
+				"filter": "use-all"
+			}
+		},
+		"UniversalExportParamsOverrides": {
+			"value": {
+				"use-serverside-caching": false,
+				"pdf-attachment-formats": [
+					"doc",
+					"docx",
+					"xls",
+					"xlsx",
+					"ppt",
+					"pptx",
+					"odt",
+					"ods",
+					"odp",
+					"odg",
+					"svg"
+				]
+			}
+		}
+	},
+	"Hooks": {
+		"BeforePageDisplay": "\\BlueSpice\\UniversalExport\\Hook\\BeforePageDisplay\\AddResources::callback"
+	},
+	"manifest_version": 2,
+	"load_composer_autoloader": true
+}

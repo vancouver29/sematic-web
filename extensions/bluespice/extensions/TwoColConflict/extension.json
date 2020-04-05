@@ -1,0 +1,204 @@
+{
+	"name": "TwoColConflict",
+	"version": "0.0.1",
+	"author": [
+		"TCB team (Wikimedia Deutschland)",
+		"Christoph Jauera",
+		"Addshore",
+		"Andrew Kostka"
+	],
+	"url": "https://www.mediawiki.org/wiki/Extension:TwoColConflict",
+	"descriptionmsg": "twoColConflict-desc",
+	"license-name": "GPL-2.0-or-later",
+	"type": "other",
+	"manifest_version": 1,
+	"requires": {
+		"MediaWiki": ">= 1.30.0"
+	},
+	"config": {
+		"@TwoColConflictBetaFeature": "Make the TwoColConflict feature a BetaFeature. Setting this requires the BetaFeature extension and requires each user to enable the BetaFeature.",
+		"TwoColConflictBetaFeature": true
+	},
+	"AutoloadClasses": {
+		"TwoColConflictHooks": "includes/TwoColConflictHooks.php",
+		"InlineTwoColConflictHelper": "includes/InlineTwoColConflict/InlineTwoColConflictHelper.php",
+		"InlineTwoColConflictTestHelper": "includes/InlineTwoColConflict/InlineTwoColConflictTestHelper.php",
+		"RandomChangesGenerator": "includes/RandomChangesGenerator.php",
+		"CollapsedTextBuilder": "includes/CollapsedTextBuilder.php",
+		"LineBasedUnifiedDiffFormatter": "includes/LineBasedUnifiedDiffFormatter.php",
+		"SpecialConflictTestPage": "includes/SpecialConflictTestPage/SpecialConflictTestPage.php",
+		"TwoColConflictTestEditPage": "includes/SpecialConflictTestPage/TwoColConflictTestEditPage.php",
+		"HtmlSpecialTestTitleForm": "includes/SpecialConflictTestPage/HtmlSpecialTestTitleForm.php",
+		"HtmlSpecialTestTextForm": "includes/SpecialConflictTestPage/HtmlSpecialTestTextForm.php",
+		"HtmlWikiTextEditor": "includes/SpecialConflictTestPage/HtmlWikiTextEditor.php",
+		"HtmlPreview": "includes/SpecialConflictTestPage/HtmlPreview.php"
+	},
+	"Hooks": {
+		"GetBetaFeaturePreferences": [
+			"TwoColConflictHooks::getBetaFeaturePreferences"
+		],
+		"AlternateEdit": [
+			"TwoColConflictHooks::onAlternateEdit"
+		],
+		"EditPageBeforeConflictDiff": [
+			"TwoColConflictHooks::onEditPageBeforeConflictDiff"
+		],
+		"ResourceLoaderTestModules": [
+			"TwoColConflictHooks::onResourceLoaderTestModules"
+		]
+	},
+	"MessagesDirs": {
+		"TwoColConflict": [
+			"i18n"
+		]
+	},
+	"ExtensionMessagesFiles": {
+		"TwoColConflictAlias": "TwoColConflict.alias.php"
+	},
+	"ResourceModules": {
+		"ext.TwoColConflict.editor": {
+			"styles": [
+				"modules/ext.TwoColConflict.css"
+			],
+			"messages": [],
+			"dependencies": []
+		},
+		"ext.TwoColConflict.initJs": {
+			"scripts": [
+				"modules/ext.TwoColConflict.init.js"
+			],
+			"dependencies": [
+				"ext.TwoColConflict.Settings",
+				"ext.TwoColConflict.AutoScroll",
+				"ext.TwoColConflict.BaseVersionSelector",
+				"ext.TwoColConflict.HelpDialog"
+			]
+		},
+		"ext.TwoColConflict.Settings": {
+			"scripts": [
+				"modules/ext.TwoColConflict.Settings.js"
+			],
+			"dependencies": [
+				"mediawiki.storage",
+				"mediawiki.cookie",
+				"mediawiki.api.options"
+			]
+		},
+		"ext.TwoColConflict.filterOptionsJs": {
+			"scripts": [
+				"modules/ext.TwoColConflict.filterOptions.js"
+			],
+			"messages": [
+				"twoColConflict-label-show-unchanged",
+				"twoColConflict-label-hide-unchanged"
+			],
+			"dependencies": [
+				"ext.TwoColConflict.AutoScroll",
+				"oojs-ui"
+			]
+		},
+		"ext.TwoColConflict.AutoScroll": {
+			"scripts": [
+				"modules/ext.TwoColConflict.AutoScroll.js"
+			]
+		},
+		"ext.TwoColConflict.BaseVersionSelector": {
+			"scripts": [
+				"modules/ext.TwoColConflict.BaseVersionSelector.js"
+			],
+			"messages": [
+				"twoColConflict-base-selection-dialog-text",
+				"twoColConflict-base-selection-own-label",
+				"twoColConflict-base-selection-foreign-label",
+				"twoColConflict-base-selection-submit-label"
+			],
+			"dependencies": [
+				"oojs-ui"
+			]
+		},
+		"ext.TwoColConflict.BaseVersionSelectorCss": {
+			"styles": [
+				"modules/ext.TwoColConflict.BaseVersionSelector.css"
+			]
+		},
+		"ext.TwoColConflict.HelpDialog": {
+			"scripts": [
+				"modules/ext.TwoColConflict.HelpDialog.js"
+			],
+			"dependencies": [
+				"oojs-ui",
+				"oojs-ui.styles.icons-interactions",
+				"ext.TwoColConflict.HelpDialogImages"
+			],
+			"messages": [
+				"twoColConflict-show-help-tooltip",
+				"twoColConflict-help-dialog-slide1",
+				"twoColConflict-help-dialog-slide2",
+				"twoColConflict-help-dialog-slide3",
+				"twoColConflict-help-dialog-slide4",
+				"twoColConflict-help-dialog-slide5",
+				"twoColConflict-label-show",
+				"twoColConflict-tutorial",
+				"twoColConflict-previous-dialog",
+				"twoColConflict-next-dialog",
+				"twoColConflict-close-dialog"
+			]
+		},
+		"ext.TwoColConflict.HelpDialogCss": {
+			"styles": [
+				"modules/ext.TwoColConflict.HelpDialog.css"
+			]
+		},
+		"ext.TwoColConflict.HelpDialogImages": {
+			"class": "ResourceLoaderImageModule",
+			"selector": ".mw-twocolconflict-help-dialog-slide-{name}",
+			"images": {
+				"1": {
+					"file": {
+						"ltr": "resources/ext.TwoColConflict.helpDialog/slide1-ltr.svg",
+						"rtl": "resources/ext.TwoColConflict.helpDialog/slide1-rtl.svg"
+					}
+				},
+				"2": {
+					"file": {
+						"ltr": "resources/ext.TwoColConflict.helpDialog/slide2-ltr.svg",
+						"rtl": "resources/ext.TwoColConflict.helpDialog/slide2-rtl.svg"
+					}
+				},
+				"3": {
+					"file": {
+						"ltr": "resources/ext.TwoColConflict.helpDialog/slide3-ltr.svg",
+						"rtl": "resources/ext.TwoColConflict.helpDialog/slide3-rtl.svg"
+					}
+				},
+				"4": {
+					"file": {
+						"ltr": "resources/ext.TwoColConflict.helpDialog/slide4-ltr.svg",
+						"rtl": "resources/ext.TwoColConflict.helpDialog/slide4-rtl.svg"
+					}
+				},
+				"5": {
+					"file": {
+						"ltr": "resources/ext.TwoColConflict.helpDialog/slide5-ltr.svg",
+						"rtl": "resources/ext.TwoColConflict.helpDialog/slide5-rtl.svg"
+					}
+				}
+			}
+		},
+		"ext.TwoColConflict.SpecialConflictTestPageCss": {
+			"styles": [
+				"modules/SpecialConflictTestPage/ext.TwoColConflict.SpecialConflictTestPage.css"
+			]
+		}
+	},
+	"EventLoggingSchemas": {
+		"TwoColConflictConflict": 17520555
+	},
+	"ResourceFileModulePaths": {
+		"localBasePath": "",
+		"remoteExtPath": "TwoColConflict"
+	},
+	"SpecialPages": {
+		"SimulateTwoColEditConflict": "SpecialConflictTestPage"
+	}
+}

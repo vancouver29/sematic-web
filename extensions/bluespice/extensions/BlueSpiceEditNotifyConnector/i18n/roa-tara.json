@@ -1,0 +1,12 @@
+{
+	"@metadata": {
+		"authors": [
+			"Joetaras"
+		]
+	},
+	"bluespiceeditnotifyconnector-desc": "Extends EditNotify cu le opziune de l'utende",
+	"bluespiceeditnotifyconnector-action-message": "Ccreje o cange le notifeche pe le namespace scacchiate ca onna essere mannate.",
+	"prefs-categories": "Notifeche sus a le fatte de le categorije",
+	"prefs-namespace-notifications": "Notifeche sus a le fatte de le namespace",
+	"prefs-category-notifications": "Notifeche sus a le categorije"
+}

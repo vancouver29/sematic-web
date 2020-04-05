@@ -1,0 +1,11 @@
+{
+	"@metadata": {
+		"authors": [
+			"StanProg"
+		]
+	},
+	"bs-filerepo-headerfiledescription": "Описание",
+	"bs-filerepo-yes": "Да",
+	"bs-filerepo-no": "Не",
+	"bs-filerepo-pagesize": "Записи на страницата"
+}

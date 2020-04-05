@@ -1,0 +1,13 @@
+{
+	"@metadata": {
+		"authors": [
+			"Pickle12",
+			"Dbc334"
+		]
+	},
+	"electronPdfService": "Elektronski PDF program",
+	"electronPdfService-sidebar-portlet-heading": "Natisni/izvozi",
+	"electronPdfService-sidebar-portlet-print-text": "Prenesi kot PDF",
+	"electronPdfService-invalid-page-title": "Neveljavna stran",
+	"electronPdfService-invalid-page-text": "Ta stran ni veljavna."
+}

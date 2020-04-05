@@ -1,0 +1,11 @@
+{
+	"@metadata": {
+		"authors": [
+			"C5st4wr6ch",
+			"Arifin.wijaya"
+		]
+	},
+	"bs-articleinfo-desc": "Memberikan informasi tentang halaman di bilah status",
+	"prefs-articleinfo": "Informasi halaman",
+	"bs-articleinfo-pref-CheckRevisionInterval": "Perbarui interval dalam hitungan detik:"
+}

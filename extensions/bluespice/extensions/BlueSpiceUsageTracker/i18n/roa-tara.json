@@ -1,0 +1,12 @@
+{
+	"@metadata": {
+		"authors": [
+			"Joetaras"
+		]
+	},
+	"bs-usagetracker-startjobs": "Careche mò",
+	"bs-usagetracker-col-identifier": "Idendificatore",
+	"bs-usagetracker-col-desc": "Descrizione",
+	"bs-usagetracker-col-count": "Condegge",
+	"bs-usagetracker-col-last-updated": "Urteme aggiornamende"
+}

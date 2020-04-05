@@ -1,0 +1,18 @@
+{
+	"@metadata": {
+		"authors": [
+			"Milicevic01",
+			"Zoranzoki21",
+			"Сербијана",
+			"BadDog"
+		]
+	},
+	"bs-avatars-pref-defaultsize": "Подразумевана величина у пикселима:",
+	"bs-avatars-upload-complete": "Слика је отпремљена.",
+	"bs-avatars-upload-label": "Слика",
+	"bs-avatars-generate-new-label": "Генериши нови аватар",
+	"bs-avatars-warning-title": "Упозорење",
+	"bs-avatars-userimage-help": "на пример, Slika.jpg или http://localhost/Slika.gif",
+	"bs-avatars-auto-generate-fieldset-title": "Аутоматско генерисање аватара",
+	"apihelp-bs-avatars-tasks-description": "Отпремање, генерисање и постављање кориснике слике"
+}

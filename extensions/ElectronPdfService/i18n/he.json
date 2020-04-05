@@ -1,0 +1,21 @@
+{
+	"@metadata": {
+		"authors": [
+			"Or",
+			"Guycn2",
+			"Amire80"
+		]
+	},
+	"electronPdfService": "שירות ElectronPdf",
+	"electronPdfService-desc": "הוספת תמיכה בתיצוג PDF דרך שירות Electron PDF",
+	"electronPdfService-special-page-headline": "הורדה כ־PDF",
+	"electronPdfService-download-label": "הורדה כ־PDF",
+	"electronPdfService-download-button": "הורדה",
+	"electronPdfService-sidebar-portlet-heading": "הדפסה/ייצוא",
+	"electronPdfService-sidebar-portlet-print-text": "הורדה כ־PDF",
+	"electronPdfService-invalid-page-title": "דף לא תקין",
+	"electronPdfService-invalid-page-text": "הדף שצוין אינו תקין.",
+	"electronPDFService-warning-message": "יש לנו בעיות טכניות עם הפונקציה שאנחנו משתמשים בה כעת כדי ליצור PDF־ים. לצערנו נאלצנו להחליף אותה. זה משפיע על העיצוב ועל האפשרויות של פונקציית הספרים. למידע נוסף ולשליחת משוב, נא לבקר ב[https://www.mediawiki.org/wiki/Reading/Web/PDF_Functionality דף הפרויקט].",
+	"electronPDFService-warning-leave-feedback": "שליחת משוב",
+	"electronPDFService-warning-read-more": "מידע נוסף"
+}

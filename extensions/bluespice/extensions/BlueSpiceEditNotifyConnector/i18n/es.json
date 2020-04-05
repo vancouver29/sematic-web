@@ -1,0 +1,13 @@
+{
+	"@metadata": {
+		"authors": [
+			"Macofe",
+			"Dgstranz",
+			"Fitoschido"
+		]
+	},
+	"bluespiceeditnotifyconnector-desc": "Extiende EditNotify con opciones de usuario.",
+	"bluespiceeditnotifyconnector-action-message": "Se enviarán notificaciones de creaciones o ediciones en los espacios de nombres seleccionados.",
+	"prefs-categories": "Notificaciones sobre eventos de categoría",
+	"prefs-namespace-notifications": "Notificaciones sobre eventos de espacios de nombres"
+}

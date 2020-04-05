@@ -1,0 +1,17 @@
+{
+	"@metadata": {
+		"authors": [
+			"Sanlinnaing",
+			"Ninjastrikers",
+			"Dr Lotus Black"
+		]
+	},
+	"bs-ns_main": "(စာမျက်နှာများ)",
+	"bs-ns_all": "(အားလုံး)",
+	"bs-userbar_loginswitch_logout": "ထွက်ရန်",
+	"bs-userbar_loginswitch_login": "အကောင့်ထဲဝင်ရန်",
+	"bs-extended-search-textfield-defaultvalue": "ရှာဖွေရန်...",
+	"bs-email-greeting-receiver": "{{GENDER:$1|မင်္ဂလာပါ ကို $2|မင်္ဂလာပါ မ|မင်္ဂလာပါ}}",
+	"bs-ns": "အမည်ညွှန်း",
+	"bs-export-menu-print-text": "ပရင့်ထုတ်"
+}

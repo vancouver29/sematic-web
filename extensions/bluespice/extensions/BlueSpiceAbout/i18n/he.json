@@ -1,0 +1,14 @@
+{
+	"@metadata": {
+		"authors": [
+			"MojoMann",
+			"Guycn2"
+		]
+	},
+	"bs-bluespiceabout-desc": "מידע אודות BlueSpice",
+	"bs-bluespiceabout-about-bluespice": "אודות BlueSpice",
+	"bluespiceabout": "אודות BlueSpice",
+	"prefs-bluespiceabout": "אודות BlueSpice",
+	"bs-bluespiceabout-show-menu-links": "הצג קישור \"{{int:bs-bluespiceabout-about-bluespice}}\" בחלק העליון של הדף ובתפריט הראשי",
+	"action-bluespiceabout-viewspecialpage": "לצפות בדף המיוחד \"{{int:bs-bluespiceabout-about-bluespice}}\""
+}

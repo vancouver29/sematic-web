@@ -1,0 +1,21 @@
+{
+	"@metadata": {
+		"authors": [
+			"Xuacu"
+		]
+	},
+	"bs-articleinfo-desc": "Ufre información sobro una páxina na barra d'estáu",
+	"prefs-articleinfo": "Información de la páxina",
+	"bs-articleinfo-pref-CheckRevisionInterval": "Intervalu d'anovamientu en segundos:",
+	"bs-articleinfo-flyout-title": "Información de la páxina",
+	"bs-articleinfo-flyout-intro": "Supervisión de les actividaes d'esta páxina",
+	"bs-articleinfo-nav-link-title": "Información de la páxina",
+	"bs-articleinfo-flyout-categorylinks-title": "Categoríes",
+	"bs-articleinfo-flyout-templatelinks-title": "Plantíes que s'usen nesta páxina",
+	"bs-articleinfo-flyout-categorylinks-emptytext": "Nun se conseñaron categoríes",
+	"bs-articleinfo-flyout-templatelinks-emptytext": "Nun s'usa nenguna plantía",
+	"bs-articleinfo-flyout-lasteditedtime-text": "Última edición",
+	"bs-articleinfo-flyout-lastediteduser-text": "Últimu editor",
+	"bs-articleinfo-newrevision-info-text": "Ta disponible una versión nueva d'esta páxina. Recarga la páxina pa ver el conteníu actual.",
+	"bs-articleinfo-flyout-subpages-title": "Subpáxines"
+}

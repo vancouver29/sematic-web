@@ -1,0 +1,41 @@
+{
+	"@metadata": {
+		"authors": [
+			"Red Winged Duck"
+		]
+	},
+	"bluespicecalumma-desc": "Тэма афармленьня BlueSpice",
+	"bluespicecalumma-skin": "BlueSpiceCalumma",
+	"prefs-bs-calumma": "Налады BlueSpice Calumma",
+	"bs-calumma-pref-toggle-navigaiton-main": "Аўтаматычна хаваць галоўнае мэню",
+	"bs-calumma-pref-toggle-sitetools-main": "Аўтаматычна хаваць мэню інструмэнтаў",
+	"bs-action-edit-edit-title": "Рэдагаваць крыніцу",
+	"bs-action-edit-ve-edit-title": "Рэдагаваць",
+	"bs-action-new-section-text": "Новы разьдзел",
+	"bs-action-new-section-title": "Дадаць новы разьдзел да гэтай старонкі",
+	"bs-action-new-page-text": "Новая старонка",
+	"bs-action-new-page-title": "Дадаць новую старонку",
+	"bs-action-new-subpage-text": "Новая падстаронка",
+	"bs-action-new-subpage-title": "Дадаць новую падстаронку да $1",
+	"bs-action-new-file-text": "Загрузка новага файлу",
+	"bs-action-new-file-title": "Загрузіць новы файл",
+	"bs-userbutton-notifications-link-text": "Паведамленьні",
+	"bs-userbutton-userpage-link-text": "Мой профіль",
+	"bs-mobilemoremenu-view-title": "Прагляд",
+	"bs-mobilemoremenu-view-text": "Прагляд",
+	"bs-mobilemoremenu-edit-title": "Рэдагаваць",
+	"bs-mobilemoremenu-edit-text": "Рэдагаваць",
+	"bs-mobilemoremenu-new-section-title": "Новы разьдзел",
+	"bs-mobilemoremenu-new-section-text": "Новы разьдзел",
+	"bs-mobilemoremenu-history-title": "Гісторыя",
+	"bs-mobilemoremenu-history-text": "Гісторыя",
+	"bs-sitenav-navigation-title": "Асноўная навігацыя",
+	"bs-sitenav-navigation-section-mobileusercontainer": "Удзельнік",
+	"bs-sitenav-navigation-section-mediawikisidebar": "Вікі",
+	"bs-sitenav-globalactions-title": "Глябальныя дзеяньні",
+	"bs-sitenav-globalactions-section-globalactions": "Глябальныя дзеяньні",
+	"bs-sitenav-globalactions-section-management": "Кіраваньне",
+	"bs-sitenav-usersidebar-title": "Асабістая навігацыя",
+	"bs-sitetools-pageinfo-title": "Інфармацыя",
+	"bs-to-top-desc": "Перайсьці ўгару"
+}

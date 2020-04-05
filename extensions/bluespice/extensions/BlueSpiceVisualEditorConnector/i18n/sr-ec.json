@@ -1,0 +1,14 @@
+{
+	"@metadata": {
+		"authors": [
+			"BadDog",
+			"Милан Јелисавчић"
+		]
+	},
+	"bs-visualeditorconnector-desc": "Повезује Parsoid са Визелним уређивачем",
+	"bs-visualeditorconnector-enable-visualeditor": "Омогући визуелни уређивач за додатке BlueSpice-а",
+	"bs-visualeditorconnector-cancel-edit": "Откажи уређивање",
+	"bs-visualeditor-nsm-label": "Визуелни уређивач",
+	"bs-visualeditorconnector-inspector-tab-common-name": "Опште",
+	"bs-visualeditorconnector-inspector-tab-advanced-name": "Напредно"
+}

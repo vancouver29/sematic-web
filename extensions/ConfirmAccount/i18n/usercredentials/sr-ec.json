@@ -1,0 +1,27 @@
+{
+	"@metadata": {
+		"authors": [
+			"Rancher",
+			"Sasa Stefanovic",
+			"Михајло Анђелковић",
+			"Milicevic01",
+			"Сербијана",
+			"Acamicamacaraca",
+			"BadDog"
+		]
+	},
+	"usercredentials-user": "Корисничко име:",
+	"usercredentials-leg-user": "Кориснички налог",
+	"usercredentials-leg-areas": "Главне сфере интересовања",
+	"usercredentials-leg-person": "Личне информације",
+	"usercredentials-leg-other": "Други подаци",
+	"usercredentials-leg-ip": "Подаци IP адресе",
+	"usercredentials-email": "Имејл адреса:",
+	"usercredentials-real": "Право име:",
+	"usercredentials-bio": "Животопис:",
+	"usercredentials-attach": "Опис/CV:",
+	"usercredentials-notes": "Додатне напомене:",
+	"usercredentials-urls": "Списак вебсајтова:",
+	"usercredentials-ip": "Првобитна IP адреса:",
+	"usercredentials-member": "Права:"
+}

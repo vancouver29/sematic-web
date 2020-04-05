@@ -1,0 +1,8 @@
+{
+	"@metadata": {
+		"authors": [
+			"Sarrus"
+		]
+	},
+	"bs-notifications-email-create-subject": "Siden \"$1\" {{GENDER:$2|blev oprettet}} af $3"
+}

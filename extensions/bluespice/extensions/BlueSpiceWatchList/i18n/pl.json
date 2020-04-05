@@ -1,0 +1,15 @@
+{
+	"@metadata": {
+		"authors": [
+			"Chrumps"
+		]
+	},
+	"bs-watchlist-title-sidebar": "Obserwowane",
+	"bs-watchlist-pref-widgetsortodr": "Sortuj według:",
+	"bs-watchlist-pref-sort-time": "Czas",
+	"bs-watchlist-pref-sort-title": "Tytuł",
+	"bs-watchlist-window-watchlist-title": "Obserwowane",
+	"bs-watchlist-grid-watchlist-column-link-header": "Strona",
+	"bs-watchlist-grid-watchlist-column-istalkpage-header": "Strona dyskusji",
+	"bs-watchlist-grid-watchlist-label-filter": "Filtr"
+}

@@ -1,0 +1,13 @@
+<div class="p-search" id="{{id}}">
+	<form class="navbar-form navbar-left" role="search" autocomplete="off" action="{{action}}" method="{{method}}">
+		<div class="form-group">
+			<button type="submit" class="btn btn-default"><i class="p-search-icon"></i></button>
+			{{#searchInput}}
+				<input class="form-control" id="{{id}}" name="{{name}}" placeholder="{{placeholder}}" type="{{type}}">
+			{{/searchInput}}
+			{{#hiddenFields}}
+				<input value="{{fieldValue}}" name="{{fieldName}}" type="hidden">
+			{{/hiddenFields}}
+		</div>
+	</form>
+</div>

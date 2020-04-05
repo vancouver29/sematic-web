@@ -1,0 +1,126 @@
+/* TODO: improve code, remove not required elements */
+
+/* panel */
+.panel,
+.panel-default,
+.bs-accordion-panel,
+.panel-collapse,
+.panel-default > .panel-heading + .panel-collapse > .panel-body,
+.list-group-item {
+	border-radius: 0px;
+	border: none;
+	background-color: transparent;
+}
+
+.panel,
+.panel-default,
+.bs-accordion-panel,
+.panel-collapse,
+.panel-default{
+	box-shadow: none;
+	margin-bottom: 0px;
+	.panel-heading{
+		padding-left: 0px;
+		padding-right: 0px;
+		padding-top: 0px;
+		border-radius: 0px;
+		border: none;
+		background-color: transparent;
+		a,
+		a.visited{
+			width: 100%;
+			padding: 10px 0px 10px 10px;
+			text-decoration: none;
+			color: @navigation-color;
+			display: inline-flex;
+			justify-content: space-between;
+		}
+		a:hover{
+			background-color: @navigation-bg-color-hover;
+			color: @navigation-color-hover;
+			text-decoration: none;
+		}
+	}
+	.panel-title {
+		display: inline-flex;
+		justify-content: space-between;
+		width: 100%;
+		a {
+			width: 100%;
+		}
+		a::after {
+			content: "\e92c";
+			font-family: "entypo";
+			float: right;
+			padding-right: 1em;
+		}
+		a.collapsed::after {
+			content: "\e921";
+			font-family: "entypo";
+			float: right;
+			padding-right: 1em;
+		}
+	}
+	.panel-collapse.collapse.in {
+		margin-bottom: 20px;
+	}
+}
+
+/* bs-panel */
+.bs-panel.panel-default {
+	box-shadow: none;
+	.panel-heading .bs-panel-title {
+		display: inline;
+		line-height: 12px;
+		background-color: transparent;
+		.trigger.flyout{
+			i.trigger-icon::before{
+				content: "\e923";
+				font-family: "entypo";
+				font-style: normal;
+				float: right;
+				margin-right: 10px;
+				line-height: 12px;
+			}
+		}
+	}
+	.panel-heading.dynamic-graphical-list-visible .bs-panel-title {
+		a{
+			background-color: @navigation-graphicallist-bg-color;
+		}
+		.trigger.flyout{
+			display: inline;
+			i.trigger-icon::before{
+				content: "\e922";
+				font-family: "entypo";
+				font-style: normal;
+				float: right;
+			}
+		}
+	}
+	.panel-heading .bs-panel-title:hover{
+		background-color: @navigation-bg-color-hover;
+	}
+}
+
+/* list-group-item */
+
+a.list-group-item {
+	height: 48px;
+	line-height: 28px;
+	padding-top: 10px;
+	padding-bottom: 0px;
+	span {
+		display: inline-block;
+		overflow: hidden;
+		text-overflow: ellipsis;
+		max-width: 80%;
+		max-height: 100%;
+		margin-left: 24px;
+		line-height: 28px;
+	}
+	i {
+		float: left;
+		line-height: 28px;
+	}
+}

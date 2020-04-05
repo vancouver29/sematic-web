@@ -1,0 +1,31 @@
+@import "common.less";
+
+@import "component/desktop_sm/aside.navigation-main.less";
+@import "component/desktop_sm/aside.navigation-main.trigger.less";
+@import "component/desktop_sm/aside.sitetools-main.less";
+@import "component/desktop_sm/aside.sitetools-main.trigger.less";
+@import "component/desktop_sm/aside.sitetools-main.panel.less";
+@import "component/desktop_sm/collapse.less";
+@import "component/desktop_sm/custommenuheader.less";
+@import "component/desktop_sm/main.less";
+@import "component/desktop_sm/header.less";
+@import "component/desktop_sm/header.language-selector.less";
+@import "component/desktop_sm/header.featured-actions.less";
+@import "component/desktop_sm/header.logo.less";
+@import "component/desktop_sm/header.search.less";
+@import "component/desktop_sm/header.usercontainer.less";
+@import "component/desktop_sm/scrollToTop.less";
+
+body.mediawiki {
+	.calumma-desktop-visible,
+	.calumma-tablet-hidden,
+	.calumma-mobile-hidden { display: block; }
+	.calumma-desktop-hidden { display: none; }
+
+	.calumma-tablet-visible,
+	.calumma-mobile-visible,
+	.calumma-mobile-visible.calumma-tablet-visible { display: none; }
+
+	.calumma-desktop-visible.calumma-tablet-visible,
+	.calumma-desktop-visible.calumma-mobile-visible { display: block; }
+}

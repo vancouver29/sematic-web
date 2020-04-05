@@ -1,0 +1,21 @@
+{
+	"@metadata": {
+		"authors": [
+			"Pyscowicz"
+		]
+	},
+	"bs-statistics-year": "Vuosi",
+	"bs-statistics-month": "Kuukausi",
+	"bs-statistics-week": "Kalenteriviikko",
+	"bs-statistics-day": "Päivä",
+	"bs-statistics-list": "Luettelo",
+	"bs-statistics-finish": "Luo diagrammi",
+	"bs-statistics-filters": "Suodattimet",
+	"bs-statistics-diag-number-of-users": "Käyttäjien määrä",
+	"bs-statistics-label-name": "Nimi",
+	"bs-statistics-label-page": "Sivu",
+	"bs-statistics-label-creator": "Luoja",
+	"bs-statistics-label-time": "Aika",
+	"bs-statistics-filter-category": "Luokka",
+	"bs-statistics-portletconfig-periodday": "Eilen"
+}

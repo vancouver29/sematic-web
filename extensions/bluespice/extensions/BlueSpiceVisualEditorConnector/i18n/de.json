@@ -1,0 +1,24 @@
+{
+	"@metadata": {
+		"authors": [
+			"Markus Glaser <glaser@hallowelt.com>",
+			"Metalhead64",
+			"Sushi"
+		]
+	},
+	"bs-visualeditorconnector-desc": "Verbindet BlueSpice mit dem VisualEditor",
+	"bs-visualeditorconnector-enable-visualeditor": "VisualEditor für BlueSpice-Erweiterungen aktivieren",
+	"bs-visualeditorconnector-cancel-edit": "Bearbeitung abbrechen",
+	"bs-visualeditor-nsm-label": "Visuelle Bearbeitung",
+	"bs-visualeditorconnector-inspector-tab-common-name": "Allgemein",
+	"bs-visualeditorconnector-inspector-tab-advanced-name": "Erweitert",
+	"apihelp-bs-vec-transformtowikitext-description": "Wandelt HTML für den visuellen Editor in Wikitext um",
+	"apihelp-bs-vec-transformtowikitext-summary": "Wandelt HTML für den visuellen Editor in Wikitext um",
+	"apihelp-bs-vec-transformtohtml-description": "Wandelt Wikitext in HTML für den visuellen Editor um",
+	"apihelp-bs-vec-transformtohtml-summary": "Wandelt Wikitext in HTML für den visuellen Editor um",
+	"apihelp-bs-vec-transformtowikitext-param-html": "HTML für den visuellen Editor, der in Wikitext umgewandelt werden soll.",
+	"apihelp-bs-vec-transformtohtml-param-wikitext": "Wikitext, der in HTML für den visuellen Editor umgewandelt werden soll.",
+	"apihelp-bs-vec-restbase-mock-description": "Bietet einen Mock für RESTBase-Aufrufe des visuellen Editors",
+	"apihelp-bs-vec-restbase-mock-summary": "Stellt einen Mock für RESTBase-Aufrufe des visuellen Editors bereit",
+	"apihelp-bs-vec-restbase-mock-param-path": "RESTBase-Pfad, der gemockt werden soll"
+}

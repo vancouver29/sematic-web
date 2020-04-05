@@ -1,0 +1,34 @@
+{
+	"@metadata": {
+		"authors": [
+			"Gomoko",
+			"Ltrlg",
+			"Macofe",
+			"Wladek92",
+			"Alacabe"
+		]
+	},
+	"bs-readers-desc": "Crée une liste des lecteurs d’une page",
+	"prefs-readers": "Lecteurs",
+	"bs-readers-title": "{{PLURAL:$1|{{GENDER:$2|Lecteur|Lectrice}}|Lecteurs}}",
+	"readers-user": "Pages {{GENDER:$1|lues}} par : $1",
+	"readers": "Lecteurs de « $1 »",
+	"bs-readers-contentactions-label": "Afficher les lecteurs",
+	"bs-readers-pagenotexists": "La page n’existe pas.",
+	"bs-readers-pref-active": "Lecteurs actifs",
+	"bs-readers-pref-numofreaders": "Nombre de lecteurs à afficher :",
+	"bs-readers-emptyinput": "Aucune page n’a été fournie.",
+	"bs-readers-header-username": "Nom d’utilisateur",
+	"bs-readers-header-readerspath": "Lecteur",
+	"bs-readers-header-ts": "Date",
+	"bs-readers-header-page": "Page",
+	"apihelp-bs-readers-data-store-description": "Obtenir le informations concernant le lecteur de la page spécifique.",
+	"apihelp-bs-readers-data-store-summary": "Fournit les informations utilisateur d'une page donnée.",
+	"apihelp-bs-readers-users-store-description": "Obtenir les informations sur tous les lecteurs de la page spécifique.",
+	"apihelp-bs-readers-users-store-summary": "Obtenir toutes les informations des lecteurs d’une page spécifique.",
+	"apihelp-bs-readers-page-readers-store-summary": "Obtenir tous les lecteurs de toutes le pages",
+	"action-viewreaders": "afficher les lecteurs des pages",
+	"bs-readers-flyout-title": "Lecteurs de cette page",
+	"right-viewreaders": "Autorise de voir les lecteurs d'une page",
+	"bs-readers-privacy-transparency-working-readers": "BlueSpiceReaders - {{GENDER:$3|Vous}} lisez la page $1 sur $2"
+}

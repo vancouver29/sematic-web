@@ -1,0 +1,9 @@
+.mw-input .bs-avatars-profile-image {
+	display: block;
+	margin-top: 0.5em;
+
+}
+
+tr.bs-avatars-userimage-pref td {
+	vertical-align: top;
+}

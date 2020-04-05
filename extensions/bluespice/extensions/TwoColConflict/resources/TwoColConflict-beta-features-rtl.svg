@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="264" height="162" viewBox="0 0 264 162">
+	<defs>
+		<clipPath id="jagged-edge">
+			<path d="M0 0v152l12 10 12-10 12 10 12-10 12 10 12-10 12 10 12-10 12 10 12-10 12 10 12-10 12 10 12-10 12 10 12-10 12 10 12-10 12 10 12-10 12 10 12-10V0z"/>
+		</clipPath>
+	</defs>
+	<g fill="#eaecf0" clip-path="url(#jagged-edge)" transform="matrix(-1 0 0 1 264 0)">
+		<path id="background" fill="#fff" d="M0 0h264v162H0"/>
+		<path id="logo" d="M11 22c0-8 6-14 14-14s14 6 14 14-6 14-14 14-14-6-14-14M38 45v-5H13v5h25"/>
+		<path id="sidebar" d="M38 163V58H13v106h25"/>
+		<path id="personal-tools" d="M233 5h26v6h-26V5zM209 5h22v6h-22zM185 5h22v6h-22zM162 5h13v6h-13zM177 5h6v6h-6zM154 5h6v6h-6z"/>
+		<g id="search">
+			<path id="input" d="M258 16v4h-92v-4h92m1-1h-94v6h94v-6z"/>
+			<path id="icon" d="M168 17h2v2h-2z"/>
+		</g>
+		<path id="border" d="M0 0v162h264V0zm1 1h262v150.533l-11 9.166-12-10-12 10-12-10-12 10-12-10-12 10-12-10-12 10-12-10-12 10-12-10-12 10-12-10-12 10-12-10-12 10-12-10-12 10-12-10-12 10-11-9.167z"/>
+		<path fill-rule="evenodd" stroke-width=".206" d="M48 59.002l97.857.045.028 104.224H48.112z"/>
+		<path fill="none" fill-rule="evenodd" stroke="#eaecf0" stroke-width="2.757" d="M150.026 60.398h96.544l.05 102.873h-96.483z"/>
+		<g stroke-linecap="round" stroke-width=".617">
+			<path fill="#36c" d="M53.082 77.26h50.985v3.147H53.082z"/>
+			<path fill="#c8ccd1" d="M52.97 91.665h72.803v3.146H52.97z"/>
+			<path fill="#36c" d="M52.97 99.896h32.415v3.146H52.97z"/>
+			<path fill="#c8ccd1" d="M52.97 114.3h83.827v3.146H52.97zm.056 8.231h83.827v3.146H53.026zm-.056 6.173h41.8v3.147h-41.8zM158.82 77.26h80.047v3.147h-80.046zm0 22.636h80.047v3.146h-80.046zm0-15.433h80.047v3.146h-80.046zm0 7.202h29.441v3.146h-29.44zm0 22.635h80.047v3.146h-80.046zm0-8.231h80.047v3.146h-80.046zm.055 22.635h80.046v3.147h-80.046z"/>
+			<path fill="#eaecf0" stroke="#eaecf0" stroke-width="1.214" d="M53.718 45.505h23.669v3.881H53.718zm105.46-.103h23.668v3.881h-23.668z"/>
+			<path fill="#c8ccd1" stroke="#c8ccd1" stroke-width="2.158" d="M49.355 29h42.067v6.9H49.355z"/>
+			<path fill="#c8ccd1" d="M53.061 85.474h81.475v3.147H53.061z"/>
+		</g>
+		<g fill="none" fill-rule="evenodd" stroke="#36c">
+			<path stroke-width="1.023" d="M190.35 89.296v7.937"/>
+			<path stroke-width=".603" d="M191.683 89.197l-2.654.006m2.654 8.207l-2.654.005"/>
+		</g>
+	</g>
+</svg>

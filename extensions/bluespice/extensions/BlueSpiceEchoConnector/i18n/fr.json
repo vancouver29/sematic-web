@@ -1,0 +1,10 @@
+{
+	"@metadata": {
+		"authors": [
+			"Gomoko"
+		]
+	},
+	"bs-echoconnector-extension-description": "Se connecte à BlueSpice avec Echo",
+	"echo-category-title-bs-admin-cat": "Tâche d’administration effectué",
+	"echo-category-title-bs-page-actions-cat": "Action sur la page abonnée"
+}

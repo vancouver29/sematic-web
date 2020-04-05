@@ -1,0 +1,19 @@
+{
+	"@metadata": {
+		"authors": [
+			"Hex",
+			"Sjoerddebruin",
+			"Mainframe98"
+		]
+	},
+	"electronPdfService": "ElectronPdfService",
+	"electronPdfService-special-page-headline": "Als PDF downloaden",
+	"electronPdfService-download-label": "Als PDF downloaden",
+	"electronPdfService-download-button": "Downloaden",
+	"electronPdfService-sidebar-portlet-heading": "Afdrukken/exporteren",
+	"electronPdfService-sidebar-portlet-print-text": "Als PDF downloaden",
+	"electronPdfService-invalid-page-title": "Ongeldige pagina",
+	"electronPdfService-invalid-page-text": "De opgegeven pagina is ongeldig.",
+	"electronPDFService-warning-leave-feedback": "Terugkoppeling geven",
+	"electronPDFService-warning-read-more": "Meer lezen"
+}

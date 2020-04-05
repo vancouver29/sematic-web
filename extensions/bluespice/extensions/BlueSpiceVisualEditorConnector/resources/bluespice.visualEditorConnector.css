@@ -1,0 +1,47 @@
+.ve-init-sa-desktopTarget {
+	min-height: 190px;
+	max-width: 100%;
+	width: 100%;
+	height: auto;
+	margin-left: 0;
+	border-radius: 3px;
+	border: 1px solid #BBB;
+	padding: 1px 0px;
+	border-collapse: separate;
+	border-spacing: 2px;
+	background-color: #FFFFFF;
+}
+
+.x-ie11 .ve-init-sa-desktopTarget {
+	min-height: initial;
+	width: auto;
+	min-height: initial;
+}
+
+.ve-init-sa-desktopTarget form {
+	background-color: #FFFFFF;
+	padding: 0px;
+}
+
+.ve-init-sa-desktopTarget .oo-ui-popupToolGroup-header {
+	display: none;
+}
+
+.ve-init-sa-desktopTarget .oo-ui-popupWidget-anchored-top {
+	margin-top: 50px;
+}
+
+.ve-init-sa-desktopTarget span.ve-ce-branchNode-slug {
+	display: inline-block;
+}
+
+.ve-init-sa-desktopTarget section.ve-ce-branchNode {
+	/* fix for IE to hide resize handles */
+	pointer-events: none;
+}
+
+.bs-visualeditorconnector-cancel-edit {
+	vertical-align: middle;
+	border-left: 1px solid #c8ccd1;
+	padding: 5px;
+}

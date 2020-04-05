@@ -1,0 +1,12 @@
+{
+	"@metadata": {
+		"authors": [
+			"ديفيد"
+		]
+	},
+	"bluespiceeditnotifyconnector-desc": "يوسع تحرير الإخطار مع خيارات المستخدم",
+	"bluespiceeditnotifyconnector-action-message": "سيتم إرسال إشعار أو تحريره للنطاقات المحددة.",
+	"prefs-categories": "الإخطارات بشأن أحداث التصنيف",
+	"prefs-namespace-notifications": "الإخطارات بشأن أحداث النطاق",
+	"prefs-category-notifications": "الإشعارات بشأن التصنيفات"
+}

@@ -1,0 +1,8 @@
+.icon-admin-bluespiceabout::before {
+	content: '\e900';
+	font-family: 'bluespice-logo' !important;
+	font-style: normal;
+}
+.icon-admin-bluespiceabout span{
+	margin-left: -3px;
+}

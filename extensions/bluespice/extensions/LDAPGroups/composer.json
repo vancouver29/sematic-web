@@ -1,0 +1,54 @@
+{
+	"name": "mediawiki/ldap-groups",
+	"extra": {
+		"installer-name": "LDAPGroups"
+	},
+	"license": "GPL-2.0+",
+	"type": "mediawiki-extension",
+	"homepage": "https:\/\/www.mediawiki.org\/wiki\/Extension:LDAPGroups",
+	"description": "Map group membership from a directory service to MediaWiki.",
+	"keywords": [
+		"extension",
+		"wiki",
+		"mediawiki",
+		"ldap",
+		"groups"
+	],
+	"authors": [
+		{
+			"name": "Mark A. Hershberger",
+			"email": "mah@nichework.com",
+			"role": "Developer"
+		},
+		{
+			"name": "Robert Vogel",
+			"email": "vogel@hallowelt.com",
+			"role": "Contributor"
+		},
+		{
+			"name": "Cindy Cicalese",
+			"email": "cindom@gmail.com",
+			"role": "Contributor"
+		}
+	],
+	"require": {
+		"composer/installers": "~1.0"
+	},
+	"require-dev": {
+		"jakub-onderka/php-parallel-lint": "1.0.0",
+		"jakub-onderka/php-console-highlighter": "0.3.2",
+		"mediawiki/mediawiki-codesniffer": "19.0.0",
+		"mediawiki/minus-x": "0.3.1"
+	},
+	"scripts": {
+		"test": [
+			"parallel-lint . --exclude vendor --exclude node_modules",
+			"minus-x check .",
+			"phpcs -sp"
+		],
+		"fix": [
+			"minus-x fix .",
+			"phpcbf"
+		]
+	}
+}

@@ -1,0 +1,21 @@
+{
+	"@metadata": {
+		"authors": [
+			"Bjankuloski06"
+		]
+	},
+	"bs-notifications-email-addaccount-subject": "Корисникот $2 е {{GENDER:$1|создаден}}",
+	"bs-notifications-email-addaccount-body": "{{GENDER:$2|Корисникот}} $3 е создаден.\n\nМожете да ја посетите {{GENDER:$2|неговата корисничка страница|нејзината корисничка страница|корисничката страница}} на следнава врска:\n$1",
+	"bs-notifications-edit": "Страницата [[:$1]] е изменета",
+	"bs-notifications-email-edit-subject": "$3 ја {{GENDER:$2|измени}} страницата $1",
+	"bs-notifications-email-edit-body": "$6 ја {{GENDER:$2|измени}} страницата „$1“.\n\nКоментар:\n$3 \nСтраницата можете да ја посетите тука:\n$4\nАко сакате да ги видете само измените, погледајте тука:\n$5",
+	"bs-notifications-create": "Страницата [[:$1]] е создадена",
+	"bs-notifications-email-create-subject": "Страницата $1 е {{GENDER:$2|создадена}} од $3",
+	"bs-notifications-email-create-body": "Страницата „$1“ е {{GENDER:$2|создадена}} од $6.\n\nКоментар:\n $3 \nМожете да ја посетите на следнава врска:\n$4",
+	"bs-notifications-delete": "Страницата [[:$1]] е избришана",
+	"bs-notifications-email-delete-subject": "Странивата $1 е {{GENDER:$2|избришана}} од $3",
+	"bs-notifications-email-delete-body": "$5 ја {{GENDER:$2|избриша}} страницата „$4“.\n\nНаведена е следнава причина:\n$3",
+	"bs-notifications-move": "Страницата [[:$1]] е преместена",
+	"bs-notifications-email-move-subject": "Страницата $1 е {{GENDER:$2|преместена}} од $4",
+	"bs-notifications-email-move-body": "Страницата „$1“ е {{GENDER:$2|преместена}} на $3 од $5. Можете да ја посетите страницата на следнава врска:\n$4"
+}

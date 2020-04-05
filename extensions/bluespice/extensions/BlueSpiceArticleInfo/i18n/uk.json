@@ -1,0 +1,10 @@
+{
+	"@metadata": {
+		"authors": [
+			"Base"
+		]
+	},
+	"bs-articleinfo-desc": "Надає інформацію про сторінку у рядку стану",
+	"prefs-articleinfo": "Інформація про сторінку",
+	"bs-articleinfo-pref-CheckRevisionInterval": "Інтервал оновлення (у секундах):"
+}

@@ -1,0 +1,14 @@
+{
+	"@metadata": {
+		"authors": [
+			"Joetaras"
+		]
+	},
+	"pageassignments": "Assegnaziune",
+	"managepageassignments": "Gestione de le assegnaziune",
+	"bs-pageassignments-dlg-title": "Assegnaziune",
+	"bs-pageassignments-dlg-fldlabel": "Assegnaziune",
+	"bs-pageassignments-column-assignments": "Assegnaziune",
+	"prefs-pageassign": "Assegnazione",
+	"bs-pageassignments-assignee-special-everyone-label": "Tutte"
+}

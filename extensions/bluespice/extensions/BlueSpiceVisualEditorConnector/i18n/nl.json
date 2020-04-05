@@ -1,0 +1,14 @@
+{
+	"@metadata": {
+		"authors": [
+			"Elroy",
+			"Mainframe98"
+		]
+	},
+	"bs-visualeditorconnector-desc": "Koppelt BlueSpice aan VisualEditor",
+	"bs-visualeditorconnector-enable-visualeditor": "VisualEditor inschakelen voor uitbreidingen van BlueSpice",
+	"bs-visualeditorconnector-cancel-edit": "Bewerking annuleren",
+	"bs-visualeditor-nsm-label": "Visueel bewerkingsprogramma",
+	"bs-visualeditorconnector-inspector-tab-common-name": "Gangbaar",
+	"bs-visualeditorconnector-inspector-tab-advanced-name": "Uitgebreid"
+}

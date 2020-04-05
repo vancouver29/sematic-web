@@ -1,0 +1,30 @@
+@import "common.less";
+
+@import "component/tablet/aside.navigation-main.less";
+@import "component/tablet/aside.navigation-main.panel.less";
+@import "component/tablet/aside.navigation-main.mobile-user-container.less";
+@import "component/tablet/aside.navigation-main.trigger.less";
+@import "component/tablet/aside.sitetools-main.less";
+@import "component/tablet/aside.sitetools-main.trigger.less";
+@import "component/tablet/aside.sitetools-main.panel.less";
+@import "component/tablet/banner.less";
+@import "component/tablet/collapse.less";
+/* @import "component/tablet/custommenuheader.less"; not working propper yet*/
+@import "component/tablet/header.less";
+@import "component/tablet/header.logo.less";
+@import "component/tablet/header.mobile-notification-button.less";
+@import "component/tablet/header.search.less";
+@import "component/tablet/main.less";
+@import "component/tablet/scrollToTop.less";
+
+body.mediawiki {
+	.calumma-tablet-visible,
+	.calumma-mobile-hidden { display: block; }
+	.calumma-tablet-hidden { display: none; }
+
+	.calumma-desktop-visible,
+	.calumma-mobile-visible{ display: none; }
+
+	.calumma-tablet-visible.calumma-desktop-visible,
+	.calumma-tablet-visible.calumma-mobile-visible { display: block; }
+}

@@ -1,0 +1,10 @@
+{
+	"@metadata": {
+		"authors": [
+			"Nikosgranturismogt"
+		]
+	},
+	"bs-echoconnector-extension-description": "Συνδέει το BlueSpice με το Echo",
+	"echo-category-title-bs-admin-cat": "Εκτελέστηκε διαχειριστκή εργασία",
+	"echo-category-title-bs-page-actions-cat": "Ενέργεια σε συνδρομημένη σελίδα"
+}

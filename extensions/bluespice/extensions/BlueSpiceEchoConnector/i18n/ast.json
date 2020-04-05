@@ -1,0 +1,10 @@
+{
+	"@metadata": {
+		"authors": [
+			"Xuacu"
+		]
+	},
+	"bs-echoconnector-extension-description": "Conecta BlueSpice con Echo",
+	"echo-category-title-bs-admin-cat": "Xera alministrativa fecha",
+	"echo-category-title-bs-page-actions-cat": "Aición en páxina suscrita"
+}

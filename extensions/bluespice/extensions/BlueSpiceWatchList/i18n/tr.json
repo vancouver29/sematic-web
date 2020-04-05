@@ -1,0 +1,17 @@
+{
+	"@metadata": {
+		"authors": [
+			"Sayginer",
+			"Hedda"
+		]
+	},
+	"bs-watchlist-title-sidebar": "İzleme listesi",
+	"bs-watchlist-pref-widgetsortodr": "Sıralama ölçütü:",
+	"bs-watchlist-pref-sort-title": "Başlık",
+	"bs-watchlist-window-watchlist-title": "İzleme listesi",
+	"bs-watchlist-grid-watchlist-column-link-header": "Sayfa",
+	"bs-watchlist-grid-watchlist-column-hasunreadchanges-header": "Okunmamış değişiklikler",
+	"bs-watchlist-grid-watchlist-column-hasunreadchanges-tooltip": "Değişiklikleri inceleyin",
+	"bs-watchlist-grid-watchlist-column-istalkpage-header": "Tartışma sayfası",
+	"bs-watchlist-grid-watchlist-label-filter": "Filtre"
+}

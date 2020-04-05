@@ -1,0 +1,21 @@
+{
+	"@metadata": {
+		"authors": [
+			"TheEduGobi",
+			"Eduardo Addad de Oliveira",
+			"Felipe L. Ewald"
+		]
+	},
+	"electronPdfService": "ElectronPdfService",
+	"electronPdfService-desc": "Adiciona compatibilidade de renderização de PDF pelo navegador através do serviço Electron",
+	"electronPdfService-special-page-headline": "Baixar como PDF",
+	"electronPdfService-download-label": "Baixar como PDF",
+	"electronPdfService-download-button": "Baixar",
+	"electronPdfService-sidebar-portlet-heading": "Imprimir/exportar",
+	"electronPdfService-sidebar-portlet-print-text": "Baixar como PDF",
+	"electronPdfService-invalid-page-title": "Página inválida",
+	"electronPdfService-invalid-page-text": "A página especificada não é valida.",
+	"electronPDFService-warning-message": "Temos problemas na função que usamos para criar arquivos PDF. Infelizmente, teremos de substituí-la. Isto afeta o estilo e as funcionalidades da função livros. Para mais informações e para deixar comentários, visite a [https://www.mediawiki.org/wiki/Reading/Web/PDF_Functionality página do projeto]",
+	"electronPDFService-warning-leave-feedback": "Deixar um comentário",
+	"electronPDFService-warning-read-more": "Leia mais"
+}

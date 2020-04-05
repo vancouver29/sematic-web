@@ -1,0 +1,27 @@
+{
+	"@metadata": {
+		"authors": [
+			"Joetaras"
+		]
+	},
+	"bs-statistics-diagram": "'Nderrogazione",
+	"bs-statistics-from": "Da",
+	"bs-statistics-to": "A",
+	"bs-statistics-grain": "'Ndervalle",
+	"bs-statistics-mode": "Mode",
+	"bs-statistics-aggregated": "aggregate",
+	"bs-statistics-absolute": "assolute",
+	"bs-statistics-year": "Anne",
+	"bs-statistics-month": "Mese",
+	"bs-statistics-week": "Sumane d'u calendarije",
+	"bs-statistics-day": "Sciúrne",
+	"bs-statistics-list": "Elenghe",
+	"bs-statistics-not-allowed": "Non ge tìne le permesse necessarie.",
+	"bs-statistics-finish": "Ccreje 'nu diagramme",
+	"bs-statistics-filters": "Filtre",
+	"bs-statistics-diag-number-of-users": "Numere de utinde ccrejate",
+	"bs-statistics-diag-number-of-pages": "Numere de pàggene ccrejate",
+	"bs-statistics-diag-number-of-pages-mw": "Numere de vôsce ccrejate",
+	"bs-statistics-button-label-export": "Esporte",
+	"bs-statistics-panel-title-result": "Resultate"
+}

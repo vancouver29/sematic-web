@@ -1,0 +1,12 @@
+{
+	"@metadata": {
+		"authors": [
+			"Ljonka"
+		]
+	},
+	"bluespiceeditnotifyconnector-desc": "Extends EditNotify with useroptions",
+	"bluespiceeditnotifyconnector-action-message": "Create or edit notification for selected namespaces will be sent.",
+	"prefs-categories": "Notifications on category events",
+	"prefs-namespace-notifications": "Notifications on namespace events",
+	"prefs-category-notifications": "Notifications on categories"
+}

@@ -1,0 +1,23 @@
+{
+	"@metadata": {
+		"authors": [
+			"Subi",
+			"Mikel Ibaiba"
+		]
+	},
+	"twoColConflict-changes-col-desc-3": "$1 {{PLURAL:$1|aldiz}} aldatua ($2)",
+	"twoColConflict-changes-col-desc-4": "zure testua.",
+	"twoColConflict-base-selection-own-label": "Nire testua",
+	"twoColConflict-diffchange-own-title": "zure bertsioan",
+	"twoColConflict-diffchange-foreign-title": "$1(r)en bertsioan",
+	"twoColConflict-diffchange-unchanged-title": "Aldatu gabeko testua",
+	"twoColConflict-label-show": "erakutsi",
+	"twoColConflict-label-hide": "ezkutatu",
+	"twoColConflict-label-unchanged": "aldatu gabeko testua",
+	"twoColConflict-show-help-tooltip": "Erakutsi laguntza-testua",
+	"twoColConflict-help-dialog-slide1": "Orrialde honek arazoak konpontzen laguntzen dizu. Bi zutabe daude: lehenengoan arazoak duten aldaketak daude eta bigarrena testu editorea da, honetan dagoen edukia argitaratuko da. \n[//www.mediawiki.org/wiki/Help_talk:Two_Column_Edit_Conflict_View Honetan erantzutea eskertzen dugu].",
+	"twoColConflict-previous-dialog": "Aurrekoa",
+	"twoColConflict-next-dialog": "Hurrengoa",
+	"twoColConflict-close-dialog": "Itxi",
+	"twoColConflict-test-no-direct-editing": "Orri hau ezin da zuzenean aldatu."
+}

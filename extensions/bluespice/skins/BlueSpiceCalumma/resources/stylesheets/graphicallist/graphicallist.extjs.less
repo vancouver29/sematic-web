@@ -1,0 +1,51 @@
+@import "../dimensions.less";
+@import "../colors.less";
+@import "../fonts.less";
+
+.dynamic-graphical-list-body .bs-flyout-tabbed-data-view {
+	// upper menu with tabs ( preview, list, ... )
+	.x-tab-bar-docked-top.x-tab-bar-default-docked-top {
+		background-color: transparent;
+	}
+	.x-tab-bar-body.x-tab-bar-body-default {
+		background-color: transparent;
+		padding: 10px 0px;
+		padding-left: 12px;
+		.x-tab {
+			background: @navigation-graphicallist-bg-color;
+			border: 1px solid white;
+			border-radius: 5px;
+			span {
+				padding: 5px;
+				margin: 0;
+				text-align: center;
+				color: white;
+			}
+			span[class~="icon-grid"]::before{
+				font-family: fontawesome;
+				content: '\f03a';
+			}
+			span[class~="icon-thumbs"]::before{
+				font-family: fontawesome;
+				content: '\f009';
+			}
+		}
+		.x-tab.x-tab-active {
+			background-color: @bs-color-primary;
+			border-color: lighten( @navigation-graphicallist-bg-color, 5% );
+			span[data-ref~="btnIconEl"]::before{
+				color: lighten( @navigation-graphicallist-bg-color, 5% );
+			}
+		}
+	}
+	.x-panel-body.x-panel-body-default {
+		background-color: transparent;
+	}
+	// toolbar ( add-button before .x-panel-body and paging toolbar after .x-panel-body )
+	.x-toolbar {
+		//background-color: darken( @navigation-graphicallist-bg-color, 5% );
+		.x-toolbar-text{
+			//color: white;
+		}
+	}
+}

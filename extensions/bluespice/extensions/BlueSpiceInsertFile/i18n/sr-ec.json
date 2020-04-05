@@ -1,0 +1,26 @@
+{
+	"@metadata": {
+		"authors": [
+			"Milicevic01",
+			"Сербијана",
+			"Obsuser",
+			"Милан Јелисавчић",
+			"BadDog"
+		]
+	},
+	"bs-insertfile-insert-image": "Уметни слику",
+	"bs-insertfile-insert-file": "Уметните датотеку",
+	"bs-insertfile-labelfilter": "Филтер:",
+	"bs-insertfile-filename": "Назив датотеке",
+	"bs-insertfile-filesize": "Величина датотеке",
+	"bs-insertfile-lastmodified": "Скорашње измене",
+	"bs-insertfile-details-title": "Детаљи",
+	"bs-insertfile-labelalt": "Алтернативни текст",
+	"bs-insertfile-typeframe": "оквир",
+	"bs-insertfile-titlefile": "Уграђивање датотеке",
+	"bs-insertfile-enable-align": "Омогући",
+	"bs-insertfile-nstext": "Врста везе",
+	"bs-insertfile-nstextfile": "Датотека",
+	"bs-insertfile-nstextfile-image": "Прикажи слику",
+	"bs-insertfile-advanced-search-panel-label": "Напредна претрага"
+}

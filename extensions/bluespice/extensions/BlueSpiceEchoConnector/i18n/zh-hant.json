@@ -1,0 +1,10 @@
+{
+	"@metadata": {
+		"authors": [
+			"Kly"
+		]
+	},
+	"bs-echoconnector-extension-description": "以 Echo 來連接 BlueSpice",
+	"echo-category-title-bs-admin-cat": "管理任務已執行",
+	"echo-category-title-bs-page-actions-cat": "在訂閱頁面上操作"
+}

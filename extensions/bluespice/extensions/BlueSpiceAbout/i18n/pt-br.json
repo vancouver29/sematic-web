@@ -1,0 +1,15 @@
+{
+	"@metadata": {
+		"authors": [
+			"Felipe L. Ewald",
+			"Eduardo Addad de Oliveira"
+		]
+	},
+	"bs-bluespiceabout-desc": "Informação sobre o BlueSpice",
+	"bs-bluespiceabout-about-bluespice": "Sobre o Bluespice",
+	"bluespiceabout": "Sobre o Bluespice",
+	"prefs-bluespiceabout": "Sobre o Bluespice",
+	"bs-bluespiceabout-show-menu-links": "Mostrar ligação \"{{int:bs-bluespiceabout-about-bluespice}}\" no topo e no menu principal",
+	"action-bluespiceabout-viewspecialpage": "ver a página especial \"{{int:bs-bluespiceabout-sobre-bluespice}}\"",
+	"right-bluespiceabout-viewspecialpage": "Concede acesso à página especial [[Special:BlueSpiceAbout]]."
+}

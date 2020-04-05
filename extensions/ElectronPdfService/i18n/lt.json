@@ -1,0 +1,13 @@
+{
+	"@metadata": {
+		"authors": [
+			"Eitvys200"
+		]
+	},
+	"electronPdfService-special-page-headline": "Parsisiųsti kaip PDF",
+	"electronPdfService-download-button": "Atsisiųsti",
+	"electronPdfService-sidebar-portlet-heading": "Spausdinti/eksportuoti",
+	"electronPdfService-sidebar-portlet-print-text": "Parsisiųsti kaip PDF",
+	"electronPdfService-invalid-page-title": "Negalimas puslapis",
+	"electronPdfService-invalid-page-text": "Nurodytas puslapis negalimas."
+}

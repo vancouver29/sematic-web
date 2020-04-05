@@ -1,0 +1,38 @@
+a#bs-editbutton-insertcategory {
+	/*@embed*/
+	background-image: url(images/button_insert-category.png);
+}
+i.mce-i-bsinsertcategory {
+	/*@embed*/
+	background-image: url(images/button_insert-category-16px.png);
+}
+
+.bs-insertcategory-hint {
+	padding: 3px;
+	background-color: #e3e5eb;
+}
+
+/*
+ * This is an ugly workaround. When "InsertCategory" is enabled it replaces
+ * the default category list from "ArticleInfo". For the future we plan to
+ * _integrate_ into the category list "ArticleInfo" and just add an "edit"
+ * button that switches the UI.
+ */
+.bs-articleinfo-flyout-categorylist-cnt {
+	display: none;
+}
+
+.category-editor-form .editor-button {
+	margin-left: 0.2em;
+}
+
+.bs-insertcategory-category-editor .x-panel-header-title .tool-link {
+	font-size: small;
+	margin-left: 0.5em;
+	display: none;
+}
+
+.bs-insertcategory-category-editor:hover .x-panel-header-title .tool-link {
+	margin-left: 0.5em;
+	display: inline;
+}

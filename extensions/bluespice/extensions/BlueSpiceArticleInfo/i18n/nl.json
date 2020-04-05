@@ -1,0 +1,21 @@
+{
+	"@metadata": {
+		"authors": [
+			"Niknetniko",
+			"Sjoerddebruin",
+			"McDutchie",
+			"Ribert",
+			"Siebrand",
+			"SPQRobin"
+		]
+	},
+	"bs-articleinfo-desc": "Geeft informatie over een pagina in een statusbalk",
+	"prefs-articleinfo": "Paginagegevens",
+	"bs-articleinfo-pref-CheckRevisionInterval": "Interval voor bijwerken, in seconden:",
+	"bs-articleinfo-flyout-title": "Paginagegevens",
+	"bs-articleinfo-flyout-intro": "Overzicht van activiteiten op deze pagina",
+	"bs-articleinfo-nav-link-title": "Paginagegevens",
+	"bs-articleinfo-flyout-categorylinks-title": "Categorieën",
+	"bs-articleinfo-flyout-lasteditedtime-text": "Laatste bewerking",
+	"bs-articleinfo-flyout-lastediteduser-text": "Laatste bewerker"
+}

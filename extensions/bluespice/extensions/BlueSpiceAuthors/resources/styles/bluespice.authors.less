@@ -1,0 +1,82 @@
+div.grapicallist-authors-body {
+	width: 10vw;
+	div.originator {
+		width: 100%;
+		margin-bottom: 2em;
+		padding-bottom: 1em;
+		border-bottom: 2px dotted @bs-color-neutral3;
+		text-align: center;
+		img {
+			width: 64px;
+			height: 64px;
+			border-radius: 128px;
+		}
+	}
+	div.authors {
+		width: 100%;
+		display: inline;
+		.bs-userminiprofile {
+			display: inline;
+			img {
+				width: 48px;
+				height: 48px;
+				border-radius: 128px;
+				margin-right: 5px;
+				margin-bottom: 5px;
+			}
+		}
+	}
+	.authors-more {
+		display: inline;
+		a {
+			display: inline;
+		}
+		.bs-authors-more-icon {
+			display: inline-block;
+			background-image: url("../images/more-users_v2.png");
+			width: 48px;
+			height: 48px;
+			border-radius: 128px;
+			margin-bottom: -18px;
+		}
+	}
+}
+
+.bs-authors-flyout-authors {
+	.x-grid-row {
+		height: 47px;
+	}
+	.bs-authors-flyout-grid-item {
+		.bs-userminiprofile {
+			display: inline-block;
+			width: 40px;
+			height: 40px;
+			.bs-userhelpful {
+				position: absolute;
+				width: 30%;
+				margin-right: 5px;
+				position: absolute;
+				top: 10px;
+				right: 0px;
+				height: 30px;
+			}
+			img {
+				width: 40px;
+				height: 40px;
+			}
+		}
+		span {
+			font-weight: bold;
+			margin-left: 10px;
+		}
+		.author-type {
+			margin-left: 5px;
+			&:before {
+				content: "(";
+			}
+			&:after {
+				content: ")";
+			}
+		}
+	}
+}

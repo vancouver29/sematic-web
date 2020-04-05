@@ -1,0 +1,13 @@
+{
+	"@metadata": {
+		"authors": [
+			"Hedda"
+		]
+	},
+	"bs-visualeditorconnector-desc": "VisualEditor ile BlueSpice'a bağlan",
+	"bs-visualeditorconnector-enable-visualeditor": "BlueSpice uzantıları için VisualEditor'ı etkinleştirin",
+	"bs-visualeditorconnector-cancel-edit": "Düzenlemeyi iptal et",
+	"bs-visualeditor-nsm-label": "Görsel Düzenleyici",
+	"bs-visualeditorconnector-inspector-tab-common-name": "Genel",
+	"bs-visualeditorconnector-inspector-tab-advanced-name": "Gelişmiş"
+}

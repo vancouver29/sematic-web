@@ -1,0 +1,25 @@
+body {
+
+	/* aside.navigation-main */
+	&:not( .navigation-main-collapse ) .navigation-main {
+		width: 100vw;
+		transition: width .3s;
+
+		#bs-sitenavtabs {
+			width: 100vw;
+			transition: width .3s;
+		}
+	}
+
+	&.navigation-main-collapse .navigation-main.active,
+	&.navigation-main-collapse .navigation-main {
+		width: 0px;
+		transition: width .3s;
+
+		#bs-sitenavtabs {
+			width: 0px;
+			transition: width .3s;
+		}
+	}
+
+}

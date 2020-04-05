@@ -1,0 +1,23 @@
+{
+	"name": "Figures",
+	"version": "0.0.0",
+	"author": [
+		"Nischayn22",
+		"WikiWorks"
+	],
+	"url": "https://www.mediawiki.org/wiki/Extension:Figures",
+	"license-name": "MIT",
+	"type": "other",
+	"AutoloadClasses": {
+		"Figures": "Figures.php"
+	},
+	"Hooks": {
+		"ParserFirstCallInit": [
+			"Figures::onParserSetup"
+		]
+	},
+	"ExtensionMessagesFiles": {
+		"Figures": "Figures.i18n.magic.php"
+	},
+	"manifest_version": 1
+}

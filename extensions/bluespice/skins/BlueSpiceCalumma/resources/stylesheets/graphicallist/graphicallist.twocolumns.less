@@ -1,0 +1,33 @@
+@import "../dimensions.less";
+@import "../colors.less";
+@import "../fonts.less";
+
+@primary-color: @sitetools-graphicallist-color;
+
+.dynamic-graphical-list-outer-west.dynamic-graphical-list-outer{
+	.dynamic-graphical-list-inner .dynamic-graphical-list-header {
+		.dynamic-graphical-list-intro {
+			color: @primary-color;
+		}
+	}
+	.bs-flyout-two-columns.x-panel.x-panel-default {
+		padding-top: 20px;
+		margin-left: 20px;
+		margin-right: 20px;
+
+		.x-btn-inner-default-small {
+			font-weight: 400;
+		}
+	}
+	// common
+	.x-panel-header.x-header {
+		padding-left: 0px;
+		.x-title.x-panel-header-title.x-panel-header-title-default {
+			.x-title-text.x-title-text-default.x-title-item {
+				color: @primary-color;
+				font-weight: @font-weight-regular;
+				text-align: left;
+			}
+		}
+	}
+}

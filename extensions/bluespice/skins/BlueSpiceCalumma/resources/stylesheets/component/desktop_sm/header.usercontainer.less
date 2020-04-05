@@ -1,0 +1,94 @@
+/* copy of desktop_sm */
+.bs-button-user{
+	float: right;
+	width: 200px;
+	margin-top: @menu-top-items-margin - 8px;
+	.bs-personal-not-loggedin {
+		line-height: 48px;
+		font-size: 105%;
+		font-weight: 700;
+		right: 2em;
+		position: fixed;
+		color: @menu-top-color;
+		&:hover{
+			text-decoration: none;
+			color: @menu-top-color-hover;
+		}
+	}
+	.bs-profile-img{
+		border-radius: 128px;
+		right: 2em;
+		position: fixed;
+		object-fit: cover;
+	}
+	.bs-personal-menu-container{
+		margin-left: 0px;
+		width: 100%;
+		top: 60px;
+		background-color: @menu-top-dropdown-bg-color;
+		ul{
+			list-style: none;
+			padding: 1em;
+		}
+	}
+	.bs-personal-menu-container::before {
+		font-size: 3em;
+		font-family: 'fontawesome';
+		content: "\f0d8";
+		position: absolute;
+		top: -0.9em;
+		right: 22px;
+		color: @menu-top-dropdown-bg-color;
+		height: 1em;
+		z-index: -1;
+	}
+	#bs-personal-menu{
+		padding: 0px;
+		li{
+			border: none;
+			width: 100%;
+			a{
+				width: 100%;
+				color: @menu-top-dropdown-color;
+				text-decoration: none;
+				display: block;
+				padding-left: 1em;
+				padding-right: 1em;
+				padding-top: 3px;
+				height: 32px;
+				line-height: 28px;
+			}
+			a:hover{
+				background-color:  @menu-top-dropdown-bg-color-hover;
+				color: @menu-top-dropdown-color-hover;
+			}
+		}
+		.bs-userbutton-notifications-link::after{
+			content: attr(data-notifications-badge-text);
+			float: right;
+			color: @notification-color;
+			font-weight: @font-weight-bold;
+		}
+		.separator {
+			display: block;
+			width: 100%;
+			border-bottom: 18px solid @menu-top-dropdown-bg-color;
+		}
+	}
+	.bs-userbutton-notifications-badge {
+		width: 2.5em;
+		height: 2.5em;
+		background-color: @notification-color;
+		color: white;
+		font-weight: @font-weight-bold;
+		border-radius: 1.5em;
+		text-align: center;
+		line-height: 2.5em;
+		font-size: 11px;
+		position: absolute;
+		right: calc(~"1em - 12px");
+		top: 0px;
+		z-index: 100;
+	}
+}
+

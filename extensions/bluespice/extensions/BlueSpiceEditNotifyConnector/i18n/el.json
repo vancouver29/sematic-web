@@ -1,0 +1,11 @@
+{
+	"@metadata": {
+		"authors": [
+			"Nikosgranturismogt"
+		]
+	},
+	"bluespiceeditnotifyconnector-desc": "Επεκτείνει το EditNotify με επιλογές χρήστη",
+	"bluespiceeditnotifyconnector-action-message": "Δημιουργήστε ή επεξεργαστείτε ειδοποιήσεις για επιλεγμένους ονοματοχώρους για να σταλούν.",
+	"prefs-categories": "Ειδοποιήσεις για συμβάντα κατηγοριών",
+	"prefs-namespace-notifications": "Ειδοποιήσεις για συμβάντα ονοματοχώρου"
+}

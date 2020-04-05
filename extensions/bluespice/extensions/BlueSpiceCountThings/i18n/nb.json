@@ -1,0 +1,20 @@
+{
+	"@metadata": {
+		"authors": [
+			"Jon Harald Søby"
+		]
+	},
+	"bs-countthings-desc": "Gir innholdsbasert statistikk",
+	"bs-countthings-chars-label": "Tegn",
+	"bs-countthings-words-label": "Ord",
+	"bs-countthings-pages-label": "Sider",
+	"bs-countthings-error-no-input": "Ingen side oppgitt.",
+	"bs-countthings-error-invalid-mode": "Modusen «$1» er ugyldig. Bruk «chars», «words» eller «pages».",
+	"bs-countthings-error-not-exist": "Siden «$1» finnes ikke.",
+	"bs-countthings-tag-countarticles-desc": "Viser antall artikler på wikien.",
+	"bs-countthings-tag-countusers-desc": "Viser antall registrerte brukere.",
+	"bs-countthings-tag-countcharacters-desc": "Genererer metadata om innholdet til den gitte artikkelen. Resultatet er en infoboks som kan integreres i en artikkel. Med parameteren «mode» kan forskjellige typer informasjon vises.",
+	"bs-countthings-tag-countcharacters-desc-param-mode": "<code>mode</code>: Hva som skal telles: <code>chars</code> (tegn), <code>words</code> (ord) eller <code>pages</code> (sider).",
+	"bs-countthings-tag-countcharacters-example-1": "Antall ord",
+	"bs-countthings-tag-countcharacters-example-2": "Antall tegn"
+}

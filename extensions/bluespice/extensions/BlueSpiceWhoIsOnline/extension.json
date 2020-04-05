@@ -1,0 +1,83 @@
+{
+	"name": "BlueSpiceWhoIsOnline",
+	"version": "3.0.1",
+	"license-name": "GPL-3.0-only",
+	"url": "https://en.wiki.bluespice.com/wiki/Reference:WhoIsOnline",
+	"author": "Markus Glaser",
+	"descriptionmsg": "bs-whoisonline-desc",
+	"type": "bluespice",
+	"requires": {
+		"MediaWiki": ">= 1.29.0"
+	},
+	"attributes": {
+		"BlueSpiceFoundation": {
+			"Extensions": {
+				"BlueSpiceWhoIsOnline": {
+					"className": "WhoIsOnline",
+					"extPath": "/BlueSpiceWhoIsOnline",
+					"configDefinitions": {
+						"WhoIsOnlineMaxIdleTime": "\\BlueSpice\\WhoIsOnline\\ConfigDefinition\\MaxIdleTime::getInstance",
+						"WhoIsOnlineInterval": "\\BlueSpice\\WhoIsOnline\\ConfigDefinition\\Interval::getInstance"
+					}
+				}
+			}
+		}
+	},
+	"MessagesDirs": {
+		"BlueSpiceWhoIsOnline": [
+			"i18n"
+		]
+	},
+	"ExtensionMessagesFiles": {
+		"WhoIsOnlineMagic": "languages/WhoIsOnline.i18n.magic.php"
+	},
+	"AutoloadClasses": {
+		"WhoIsOnline": "WhoIsOnline.class.php",
+		"ViewWhoIsOnlineTag": "views/view.WhoIsOnlineTag.php",
+		"ViewWhoIsOnlineItemWidget": "views/view.WhoIsOnlineItemWidget.php",
+		"ViewWhoIsOnlineWidget": "views/view.WhoIsOnlineWidget.php"
+	},
+	"ResourceModules": {
+		"ext.bluespice.whoisonline": {
+			"scripts": "bluespice.whoIsOnline.js",
+			"dependencies": [
+				"ext.bluespice"
+			]
+		}
+	},
+	"ResourceFileModulePaths": {
+		"localBasePath": "resources",
+		"remoteExtPath": "BlueSpiceWhoIsOnline/resources"
+	},
+	"Hooks": {
+		"LoadExtensionSchemaUpdates": "\\BlueSpice\\WhoIsOnline\\Hook\\LoadExtensionSchemaUpdates\\AddWhoIsOnlineTable::callback",
+		"GetPreferences": [
+			"\\BlueSpice\\WhoIsOnline\\Hook\\GetPreferences\\LimitCount::callback",
+			"\\BlueSpice\\WhoIsOnline\\Hook\\GetPreferences\\OrderBy::callback"
+		]
+	},
+	"DefaultUserOptions": {
+		"bs-whoisonline-pref-limitcount": 7,
+		"bs-whoisonline-pref-orderby": "onlinetime"
+	},
+	"config_prefix": "bsg",
+	"config": {
+		"WhoIsOnlineMaxIdleTime": {
+			"value": 600,
+			"descriptionmsg": "bs-whoisonline-pref-maxidletime",
+			"public": true
+		},
+		"WhoIsOnlineInterval": {
+			"value": 10,
+			"descriptionmsg": "bs-whoisonline-pref-interval",
+			"public": true
+		},
+		"WhoIsOnlineLimitCount": {
+			"value": 7,
+			"descriptionmsg": "bs-whoisonline-pref-limitcount",
+			"public": true
+		}
+	},
+	"load_composer_autoloader" : true,
+	"manifest_version": 2
+}

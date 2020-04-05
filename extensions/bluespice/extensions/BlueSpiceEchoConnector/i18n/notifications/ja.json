@@ -1,0 +1,11 @@
+{
+	"@metadata": {
+		"authors": [
+			"Omotecho"
+		]
+	},
+	"bs-notifications-edit": "ページ「$1」が変更されました",
+	"bs-notifications-create": "ページ「$1」が作成されました",
+	"bs-notifications-delete": "ページ「$1」が削除されました",
+	"bs-notifications-move": "ページ「$1」が移動されました"
+}

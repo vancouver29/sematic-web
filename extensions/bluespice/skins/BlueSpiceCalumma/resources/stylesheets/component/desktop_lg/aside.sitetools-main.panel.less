@@ -1,0 +1,183 @@
+.sitetools-main {
+	/* panel */
+	.panel.panel-default {
+		border: none;
+		background-color: transparent;
+		box-shadow: none;
+		.panel-collapse {
+			border: none;
+		}
+		.panel-heading {
+			background-color: transparent;
+			border: none;
+			padding: 0px;
+			height: 48px;
+			.panel-title {
+				a {
+					color: @sitetools-color;
+					font-weight: @font-weight-regular;
+					width: 100%;
+					display: block;
+					padding-left: 15px
+				}
+				a::before {
+					content: "\e92c";
+					font-family: "entypo";
+					padding-right: 1em;
+				}
+				a.collapsed::before {
+					content: "\e921";
+					font-family: "entypo";
+					padding-right: 1em;
+				}
+				a:hover, a:hover::before {
+					color: @sitetools-color;
+					background-color:transparent;
+				}
+			}
+			.panel-title:hover{
+				background-color: transparent;
+			}
+		}
+		.panel-heading:hover {
+			background-color: @sitetools-graphicallist-bg-color;
+		}
+		.list-group {
+			.list-group-item {
+				padding: 15px;
+				padding-top: 10px;
+				padding-bottom: 10px;
+				border: none;
+				span {
+					display: inline-block;
+					overflow: hidden;
+					text-overflow: ellipsis;
+					max-width: 80%;
+					max-height: 100%;
+					white-space: nowrap;
+				}
+			}
+			.list-group-item:hover {
+				background-color: @sitetools-graphicallist-bg-color;
+			}
+		}
+	}
+
+	/* bs-panel */
+	.bs-panel.panel-default {
+		width: @sitetools-main-width;
+		box-shadow: none;
+		margin-bottom: 10px;
+		.panel-collapse.collapsing,
+		.panel-collapse.collapse.in {
+			clear: both;
+
+			&:empty {
+				display: none;
+			}
+		}
+		.panel-heading {
+			padding: 0px 7px 0px 15px;
+			padding-right: 7px;
+			padding-left: 15px;
+			background-color: transparent;
+			border: none;
+			line-height: 14px;
+		}
+		.panel-heading:hover {
+			background-color: @sitetools-graphicallist-bg-color;
+		}
+		.panel-heading .bs-panel-title {
+			margin: 0;
+			background-color: transparent;
+			a.tool{
+				float: right;
+			}
+			a.title{
+				font-size: 20px;
+				float: left;
+				span.title {
+					float: left;
+				}
+			}
+			i{
+				font-style: normal;
+				float: left;
+				width: 32px;
+			}
+			.trigger.flyout{
+				i.trigger-icon::before{
+					content: "\e922";
+					font-family: "entypo";
+					font-style: normal;
+					float: right;
+					width: 40px;
+					margin-right: 0px;
+				}
+			}
+			.trigger.body{
+				float: left;
+				i.trigger-icon::before{
+					content: "\e92c";
+					font-family: "entypo";
+					float: right;
+					font-style: normal;
+					padding-right: 1em;
+				}
+			}
+			.collapsed .trigger.body{
+				i.trigger-icon::before{
+					content: "\e921";
+				}
+			}
+		}
+		.flyout-body-hint {
+			padding: 3px;
+			padding-left: 47px; //= 15px (padding of `.panel-heading`) +  32px (width of `.trigger-icon`)
+			font-size: small;
+			a {
+				color: inherit;
+			}
+			a:hover {
+				text-decoration: underline;
+			}
+		}
+		.list-group {
+			.list-group-item {
+				border: 0;
+				padding: 3px;
+				padding-left: 34px;
+				height: 32px;
+
+				span {
+					display: inline-block;
+					overflow: hidden;
+					text-overflow: ellipsis;
+					max-width: 80%;
+					max-height: 100%;
+					white-space: nowrap;
+				}
+
+				i:not( .pull-right ) {
+					padding-left: 24px;
+				}
+			}
+			.list-group-item:hover {
+				background-color: @sitetools-graphicallist-bg-color;
+			}
+		}
+		.panel-heading.dynamic-graphical-list-visible {
+			background-color: @sitetools-graphicallist-bg-color;
+			.bs-panel-title {
+				.trigger.flyout{
+					i.trigger-icon::before{
+						content: "\e923";
+						font-family: "entypo";
+						font-style: normal;
+						float: right;
+					}
+				}
+			}
+		}
+	}
+}

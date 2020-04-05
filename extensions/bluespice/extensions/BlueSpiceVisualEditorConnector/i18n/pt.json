@@ -1,0 +1,13 @@
+{
+	"@metadata": {
+		"authors": [
+			"Hamilton Abreu"
+		]
+	},
+	"bs-visualeditorconnector-desc": "Liga o BlueSpice ao Editor Visual",
+	"bs-visualeditorconnector-enable-visualeditor": "Ativar o Editor Visual para as extensões BlueSpice",
+	"bs-visualeditorconnector-cancel-edit": "Cancelar a edição",
+	"bs-visualeditor-nsm-label": "Editor visual",
+	"bs-visualeditorconnector-inspector-tab-common-name": "Comuns",
+	"bs-visualeditorconnector-inspector-tab-advanced-name": "Avançados"
+}

@@ -1,0 +1,11 @@
+{
+	"@metadata": {
+		"authors": [
+			"Martin Urbanec"
+		]
+	},
+	"bs-sitetools-edit": "Editovat",
+	"bs-sitetools-categories": "Kategorie",
+	"bs-calumma-pagetool-watch-tooltip": "Sledovat",
+	"bs-calumma-pagetool-unwatch-tooltip": "Přestat sledovat"
+}

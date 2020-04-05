@@ -1,0 +1,13 @@
+{
+	"@metadata": {
+		"authors": [
+			"Kghbln",
+			"Metalhead64",
+			"Se4598",
+			"TMg"
+		]
+	},
+	"bs-echoconnector-extension-description": "Extension description for BlueSpiceEchoConnector",
+	"echo-category-title-bs-admin-cat": "Checkbox label for mail and wiki notification subscribtion on admin tasks",
+	"echo-category-title-bs-page-actions-cat": "Checkbox label for mail and wiki notification subscribtion on page actions"
+}

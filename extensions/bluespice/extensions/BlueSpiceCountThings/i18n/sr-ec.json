@@ -1,0 +1,20 @@
+{
+	"@metadata": {
+		"authors": [
+			"BadDog"
+		]
+	},
+	"bs-countthings-files-label": "Датотеке",
+	"bs-countthings-ve-countcharacters-title": "Број знакова",
+	"bs-countthings-ve-countarticles-title": "Број чланака",
+	"bs-countthings-ve-countfiles-title": "Број датотека",
+	"bs-countthings-ve-countusers-title": "Број корисника",
+	"bs-countthings-ve-countthingsinspector-mode": "Режим",
+	"bs-countthings-ve-countcharacters-mode-all": "све",
+	"bs-countthings-ve-countcharacters-mode-charsonly": "знакови",
+	"bs-countthings-ve-countcharacters-mode-wordsonly": "речи",
+	"bs-countthings-ve-countcharacters-mode-wordsandchars": "знакови и речи",
+	"bs-countthings-ve-countcharacters-mode-pagesonly": "странице",
+	"bs-countthings-ve-countcharacters-input-label": "Странице",
+	"bs-countthings-tag-countfiles-desc": "Приказује број датотека на викију."
+}

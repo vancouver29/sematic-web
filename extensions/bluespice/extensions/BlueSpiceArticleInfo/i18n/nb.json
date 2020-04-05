@@ -1,0 +1,10 @@
+{
+	"@metadata": {
+		"authors": [
+			"Jon Harald Søby"
+		]
+	},
+	"bs-articleinfo-desc": "Gir informasjon om en side i statusfeltet",
+	"prefs-articleinfo": "Sideinformasjon",
+	"bs-articleinfo-pref-CheckRevisionInterval": "Oppdateringsintervall i sekunder:"
+}

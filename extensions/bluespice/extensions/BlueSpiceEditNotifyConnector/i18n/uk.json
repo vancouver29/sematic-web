@@ -1,0 +1,11 @@
+{
+	"@metadata": {
+		"authors": [
+			"Piramidion"
+		]
+	},
+	"bluespiceeditnotifyconnector-desc": "Розширює EditNotify за допомогою користувацьких опцій.",
+	"bluespiceeditnotifyconnector-action-message": "Для обраних просторів назв надсилатиметься сповіщення про створення чи редагування.",
+	"prefs-categories": "Сповіщення про події з категоріями",
+	"prefs-namespace-notifications": "Сповіщення про події з простором назв"
+}

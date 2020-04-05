@@ -1,0 +1,49 @@
+{
+	"name": "bluespice/foundation",
+	"description": "This package contains basic classes/functions/resources of BlueSpice MediaWiki",
+	"keywords": [
+		"mediawiki",
+		"wiki"
+	],
+	"license": "GPL-3.0-only",
+	"type": "mediawiki-extension",
+	"homepage": "https://www.bluespice.com",
+	"authors": [
+		{
+			"name": "Hallo Welt! GmbH",
+			"email": "info@hallowelt.com",
+			"homepage": "http://www.hallowelt.com"
+		}
+	],
+	"extra": {
+		"installer-name": "BlueSpiceFoundation"
+	},
+	"require": {
+		"ext-curl": "*",
+		"ext-gd": "*",
+		"ext-tidy": "*",
+		"param-processor/param-processor": "<1.4",
+		"composer/installers": "~1.0"
+	},
+	"require-dev": {
+		"jakub-onderka/php-parallel-lint": "1.0.0",
+		"jakub-onderka/php-console-highlighter": "0.3.2",
+		"mediawiki/mediawiki-codesniffer": "19.0.0",
+		"mediawiki/minus-x": "0.3.1"
+	},
+	"scripts": {
+		"test": [
+			"parallel-lint . --exclude vendor --exclude node_modules",
+			"minus-x check .",
+			"phpcs -sp"
+		],
+		"fix": [
+			"minus-x fix .",
+			"phpcbf"
+		]
+	},
+	"support": {
+		"issues": "https://sourceforge.net/projects/bluespice/support",
+		"wiki": "https://help.bluespice.com"
+	}
+}

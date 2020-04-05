@@ -1,0 +1,26 @@
+{
+	"@metadata": {
+		"authors": [
+			"Nikosgranturismogt",
+			"KATRINE1993"
+		]
+	},
+	"bs-pageassignments-column-title": "Τίτλος σελίδας",
+	"bs-pageassignments-api-error": "Ενα σφάλμα συνέβη",
+	"bs-pageassignments-api-error-no-page": "Η σελίδα δεν ορίστηκε",
+	"logeventslist-bs-pageassignments-log": "Μητρώο αναθέσεων",
+	"notification-bs-pageassignments-page-move-subject": "Το $2 μετακινήθηκε",
+	"notification-bs-pageassignments-page-edit-subject": "Το $2 τροποποιήθηκε",
+	"notification-bs-pageassignments-page-delete-subject": "το $2 διαγράφηκε",
+	"notification-bs-pageassignments-user-group-add-subject": "Προστέθηκε στην ομάδα $4",
+	"bs-pageassignments-assignee-special-everyone-label": "ο καθένας",
+	"bs-pageassignments-assignee-type-everyone": "ο καθένας",
+	"bs-pageassignments-assignee-type-user": "Χρήστης",
+	"bs-pageassignments-assignee-type-group": "Ομάδα",
+	"bs-pageassignments-nav-link-title-pageassignments": "Αναθέσεις σελίδας",
+	"bs-pageassignments-flyout-title": "Αναθέσεις σελίδας",
+	"bs-pageassignments-flyout-form-title": "Προσθήκη ανάθεσης",
+	"bs-pageassignments-flyout-grid-title": "Χρήστες και ομάδες ανατεθειμένες σε αυτή τη σελίδα",
+	"bs-pageassignments-flyout-manager-btn-label": "Διαχειριστής αναθέσεων σελίδας",
+	"bs-pageassignments-privacy-transparency-working-assignments": "BlueSpice Αναθεση εργασιών σε Σελίδες - Aνατέθηκε {{PLURAL:$2|στην σελίδα|pages}}: $1"
+}

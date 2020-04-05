@@ -1,0 +1,13 @@
+{
+	"@metadata": {
+		"authors": [
+			"Liuxinyu970226",
+			"Deathkon"
+		]
+	},
+	"bluespiceeditnotifyconnector-desc": "带有用户选项的扩充编辑通知。",
+	"bluespiceeditnotifyconnector-action-message": "为选定名字空间创建或编辑的通知将被发送。",
+	"prefs-categories": "分类活动上的通知",
+	"prefs-namespace-notifications": "名字空间活动上的通知",
+	"prefs-category-notifications": "按分类通知"
+}

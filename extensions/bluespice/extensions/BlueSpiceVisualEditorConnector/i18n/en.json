@@ -1,0 +1,21 @@
+{
+	"@metadata": {
+		"authors": [
+			"Markus Glaser <glaser@hallowelt.com>"
+		]
+	},
+	"bs-visualeditorconnector-desc": "Connects BlueSpice with VisualEditor",
+	"bs-visualeditorconnector-enable-visualeditor": "Enable VisualEditor for BlueSpice extensions",
+	"bs-visualeditorconnector-cancel-edit": "Cancel edit",
+	"bs-visualeditor-nsm-label": "Visual editor",
+	"bs-visualeditorconnector-inspector-tab-common-name": "Common",
+	"bs-visualeditorconnector-inspector-tab-advanced-name": "Advanced",
+	"apihelp-bs-vec-transformtowikitext-description": "Transforms VisualEditor HTML to WikiText",
+	"apihelp-bs-vec-transformtowikitext-summary": "Transforms VisualEditor HTML to WikiText",
+	"apihelp-bs-vec-transformtohtml-description": "Transforms WikiText to VisualEditor HTML",
+	"apihelp-bs-vec-transformtohtml-summary": "Transforms WikiText to VisualEditor HTML",
+	"apihelp-bs-vec-transformtowikitext-param-html": "VisualEditor HTML, that should be transformed to WikiText",
+	"apihelp-bs-vec-transformtohtml-param-wikitext": "WikiText, that should be transformed to VisualEditor HTML",	"apihelp-bs-vec-restbase-mock-description": "Provides a mock for RESTBase calls of VisualEditor",
+	"apihelp-bs-vec-restbase-mock-summary": "Provides a mock for RESTBase calls of VisualEditor",
+	"apihelp-bs-vec-restbase-mock-param-path": "RESTBase path to be mocked"
+}

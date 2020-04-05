@@ -1,0 +1,228 @@
+#toc {
+	padding: 0.5em 1em 0.5em 1em;
+	border: 1px solid #D9D9D9;
+	.toctitle h2,
+	.tocnumber,
+	.toctext {
+		font-family: @font-family-primary;
+	}
+	.toctitle h2 {
+		font-size: 24px;
+		display: inline;
+		padding-right: 1em;
+	}
+	.toctoggle {
+		color: @link-color;
+	}
+	li {
+		list-style:none;
+		a {
+			color: @link-color;
+		}
+	}
+	span.tocnumber {
+		display:table-cell;
+		padding-right:1em;
+	}
+	span.toctext {
+		display:table-cell;
+		padding-right:1em;
+	}
+}
+
+.bs-page-breadcrumbs {
+	line-height: 32px;
+	a {
+		color: @link-color;
+	}
+	a:hover {
+		text-decoration: none;
+	}
+}
+
+.bs-breadcrumbs-namespace-separator::after{
+	content: " > ";
+	color: @bs-color-neutral3;
+}
+
+.bs-breadcrumbs-separator::after{
+	content: " > ";
+	color: @bs-color-neutral3;
+}
+
+.bs-page-breadcrumbs,
+.bs-page-tools {
+	font-size: smaller;
+	display: table-cell;
+	vertical-align: middle;
+	height: 32px;
+	color: @bs-color-neutral3;
+}
+.bs-page-tools {
+	a {
+		i::before {
+			color: @bs-color-neutral3;
+		}
+	}
+	a:hover {
+		text-decoration: none;
+		i::before {
+			color: @bs-color-neutral;
+		}
+	}
+}
+
+.bs-page-tools.pull-right {
+
+	a {
+		color: inherit;
+
+		&:hover {
+			text-decoration: none;
+		}
+	}
+
+	.page-tool-icon {
+			padding-left: 0.8em;
+			i {
+				font-size: large;
+			}
+	}
+
+	.page-tool-text {
+		padding-left: 0.8em;
+	}
+}
+
+.mw-indicators,
+.mw-indicators.mw-body-content {
+	margin-top: 31px;
+	a {
+		color: @bs-color-neutral3;
+	}
+
+	&:hover {
+		text-decoration: none;
+		color: @bs-color-neutral;
+	}
+}
+
+#firstHeading {
+	font-family: @font-family-primary;
+	font-weight: @font-weight-regular;
+	font-size: 33px;
+	border-bottom: none;
+	margin-bottom: 15px;
+	margin-top: 25px;
+}
+
+#content #bodyContent {
+	font-family: @font-family-primary;
+	h1 {
+		font-family: @font-family-primary;
+		font-weight: @font-weight-regular;
+		font-size: 33px;
+		border-bottom: none;
+		margin-bottom: 15px;
+		margin-top: 0px;
+	}
+	h2 {
+		font-size: 22px;
+		font-weight: @font-weight-medium;
+		margin-top: 30px;
+		margin-bottom: 15px;
+	}
+	h3 {
+		font-size: 17px;
+		font-weight: @font-weight-medium;
+		margin-top: 15px;
+		margin-bottom: 15px;
+	}
+	h4 {
+		font-size: 15px;
+		font-weight: @font-weight-medium;
+		margin-top: 15px;
+		margin-bottom: 15px;
+	}
+	p {
+		font-size: 15px;
+		font-weight: @font-weight-regular;
+		line-height: 22px;
+		margin-top: 8px;
+		margin-bottom: 8px;
+	}
+	pre {
+		font-size: 15px;
+	}
+	a {
+		color: @link-color;
+		&.new {
+			color: @link-color-new; //.new
+		}
+		&:hover {
+			text-decoration: none;
+			color: @bs-color-primary;
+		}
+	}
+	ul {
+		margin: 0 0 0 1.6em;
+		padding: 0;
+	}
+	ul > li {
+		margin-left: 0em;
+		font-size: 15px;
+		font-weight: @font-weight-regular;
+		margin-top: 3px;
+		margin-bottom: 3px;
+	}
+	li > ul > li {
+		margin-left: 0em;
+	}
+	ol {
+		margin: 0 0 0 1.6em;
+		padding: 0;
+	}
+	ol > li {
+		margin-left: 0em;
+		font-size: 15px;
+		font-weight: @font-weight-regular;
+		margin-top: 3px;
+		margin-bottom: 3px;
+	}
+	#contentSub .subpages {
+		display: none;
+	}
+}
+
+#content {
+	h1, h2, h3, h4, h5, h6 {
+		.mw-editsection {
+			visibility: hidden;
+			opacity: 0;
+			transition: visibility 0s, opacity 0.5s linear;
+		}
+
+		&:hover .mw-editsection {
+			visibility: visible;
+			opacity: 1;
+		}
+	}
+}
+
+#content .mw-editsection {
+	.mw-editsection-bracket {
+	}
+	& > a {
+		&:hover {
+			text-decoration: none;
+			color: @bs-color-primary;
+		}
+	}
+}
+
+.external {
+	background-position: center right;
+	background-repeat: no-repeat;
+	background-image: url('data:image/svg+xml;charset=utf8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%2212%22%20height%3D%2212%22%3E%3Cpath%20fill%3D%22%23fff%22%20stroke%3D%22%2336c%22%20d%3D%22M1.5%204.518h5.982V10.5H1.5z%22%2F%3E%3Cpath%20fill%3D%22%2336c%22%20d%3D%22M5.765%201H11v5.39L9.427%207.937l-1.31-1.31L5.393%209.35l-2.69-2.688%202.81-2.808L4.2%202.544z%22%2F%3E%3Cpath%20fill%3D%22%23fff%22%20d%3D%22M9.995%202.004l.022%204.885L8.2%205.07%205.32%207.95%204.09%206.723l2.882-2.88-1.85-1.852z%22%2F%3E%3C%2Fsvg%3E');
+	padding-right: 13px;
+}

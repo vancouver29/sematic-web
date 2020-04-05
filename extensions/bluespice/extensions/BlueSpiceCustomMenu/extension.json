@@ -1,0 +1,91 @@
+{
+	"name": "BlueSpiceCustomMenu",
+	"version": "3.0.1",
+	"url": "https://help.bluespice.com/index.php/BlueSpiceCustomMenu",
+	"license-name": "GPL-3.0-only",
+	"author": [
+		"Patric Wirth"
+	],
+	"descriptionmsg": "bs-custommenu-desc",
+	"type": "bluespice",
+	"requires": {
+		"MediaWiki": ">= 1.31.0",
+		"extensions": {
+			"BlueSpiceFoundation": ">= 3.0.0"
+		}
+	},
+	"attributes": {
+		"BlueSpiceFoundation": {
+			"Extensions": {
+				"BlueSpiceCustomMenu": {
+					"className": "\\BlueSpice\\CustomMenu\\Extension",
+					"extPath": "/BlueSpiceCustomMenu"
+				}
+			},
+			"RendererRegistry": {
+				"custommenu": "\\BlueSpice\\CustomMenu\\Renderer\\Menu",
+				"custommenuitem": "\\BlueSpice\\CustomMenu\\Renderer\\Menu\\Item",
+				"custommenuheader": "\\BlueSpice\\CustomMenu\\Renderer\\Menu\\Header",
+				"custommenuheaderitem": "\\BlueSpice\\CustomMenu\\Renderer\\Menu\\Header\\Item"
+			}
+		},
+		"BlueSpiceCustomMenu": {
+			"Registry": {
+				"header": "\\BlueSpice\\CustomMenu\\CustomMenu\\Header::getInstance"
+			}
+		}
+	},
+	"MessagesDirs": {
+		"BlueSpiceCustomMenu": [
+			"i18n"
+		]
+	},
+	"ServiceWiringFiles": [
+		"includes/ServiceWiring.php"
+	],
+	"AutoloadNamespaces": {
+		"BlueSpice\\CustomMenu\\": "src/"
+	},
+	"AutoloadClasses": {
+		"MenuParser": "includes/MenuParser.php",
+		"BSCustomMenuMigrateTopBarMenu": "maintenance/BSCustomMenuMigrateTopBarMenu.php"
+	},
+	"ResourceModules": {
+		"ext.bluespice.custommenu": {
+			"scripts": "bluespice.customMenu.js",
+			"dependencies": [
+				"mediawiki.util"
+			]
+		},
+		"ext.bluespice.custommenu.styles": {
+			"styles": "bluespice.customMenu.less",
+			"class": "\\BlueSpice\\ResourceModule\\LessVars"
+		}
+	},
+	"config_prefix": "bsg",
+	"config": {
+		"CustomMenuHeaderNumberOfLevels": {
+			"value": 2
+		},
+		"CustomMenuHeaderNumberOfMainEntries": {
+			"value": 10
+		},
+		"CustomMenuHeaderNumberOfSubEntries": {
+			"value": 10
+		}
+	},
+	"Hooks": {
+		"BeforePageDisplay": "\\BlueSpice\\CustomMenu\\Hook\\BeforePageDisplay\\AddResources::callback",
+		"SkinTemplateOutputPageBeforeExec": "\\BlueSpice\\CustomMenu\\Hook\\SkinTemplateOutputPageBeforeExec\\AddCustomMenus::callback",
+		"EditFormPreloadText": "\\BlueSpice\\CustomMenu\\Hook\\EditFormPreloadText\\PrealoadHederMenu::callback",
+		"ArticleDeleteComplete": "\\BlueSpice\\CustomMenu\\Hook\\ArticleDeleteComplete\\InvalidateHeaderMenu::callback",
+		"PageContentSaveComplete": "\\BlueSpice\\CustomMenu\\Hook\\PageContentSaveComplete\\InvalidateHeaderMenu::callback",
+		"TitleMoveComplete": "\\BlueSpice\\CustomMenu\\Hook\\TitleMoveComplete\\InvalidateHeaderMenu::callback",
+		"LoadExtensionSchemaUpdates": "\\BlueSpice\\CustomMenu\\Hook\\LoadExtensionSchemaUpdates\\AddMigrateTopBarMenu::callback"
+	},
+	"ResourceFileModulePaths": {
+		"localBasePath": "resources",
+		"remoteExtPath": "BlueSpiceCustomMenu/resources"
+	},
+	"manifest_version": 2
+}

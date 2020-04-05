@@ -1,0 +1,14 @@
+{
+	"@metadata": {
+		"authors": [
+			"Ndecouck"
+		]
+	},
+	"bs-tagcloud-tag-tagcloud-attr-renderer-option-text": "Tekst",
+	"bs-tagcloud-tag-tagcloud-attr-renderer-option-canvas3d": "3D",
+	"bs-tagcloud-tag-tagcloud-attr-store-label": "Opslaan",
+	"bs-tagcloud-tag-tagcloud-attr-store-option-category": "Categoriën",
+	"bs-tagcloud-tag-tagcloud-attr-store-option-searchstats": "Zoektermen",
+	"bs-tagcloud-tag-tagcloud-attr-width-label": "Breedte",
+	"bs-tagcloud-tag-tagcloud-attr-maxsize-label": "maximale grootte van lettertype"
+}

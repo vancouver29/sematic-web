@@ -1,0 +1,40 @@
+language: node_js
+sudo: required
+
+cache:
+  yarn: true
+  directories:
+    - node_modules
+
+services:
+  - docker
+
+env:
+  - REPO=msokk/electron-render-service RENDERER_ACCESS_KEY=secret CONCURRENCY=1 WINDOW_WIDTH=1024 WINDOW_HEIGHT=768 ELECTRON_ENABLE_STACK_DUMPING=true ELECTRON_ENABLE_LOGGING=true
+
+node_js:
+  - "10.15.1"
+
+before_install:
+  - "curl -o- -L https://yarnpkg.com/install.sh | bash"
+  - "export PATH=$HOME/.yarn/bin:$PATH"
+
+before_script:
+  - "mkdir -p ~/.docker && echo $DOCKER_AUTH > ~/.docker/config.json"
+  - "export DISPLAY=:99.0"
+  - "sh -e /etc/init.d/xvfb start"
+  - sleep 3 # give xvfb some time to start
+
+script:
+  - npm run lint
+  - docker build -t $REPO .
+  - docker run -d --name render-service -e RENDERER_ACCESS_KEY=$RENDERER_ACCESS_KEY -p 127.0.0.1:3000:3000 $REPO
+  - sleep 5
+  - npm test
+
+after_success:
+  - if [ ! -z "$TRAVIS_TAG" ]; then docker tag $REPO:latest $REPO:$TRAVIS_TAG; fi
+  - docker push $REPO
+
+after_failure:
+  - docker logs render-service

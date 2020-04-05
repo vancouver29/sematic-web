@@ -1,0 +1,24 @@
+<div class="btn-group dropdown {{#groupClasses}}{{.}}{{/groupClasses}}">
+	<a type="button" class="btn {{#classes}}{{.}} {{/classes}}"  {{#data}}{{.}} {{/data}} title="{{title}}" href="{{href}}" aria-haspopup="true" aria-expanded="false" id="{{id}}">
+		<i class="icon "></i><span class="btn-text">{{{text}}}</span><span class="sr-only">{{screenreaderToogleText}}</span>
+	</a>
+	{{#hasItems}}
+	<a type="button" class="btn dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+	</a>
+	<ul class="dropdown-menu">
+		{{#items}}
+			{{#link}}
+			<li id="{{id}}">
+				<a href="{{href}}" class="{{#classes}}{{.}} {{/classes}}" {{#data}}{{.}} {{/data}} title="{{title}}">{{text}}</a>
+			</li>
+			{{/link}}
+			{{#separator}}
+			<li role="separator" class="divider"></li>
+			{{/separator}}
+			{{#header}}
+			<li class="dropdown-header">{{.}}</li>
+			{{/header}}
+		{{/items}}
+	</ul>
+	{{/hasItems}}
+</div>

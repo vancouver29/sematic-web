@@ -1,0 +1,12 @@
+{
+	"@metadata": {
+		"authors": [
+			"Kly"
+		]
+	},
+	"bluespiceeditnotifyconnector-desc": "待有使用者選項的擴充編輯通知",
+	"bluespiceeditnotifyconnector-action-message": "為已選命名空間所建立或編輯的通知將會發送出。",
+	"prefs-categories": "在分類事件上的通知",
+	"prefs-namespace-notifications": "在命名空間事件上的通知",
+	"prefs-category-notifications": "在分類上的通知"
+}

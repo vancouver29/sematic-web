@@ -1,0 +1,27 @@
+{
+	"@metadata": {
+		"authors": [
+			"Matma Rex",
+			"Sfic",
+			"Anamdas",
+			"Rajatkatiyar10"
+		]
+	},
+	"twoColConflict-changes-col-desc-2": "वर्तमान प्रकाशित संस्करण",
+	"twoColConflict-changes-col-desc-3": "$1 {{PLURAL:$1|बार}} बदला गया ($2)",
+	"twoColConflict-changes-col-desc-4": "आपका पाठ।",
+	"twoColConflict-history-link": "अवतरण का इतिहास",
+	"twoColConflict-base-selection-own-label": "मेरा पाठ",
+	"twoColConflict-base-selection-foreign-label": "वर्तमान प्रकाशित संस्करण",
+	"twoColConflict-base-selection-submit-label": "ठीक है",
+	"twoColConflict-diffchange-own-title": "आपके संस्करण में",
+	"twoColConflict-diffchange-foreign-title": "$1 जी के संस्करण में",
+	"twoColConflict-label-show": "दिखाएँ",
+	"twoColConflict-label-hide": "छुपाएँ",
+	"twoColConflict-label-show-unchanged": "अपरिवर्तित पाठ दिखाएँ",
+	"twoColConflict-label-hide-unchanged": "अपरिवर्तित पाठ छुपाएँ",
+	"twoColConflict-previous-dialog": "पिछला",
+	"twoColConflict-next-dialog": "अगला",
+	"twoColConflict-close-dialog": "बंद करें",
+	"twoColConflict-test-no-direct-editing": "यह पृष्ठ सीधे नहीं बदला जा सकता है|"
+}

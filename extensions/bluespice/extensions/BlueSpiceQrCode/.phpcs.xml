@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<ruleset>
+	<rule ref="./vendor/mediawiki/mediawiki-codesniffer/MediaWiki">
+		<exclude name="MediaWiki.WhiteSpace.SpaceAfterClosure.NoWhitespaceAfterClosure" />
+		<exclude name="MediaWiki.WhiteSpace.MultipleEmptyLines.MultipleEmptyLines" />
+		<exclude name="PSR2.Namespaces.NamespaceDeclaration.BlankLineAfter" />
+		<exclude name="PSR2.Files.EndFileNewline.NoneFound" />
+		<exclude name="Generic.Formatting.DisallowMultipleStatements.SameLine" />
+	</rule>
+	<file>.</file>
+	<arg name="extensions" value="php,php5,inc" />
+	<arg name="encoding" value="utf8" />
+	<exclude-pattern>vendor</exclude-pattern>
+</ruleset>

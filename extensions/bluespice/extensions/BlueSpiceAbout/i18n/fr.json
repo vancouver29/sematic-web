@@ -1,0 +1,15 @@
+{
+	"@metadata": {
+		"authors": [
+			"Gomoko",
+			"Wladek92"
+		]
+	},
+	"bs-bluespiceabout-desc": "Information sur BlueSpice",
+	"bs-bluespiceabout-about-bluespice": "À propos de BlueSpice",
+	"bluespiceabout": "À propos de BlueSpice",
+	"prefs-bluespiceabout": "À propos de BlueSpice",
+	"bs-bluespiceabout-show-menu-links": "Afficher le lien « {{int:bs-bluespiceabout-about-bluespice}} » dans le menu principal",
+	"action-bluespiceabout-viewspecialpage": "afficher la page spéciale \"{{int:bs-bluespiceabout-sur-bluespice}}\"",
+	"right-bluespiceabout-viewspecialpage": "Donne les droits d'accès à la page spéciale [[Special:BlueSpiceAbout]]."
+}

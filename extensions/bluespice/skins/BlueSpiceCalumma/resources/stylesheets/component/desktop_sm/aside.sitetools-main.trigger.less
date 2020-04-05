@@ -1,0 +1,47 @@
+body .sitetools-main,
+body .sitetools-main.active {
+	.sidebar-toggle[data-toggle~="sitetools-main-collapse"]{
+		display: block;
+		position: fixed;
+		width: 48px;
+		padding: 1em;
+		right: 300px;
+		top: @menu-top-height + @banner-top-height;
+		transition: right .3s;
+		z-index: 11;
+		i.sitetools-main-collapse::before{
+			font-family: 'bs-button';
+			content: "\e901";
+			font-style: initial;
+			font-size: 21px;
+			line-height: 33.6px;
+			transition: font-size .1s;
+			transition-delay: .3s;
+			color: @sitetools-toggle-btn-color;
+			float: right;
+			font-style: normal;
+		}
+		&:hover{
+			text-decoration: none;
+			background-color: transparent;
+			i.sitetools-main-collapse::before{
+				color: @sitetools-toggle-btn-color-hover;
+			}
+		}
+		&:focus{
+			text-decoration: none;
+		}
+	}
+}
+
+body.sitetools-main-collapse {
+	.sidebar-toggle[data-toggle~="sitetools-main-collapse"]{
+		right: 0px;
+		transition: right .3s;
+		i.sitetools-main-collapse::before{
+			font-size: 31px;
+			transition: font-size .1s;
+			transition-delay: .3s;
+		}
+	}
+}

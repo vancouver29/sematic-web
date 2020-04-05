@@ -1,0 +1,13 @@
+{
+	"@metadata": {
+		"authors": [
+			"Лорд Бъмбъри",
+			"StanProg",
+			"Iliev"
+		]
+	},
+	"graphsandbox": "Пясъчник за графики",
+	"graph-tracking-category": "Страници с графики",
+	"graph-ve-dialog-button-tooltip": "Графика",
+	"graph-ve-dialog-edit-type-line": "Линейна графика"
+}

@@ -1,0 +1,12 @@
+{
+	"@metadata": {
+		"authors": [
+			"Eduardo Addad de Oliveira"
+		]
+	},
+	"bluespiceeditnotifyconnector-desc": "Expande EditNotify com opções de usuário",
+	"bluespiceeditnotifyconnector-action-message": "Criar ou editar notificação para namespaces selecionados será enviado.",
+	"prefs-categories": "Notificações sobre eventos de categoria",
+	"prefs-namespace-notifications": "Notificações sobre eventos de domínio",
+	"prefs-category-notifications": "Notificações sobre categorias"
+}

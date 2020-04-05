@@ -1,0 +1,25 @@
+{
+	"@metadata": {
+		"authors": [
+			"Cwlin0416",
+			"Kly"
+		]
+	},
+	"bs-saferedit-desc": "保存 wiki 編輯的媒介",
+	"prefs-saferedit": "安全編輯",
+	"bs-saferedit-restore": "還原",
+	"bs-saferedit-safer-edit-tooltip": "有恢復版本可用",
+	"bs-saferedit-safer-edit-topbar": "恢復",
+	"bs-saferedit-user-editing": "$1 正在{{GENDER:$1|編輯}}頁面",
+	"bs-saferedit-someone-editing": "頁面正被編輯",
+	"bs-saferedit-pref-interval": "恢復版本間隔：",
+	"bs-saferedit-pref-shownameofeditinguser": "顯示目前編輯者的名稱",
+	"bs-saferedit-pref-warnonleave": "未儲存離開編輯頁面時警告我",
+	"bs-saferedit-pref-usese": "啟用安全編輯",
+	"bs-saferedit-lastsavedversion": "來自 $1-$2 的最新儲存版本。",
+	"bs-saferedit-unsavedchanges": "有未儲存的更改。",
+	"bs-saferedit-othersectiontitle": "要恢復的段落",
+	"bs-saferedit-othersectiontext1": "有另一段落的備份。",
+	"bs-saferedit-othersectiontext2": "備份建立於 $1-$2。",
+	"bs-saferedit-othersectiontext3": "您要切換到該段落？"
+}

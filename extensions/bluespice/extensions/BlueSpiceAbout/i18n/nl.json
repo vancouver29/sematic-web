@@ -1,0 +1,14 @@
+{
+	"@metadata": {
+		"authors": [
+			"Jeleniccz",
+			"Mainframe98"
+		]
+	},
+	"bs-bluespiceabout-desc": "Informatie over BlueSpice.",
+	"bs-bluespiceabout-about-bluespice": "Over BlueSpice",
+	"bluespiceabout": "Over BlueSpice",
+	"prefs-bluespiceabout": "Over BlueSpice",
+	"bs-bluespiceabout-show-menu-links": "Toon de koppeling \"{{int:bs-bluespiceabout-over-bluespice}}\" in het boven- en hoofdmenu",
+	"action-bluespiceabout-viewspecialpage": "bekijk de speciale pagina \"{{int:bs-bluespiceabout-about-bluespice}}\""
+}

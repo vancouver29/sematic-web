@@ -1,0 +1,9 @@
+#firstHeading,
+#content h1.firstHeading,
+.bs-page-breadcrumbs,
+#content .bs-page-breadcrumbs,
+.bs-page-tools,
+#content .bs-page-tools,
+#contentSub {
+	display: none;
+}

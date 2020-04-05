@@ -1,0 +1,16 @@
+{
+	"@metadata": {
+		"authors": [
+			"Joetaras"
+		]
+	},
+	"prefs-readers": "Letture",
+	"bs-readers-title": "{{PLURAL:$1|{{GENDER:$2|Lettore}}|Letture}}",
+	"readers-user": "Pàggene {{GENDER:$1|lette}} da: $1",
+	"readers": "Letture de \"$1\"",
+	"bs-readers-contentactions-label": "Fà 'ndrucà le letture",
+	"bs-readers-header-username": "Nome utende",
+	"bs-readers-header-readerspath": "Lettore",
+	"bs-readers-header-ts": "Date",
+	"bs-readers-header-page": "Pàgene"
+}

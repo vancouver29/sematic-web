@@ -1,0 +1,24 @@
+{
+	"name": "bluespice/usermergeconnector",
+	"type": "mediawiki-extension",
+	"description": "Connects BlueSpice with UserMerge",
+	"license": "GPL-3.0-only",
+	"require": {
+		"composer/installers": "~1.0"
+	},
+	"require-dev": {
+		"jakub-onderka/php-parallel-lint": "0.9",
+		"mediawiki/mediawiki-codesniffer": "0.12",
+		"phpunit/phpunit": "4.8.*"
+	},
+	"scripts": {
+		"test": [
+			"parallel-lint . --exclude vendor",
+			"phpunit",
+			"phpcs -p -s"
+		]
+	},
+	"extra": {
+		"installer-name": "BlueSpiceUserMergeConnector"
+	}
+}

@@ -1,0 +1,19 @@
+{
+	"@metadata": {
+		"authors": [
+			"Fitoschido",
+			"Mcervera",
+			"MarcoAurelio",
+			"Astroemi"
+		]
+	},
+	"bs-articleinfo-desc": "Proporciona información sobre una página en la barra de estado",
+	"prefs-articleinfo": "Información de la página",
+	"bs-articleinfo-pref-CheckRevisionInterval": "Intervalo de actualización en segundos:",
+	"bs-articleinfo-flyout-title": "Información de la página",
+	"bs-articleinfo-nav-link-title": "Información de la página",
+	"bs-articleinfo-flyout-categorylinks-title": "Categorías",
+	"bs-articleinfo-flyout-lasteditedtime-text": "Última edición",
+	"bs-articleinfo-flyout-lastediteduser-text": "Último editor",
+	"bs-articleinfo-flyout-subpages-title": "Subpáginas"
+}

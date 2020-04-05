@@ -1,0 +1,57 @@
+== About UMEduWiki ==
+
+UMEduWiki is a package of MediaWiki extensions, that customizes the wiki software for group based learning. The package begins its life at University of Macau, as a teaching environment for translation courses. The package contains an access log extension, a group-based access control extension, and two extensions developed by other developers: an inline mp3 player and Lockdown, with simplified installation procedure.
+
+== Install Procedure ==
+
+Step 1. Extract the UMEduWiki package into the extension folder
+Step 2. Add the following lines to the end of LocalSettings.php (before the trailing ?>, if present)
+
+####### UMEduWiki customization begins #######
+# Disallow anonymous users to read
+$wgGroupPermissions['*']['createaccount'] = false;
+$wgGroupPermissions['*']['edit'] = false;
+$wgGroupPermissions['*']['read'] = false;
+
+# Allow anonymous users to read the Main Page and login page
+$wgWhitelistRead = array( ":Main Page", "Special:Userlogin" );
+
+# Restrict user's page move and upload permission
+$wgGroupPermissions['user']['move']      = false;
+$wgGroupPermissions['user']['read']      = true;
+$wgGroupPermissions['user']['edit']      = true;
+$wgGroupPermissions['user']['upload']    = false;
+
+# Create "Teacher" user group and assign privileges
+$wgGroupPermissions['Teacher']['move']   = true;
+$wgGroupPermissions['Teacher']['read']   = true;
+$wgGroupPermissions['Teacher']['edit']   = true;
+$wgGroupPermissions['Teacher']['upload'] = true;
+
+# Accept mp3 and wav uploads
+$wgFileExtensions[] = 'mp3';
+$wgFileExtensions[] = 'wav';
+
+# Disable client side caching to make sure every page view request 
+# hits the server and thus gets logged.
+$wgCachePages = false;
+
+# Include extensions
+require_once($IP . '/extensions/mp3/mp3.php');
+require_once($IP . '/extensions/Lockdown/Lockdown.php');
+require_once($IP . '/extensions/UMEduWiki/AccessControlPanel/AccessControlPanel.php'); 
+require_once($IP . '/extensions/UMEduWiki/AccessLog/AccessLog.php');
+####### UMEduWiki customization ends #######
+
+Step 3. Run 'php maintenance/update.php' from the command line to create tables in the wiki database
+Step 4. Assign the teacher's user account to the Teacher group from the [[Special:UserRights]] page (do this as administrator). 
+Step 5. Visit control panel and create the Teacher group.
+Step 6. Now the teaching wiki environment is ready to use.
+
+== Usage ==
+* To control user groups, their members, and their access rights, visit [[Special:AccessControlPanel]] and follow the user interface instruction. The interface provides three functions:
+	1. Defining user groups. This is where you would define groups for your students.
+	2. Assigning users to existing groups. Here you would define which students are member of which group.
+	3. Assigning access rights to existing groups. Here you would define what the members of each group can do on their own pages, as well as on the pages of other groups.
+* To view the actions performed by registered users, visit [[Special:AccessLog]].
+* To embed mp3 audio into a page, upload the file first, then edit the page and add <mp3>filename.mp3</mp3> into the source text (replace filename.mp3 with the actual file name of your audio file).

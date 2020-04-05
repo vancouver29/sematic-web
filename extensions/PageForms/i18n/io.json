@@ -1,0 +1,11 @@
+{
+	"@metadata": {
+		"authors": [
+			"Malafaya",
+			"Joao Xavier"
+		]
+	},
+	"templates": "Shabloni",
+	"pf_createform_template": "Shablono:",
+	"formedit": "Redaktar kun formulario"
+}
