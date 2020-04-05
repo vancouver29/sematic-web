@@ -62,11 +62,11 @@ $wgNoReplyAddress = $wgEmergencyContact;
 
 $wgEmergencyContact = "apache@localhost";
 $wgPasswordSender = "apache@localhost";
-//$wgPasswordSender = 'SenderEmail' => 'vancouver2990@gmail.com';
+//$wgPasswordSender = 'SenderEmail' => '';
 $wgUserEmailUseReplyTo = true;
 
-//$wgEmergencyContact = "vancouver2990@gmail.com";
-//$wgPasswordSender = "vancouver2990@gmail.com";
+//$wgEmergencyContact = "";
+//$wgPasswordSender = "";
 
 $wgEnotifUserTalk = false; # UPO
 $wgEnotifWatchlist = false; # UPO
@@ -496,8 +496,8 @@ $wgSMTP = [
  'IDHost' => 'gmail.com',
  'localhost' => 'KHANHWIKI.org',
  'port' => 465,
- 'username' => 'vancouver2990@gmail.com',
- 'password' => 'NgoBaoChau68',
+ 'username' => '',
+ 'password' => '',
  'auth' => true
 ];
 
